@@ -1,6 +1,7 @@
 # censAI
 
 ![censAI](./design/image.png)
+
 A censorship program to let you clean shows, and make any show watchable for any audiance.
 
 This was made because I wanted to watch shows with people who were not rated for those shows. Some shows have stories worth watching, but you need to censor either some words, or some scenes to make it suitable for a wider audience.
