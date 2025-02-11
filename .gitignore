@@ -172,3 +172,7 @@ cython_debug/
 
 test/*.mp4
 *.mp4
+
+
+test/*.mkv
+*.mkv
