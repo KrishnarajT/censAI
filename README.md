@@ -10,7 +10,7 @@ This was made because I wanted to watch shows with people who were not rated for
 
 
 ## What you need
-1. the show downloaded to a folder
+1. The show downloaded to a folder
 2. Subtitles of that show in the same folder for its episode. (synced properly)
 
 ## Todo
