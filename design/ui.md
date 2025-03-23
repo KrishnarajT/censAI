@@ -25,3 +25,19 @@ y/n
 
 Processing Video 1 of 10
 // dynamic description changing progress bar.
+
+
+
+
+
+
+
+
+
+
+
+we gotta prep a series of test recordings from different shows that we gotta censor and them clump them together into cases rather than creating cases. Coz there seems to be a lot. 
+
+we really need the ai to identify somehow that there are sex scenes or obscene dialogues going on that we wanna cut. Its gotta be possible man. at this point im ready to train some models of my own. 
+
+so the idea is every time the image is changing a lot more than the previous one, we can call it a scene. there would be some 200 or 300 of these in a show? then we take a few pics from that scene, which will look mostly the same, and ask a descriptor model to describe what is happening. Then we pick out those words, and subtitles from a chromadb db to get us some context. finally we feed all this to a model that then tells us if we gotta cut this scene or not. You cut it, cleanly summarize it, and show it on screen. Then you move on. 
