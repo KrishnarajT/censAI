@@ -1,56 +1,36 @@
-def menu_system(menu, level=0):
-    while True:
-        print("\n" + "  " * level + "Select an option:")
-        options = list(menu.keys()) + ["Back"] if level > 0 else list(menu.keys())
-
-        for i, option in enumerate(options, 1):
-            print(f"{'  ' * level}{i}. {option}")
-
-        choice = input("Enter choice: ").strip()
-
-        if choice.isdigit() and 1 <= int(choice) <= len(options):
-            choice = int(choice) - 1
-            selected_option = options[choice]
-
-            if selected_option == "Back":
-                return  # Go back to the previous level
-
-            if isinstance(menu[selected_option], dict):
-                menu_system(menu[selected_option], level + 1)  # Recursively go deeper
-            else:
-                print(f"\n{'  ' * level}→ You selected: {selected_option}\n")
-        else:
-            print("Invalid choice. Try again.")
+from settings import Config
+import logging
+import util
 
 
-# Define the menu structure using a nested dictionary
-menu_tree = {
-    "Option 1": {
-        "Sub-option 1.1": {"Sub-sub-option 1.1.1": {}, "Sub-sub-option 1.1.2": {}},
-        "Sub-option 1.2": {},
-    },
-    "Option 2": {
-        "Sub-option 2.1": {"Sub-sub-option 2.1.1": {}, "Sub-sub-option 2.1.2": {}}
-    },
-    "Option 3": {},
-}
+def menu_system():
+    print("Enter censorship strength (1 or 2):")
+    print("1. Moderate - Only Explicit on screen exposed nudity is removed.  ")
+    print(
+        "2. Strict - Almost all on screen nudity is removed. If any story is present in said scenes, an AI generated summary is provided on a black screen later. Profane dialogues are muted and their subttiles replaced by AI generated sentences with similar meaning. "
+    )
+
+    choice = input("Enter your choice: ").strip()
+
 
 if __name__ == "__main__":
-    print("Welcome to CensAI!")
-    print(
-        """
+    config = Config()
 
-    ░▒▓██████▓▒░░▒▓████████▓▒░▒▓███████▓▒░ ░▒▓███████▓▒░░▒▓██████▓▒░░▒▓█▓▒░ 
-    ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ 
-    ░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ 
-    ░▒▓█▓▒░      ░▒▓██████▓▒░ ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓████████▓▒░▒▓█▓▒░ 
-    ░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ 
-    ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ 
-    ░▒▓██████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░ 
-
-    Censorship Model for TV shows and Movies
-
-
-    """
+    logging.basicConfig(
+        format=config.LOGGING_FORMAT,
+        datefmt=config.LOGGING_DATE_FORMAT,
+        level=logging.INFO,
     )
-    menu_system(menu_tree)
+
+    util.print_welcome_message()
+    media_folder_path = input("\nEnter the path to the media folder: ").strip()
+    config.media_folder_path = media_folder_path
+
+    logging.info("Looking for video and subtitle files")
+    vids = util.find_videos(config.media_folder_path)
+    subs = util.find_subtitles(config.media_folder_path)
+    config.video_and_srt_files = util.match_video_and_subtitles(vids, subs)
+
+    logging.info(f"Found {len(config.video_and_srt_files)} videos")
+
+    menu_system()
