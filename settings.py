@@ -1,5 +1,6 @@
 import pathlib
 from enums.CensorshipStrength import CensorshipStrength
+import pandas as pd
 
 
 class Config:
@@ -22,6 +23,22 @@ class Config:
             self._censorship_strength = None
             self._video_and_subtitle_files = {}
             self._initialized = True
+            self._temp_path = None
+            self._scenes_df = pd.DataFrame(
+                columns=["timestamp", "scene_number", "scene_snapshot_number", "scene_snapshot_path", "subtitle",
+                         "cleaned_subtitle", "snapshot_desc", "profanity_present", "nudity_present", "should_censor"],
+            ).astype({
+                "timestamp": "float64",
+                "scene_number": "int32",
+                "scene_snapshot_number": "int32",
+                "scene_snapshot_path": "string",
+                "subtitle": "string",
+                "cleaned_subtitle": "string",
+                "snapshot_desc": "string",
+                "profanity_present": "bool",
+                "nudity_present": "bool",
+                "should_censor": "bool"
+            })
 
     @property
     def media_folder_path(self):
@@ -35,7 +52,7 @@ class Config:
         if not path.exists() or not path.is_dir():
             raise ValueError("The path does not exist or is not a directory.")
         self._media_folder_path = path
-
+        self._temp_path = path / "temp"
     @property
     def censorship_strength(self):
         return self._censorship_strength
@@ -55,3 +72,23 @@ class Config:
         if not isinstance(files, dict):
             raise ValueError("Video and subtitle files must be a dictionary.")
         self._video_and_subtitle_files = files
+
+    @property
+    def scenes_df(self):
+        return self._scenes_df
+
+    @scenes_df.setter
+    def scenes_df(self, df):
+        if not isinstance(df, pd.DataFrame):
+            raise ValueError("Scenes DataFrame must be a pandas DataFrame.")
+        self._scenes_df = df
+
+    @property
+    def temp_path(self):
+        return self._temp_path
+
+    @temp_path.setter
+    def temp_path(self, path):
+        if not isinstance(path, pathlib.Path):
+            raise ValueError("Path must be a pathlib.Path object.")
+        self._temp_path = path

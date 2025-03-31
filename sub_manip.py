@@ -4,8 +4,25 @@ from rapidfuzz import process, fuzz
 import re
 import logging
 import subprocess
-
+import pandas as pd
+import pysrt
+import profanity as pf
 config = Config()
+
+
+def save_snapshot(video_path, output_image, timestamp):
+    """
+    Extracts a frame from the video at a given timestamp and saves it as an image.
+    :param video_path: Path to the video file
+    :param output_image: Path to save the snapshot
+    :param timestamp: Time (in HH:MM:SS format) to extract the frame
+    """
+    command = [
+        "ffmpeg", "-ss", timestamp, "-i", video_path,
+        "-frames:v", "1", "-q:v", "2", output_image, "-y"
+    ]
+    subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    print(f"Snapshot saved at {output_image}")
 
 
 def custom_scorer(choice, query, **kwargs):
@@ -93,3 +110,22 @@ def align_subtitles(video_and_subtitle_files):
             logging.error(
                 f"Error aligning subtitles for {video_path.name}: {e}"
             )
+
+
+def process_subtitles(video_path, subtitle_path):
+    """
+    Processes the subtitles to extract relevant information.
+    """
+
+    subs = pysrt.open(subtitle_path)
+
+    for sub in subs:
+        snapshot_start_path = video_path.parent / f"{sub.start.ordinal}.jpg"
+        save_snapshot(video_path, snapshot_start_path, sub.start)
+        snapshot_end_path = video_path.parent / f"{sub.end.ordinal}.jpg"
+        save_snapshot(video_path, snapshot_end_path, sub.end)
+
+        config.scenes_df.loc[len(config.scenes_df)] = [sub.start.ordinal, None, None, snapshot_start_path, sub.text,
+                                                       None, None, pf.check_profanity(sub.text), False, False]
+        config.scenes_df.loc[len(config.scenes_df)] = [sub.end.ordinal, None, None, snapshot_end_path, sub.text, None,
+                                                       None, pf.check_profanity(sub.text), False, False]
