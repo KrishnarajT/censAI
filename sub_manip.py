@@ -7,7 +7,9 @@ import subprocess
 import pandas as pd
 import pysrt
 import profanity as pf
+
 config = Config()
+from safetext import SafeText
 
 
 def save_snapshot(video_path, output_image, timestamp):
@@ -116,16 +118,13 @@ def process_subtitles(video_path, subtitle_path):
     """
     Processes the subtitles to extract relevant information.
     """
+    st = SafeText(language="en")
 
     subs = pysrt.open(subtitle_path)
 
     for sub in subs:
-        snapshot_start_path = video_path.parent / f"{sub.start.ordinal}.jpg"
-        save_snapshot(video_path, snapshot_start_path, sub.start)
-        snapshot_end_path = video_path.parent / f"{sub.end.ordinal}.jpg"
-        save_snapshot(video_path, snapshot_end_path, sub.end)
-
-        config.scenes_df.loc[len(config.scenes_df)] = [sub.start.ordinal, None, None, snapshot_start_path, sub.text,
-                                                       None, None, pf.check_profanity(sub.text), False, False]
-        config.scenes_df.loc[len(config.scenes_df)] = [sub.end.ordinal, None, None, snapshot_end_path, sub.text, None,
-                                                       None, pf.check_profanity(sub.text), False, False]
+        profane = True if st.check_profanity(sub.text) else False
+        config.scenes_df.loc[len(config.scenes_df)] = [sub.start.ordinal, None, None, None, sub.text,
+                                                       pf.clean_text(sub.text) if profane else None, None,
+                                                       profane,
+                                                       False, False]

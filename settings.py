@@ -53,6 +53,9 @@ class Config:
             raise ValueError("The path does not exist or is not a directory.")
         self._media_folder_path = path
         self._temp_path = path / "temp"
+        # create directory temp if it does not exist
+        if not self._temp_path.exists():
+            self._temp_path.mkdir(parents=True, exist_ok=True)
     @property
     def censorship_strength(self):
         return self._censorship_strength

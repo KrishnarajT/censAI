@@ -2,6 +2,9 @@ import logging
 import time
 from tqdm import tqdm
 import sub_manip as sm
+from settings import Config
+config = Config()
+
 def censor(video_path, subtitle_path):
     """
     Censor the video based on the subtitle file.
@@ -29,8 +32,7 @@ def censor(video_path, subtitle_path):
         tqdm.write(f"[INFO] Processing Subtitle File")  # Print step description
         pbar.update(1)
         sm.process_subtitles(video_path, subtitle_path)
-
-
-
+        # write df to csv
+        config.scenes_df.to_csv(config.media_folder_path / "scenes.csv", index=False)
 
     logging.info("Censorship process completed for : %s", video_path)
