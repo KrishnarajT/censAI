@@ -30,6 +30,4 @@ if __name__ == "__main__":
     sm.align_subtitles(config.video_and_subtitle_files)
     logging.info("Completed aligning subtitles with audio.")
 
-    logging.info("\n")
-
-
+    print("All done! Enjoy your media.")

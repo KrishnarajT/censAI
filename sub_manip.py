@@ -75,6 +75,7 @@ def align_subtitles(video_and_subtitle_files):
         # Check if the synced subtitle already exists
         if subtitle_synced_path.exists():
             logging.info(f"Synced subtitle already exists: {subtitle_synced_path.name}")
+            video_and_subtitle_files[video_path] = subtitle_synced_path
             continue
 
         # Construct ffsubsync command
@@ -87,6 +88,8 @@ def align_subtitles(video_and_subtitle_files):
 
         try:
             subprocess.run(command, check=True)
+            # update dictionary with the new synced subtitle path
+            video_and_subtitle_files[video_path] = subtitle_synced_path
         except subprocess.CalledProcessError as e:
             logging.error(
                 f"Error aligning subtitles for {video_path.name}: {e}"
