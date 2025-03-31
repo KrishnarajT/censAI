@@ -52,7 +52,6 @@ def match_video_and_subtitles(videos, subtitles):
         logging.warning("Some videos do not have matching subtitles.")
     else:
         logging.info("All videos have matching subtitles.")
-
     return media_files
 
 

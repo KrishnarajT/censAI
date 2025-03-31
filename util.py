@@ -22,6 +22,15 @@ def print_welcome_message():
     """
     )
 
+def print_censorship_message():
+    print()
+    print(
+        "--------------------------------------------------------------------------------------------------------------------")
+    print("Starting the censorship process.")
+    print("This may take a while.")
+    print(
+        "--------------------------------------------------------------------------------------------------------------------")
+    print()
 
 def get_censorship_strength():
     time.sleep(0.1)
