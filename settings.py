@@ -1,6 +1,7 @@
 import pathlib
 from enums.CensorshipStrength import CensorshipStrength
 
+
 class Config:
     _instance = None  # Singleton instance
 

@@ -3,6 +3,7 @@ import time
 from settings import Config
 from enums.CensorshipStrength import CensorshipStrength
 
+
 def print_welcome_message():
     print("Welcome to CensAI!")
     print(
@@ -20,6 +21,7 @@ def print_welcome_message():
 
     """
     )
+
 
 def get_censorship_strength():
     time.sleep(0.1)

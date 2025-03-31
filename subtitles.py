@@ -6,6 +6,7 @@ import logging
 
 config = Config()
 
+
 def custom_scorer(choice, query, **kwargs):
     """Prioritizes exact episode number matches while still considering overall similarity."""
     base_score = fuzz.ratio(choice, query)
@@ -34,6 +35,7 @@ def find_subtitles(path):
     """
     return [sub for sub in pathlib.Path(path).rglob("*") if sub.suffix.lower() in config.SUBTITLE_EXTENSIONS]
 
+
 def match_video_and_subtitles(videos, subtitles):
     """
     matches the video and subtitle files based on their names match percentage
@@ -56,6 +58,5 @@ def match_video_and_subtitles(videos, subtitles):
         logging.warning("Some videos do not have matching subtitles.")
     else:
         logging.info("All videos have matching subtitles.")
-
 
     return media_files
