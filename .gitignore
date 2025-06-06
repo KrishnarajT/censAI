@@ -181,4 +181,10 @@ test/*.mkv
 **/*.aac
 **/*.mkv
 **/*.mp4
-**/*.mka
+**/*.mkaexperimenting/audio.wav
+experimenting/ep1.mkv
+experimenting/ep1_audio_muted_remux.mkv
+experimenting/ep1_muted.mkv
+experimenting/ep2.mkv
+experimenting/six_feet_under_ep_1.mkv
+experimenting/scene_detection/*
