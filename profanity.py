@@ -25,6 +25,9 @@ def clean_text(text):
 
     Input: "I wanna fuck you so badly"  
     Output: "I want us to be close." 
+    
+    Input: "I can still see her breasts moving"
+    Output: "I can still see her moving"
 
     Input: "Have you never boned a woman's ass before jon snow?"  
     Output: "Have you never been close to a woman before, Jon Snow?" 

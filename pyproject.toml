@@ -1,0 +1,16 @@
+[project]
+name = "censai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ffsubsync>=0.4.29",
+    "ollama>=0.5.1",
+    "pandas>=2.3.0",
+    "pysrt>=1.1.2",
+    "rapidfuzz>=3.13.0",
+    "safetext>=0.1.0",
+    "scenedetect[opencv]>=0.6.6",
+    "tqdm>=4.67.1",
+]

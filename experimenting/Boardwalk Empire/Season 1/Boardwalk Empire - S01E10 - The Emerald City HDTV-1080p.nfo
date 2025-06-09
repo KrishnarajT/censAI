@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<episodedetails>
+  <plot><![CDATA[Nucky asks for Margaret's assistance in backing his mayoral candidate with the passage of women's right to vote, leaving her conflicted about her role. Doyle switches sides back from Rothstein, which leads Nucky to conspire with Chalky against Lansky and the D'Alessios. Angela witnesses Jimmy's violent side against her photographer friend, and considers leaving Atlantic City for good in the aftermath. Van Alden grapples with his emotions, and has encounters with both Margaret and Lucy.]]></plot>
+  <outline />
+  <lockdata>false</lockdata>
+  <dateadded>2025-02-11 15:58:30</dateadded>
+  <title>The Emerald City</title>
+  <actor>
+    <name>Steve Buscemi</name>
+    <role>Enoch "Nucky" Thompson</role>
+    <type>Actor</type>
+    <tmdbid>884</tmdbid>
+    <tvdbid>271595</tvdbid>
+  </actor>
+  <actor>
+    <name>Michael Pitt</name>
+    <role>James "Jimmy" Darmody</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Kelly Macdonald</name>
+    <role>Margaret Schroeder / Margaret Thompson</role>
+    <type>Actor</type>
+    <tvdbid>7876528</tvdbid>
+    <tmdbid>9015</tmdbid>
+  </actor>
+  <actor>
+    <name>Michael Shannon</name>
+    <role>Nelson Van Alden</role>
+    <type>Actor</type>
+    <tvdbid>262015</tvdbid>
+    <tmdbid>335</tmdbid>
+  </actor>
+  <actor>
+    <name>Shea Whigham</name>
+    <role>Elias "Eli" Thompson</role>
+    <type>Actor</type>
+    <tmdbid>74242</tmdbid>
+    <tvdbid>275852</tvdbid>
+  </actor>
+  <actor>
+    <name>Aleksa Palladino</name>
+    <role>Angela Darmody</role>
+    <type>Actor</type>
+    <tvdbid>315932</tvdbid>
+  </actor>
+  <actor>
+    <name>Michael Stuhlbarg</name>
+    <role>Arnold Rothstein</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Stephen Graham</name>
+    <role>Al Capone</role>
+    <type>Actor</type>
+    <tmdbid>1115</tmdbid>
+    <tvdbid>301984</tvdbid>
+  </actor>
+  <actor>
+    <name>Vincent Piazza</name>
+    <role>Charles "Lucky" Luciano</role>
+    <type>Actor</type>
+    <tvdbid>317146</tvdbid>
+    <tmdbid>85924</tmdbid>
+  </actor>
+  <actor>
+    <name>Paz de la Huerta</name>
+    <role>Lucy Danziger</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Michael Kenneth Williams</name>
+    <role>Albert "Chalky" White</role>
+    <type>Actor</type>
+    <tmdbid>39390</tmdbid>
+    <tvdbid>346769</tvdbid>
+  </actor>
+  <actor>
+    <name>Anthony Laciura</name>
+    <role>Edward "Eddie" Kessler</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Paul Sparks</name>
+    <role>Mieczysław "Mickey" Doyle</role>
+    <type>Actor</type>
+    <tvdbid>323671</tvdbid>
+    <tmdbid>167564</tmdbid>
+  </actor>
+  <actor>
+    <name>Dabney Coleman</name>
+    <role>Commodore Louis Kaestner</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Jack Huston</name>
+    <role>Richard Harrow</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Greg Antonacci</name>
+    <role>John "Johnny" Torrio</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Dana Ivey</name>
+    <role>Mrs. McGarry</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Peter McRobbie</name>
+    <role>Frederick Elliot</role>
+    <type>GuestStar</type>
+    <tvdbid>285483</tvdbid>
+  </actor>
+  <actor>
+    <name>Erik Weiner</name>
+    <role>Eric Sebso</role>
+    <type>GuestStar</type>
+    <tvdbid>312664</tvdbid>
+  </actor>
+  <actor>
+    <name>John Rue</name>
+    <role>Harry Bacharach</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>William Hill</name>
+    <role>George O'Neill</role>
+    <type>GuestStar</type>
+    <tvdbid>285475</tvdbid>
+  </actor>
+  <actor>
+    <name>Robert Clohessy</name>
+    <role>James "Jim" Neary</role>
+    <type>GuestStar</type>
+    <tvdbid>269661</tvdbid>
+  </actor>
+  <actor>
+    <name>Connor Noon</name>
+    <role>Tommy Darmody</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Brady Noon</name>
+    <role>Tommy Darmody</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Lucy Gallina</name>
+    <role>Emily Schroeder</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Josie Gallina</name>
+    <role>Emily Schroeder</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Declan McTigue</name>
+    <role>Theodore "Teddy" Schroeder</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Rory McTigue</name>
+    <role>Theodore "Teddy" Schroeder</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Adam Mucci</name>
+    <role>Raymond "Ray" Halloran</role>
+    <type>GuestStar</type>
+  </actor>
+  <director tvdbid="445355">Simon Cellan Jones</director>
+  <writer>Lawrence Konner</writer>
+  <credits>Lawrence Konner</credits>
+  <rating>7.8</rating>
+  <year>2010</year>
+  <sorttitle>Emerald City</sorttitle>
+  <imdbid>tt1648274</imdbid>
+  <tvdbid>2957601</tvdbid>
+  <runtime>59</runtime>
+  <genre>Crime</genre>
+  <genre>Drama</genre>
+  <uniqueid type="imdb">tt1648274</uniqueid>
+  <uniqueid type="tvdb">2957601</uniqueid>
+  <episode>10</episode>
+  <season>1</season>
+  <aired>2010-11-21</aired>
+  <fileinfo>
+    <streamdetails>
+      <video>
+        <codec>h264</codec>
+        <micodec>h264</micodec>
+        <bitrate>2602263</bitrate>
+        <width>1916</width>
+        <height>1080</height>
+        <aspect>479:270</aspect>
+        <aspectratio>479:270</aspectratio>
+        <framerate>23.976025</framerate>
+        <scantype>progressive</scantype>
+        <default>True</default>
+        <forced>False</forced>
+        <duration>58</duration>
+        <durationinseconds>3537</durationinseconds>
+      </video>
+      <audio>
+        <codec>aac</codec>
+        <micodec>aac</micodec>
+        <bitrate>192000</bitrate>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <channels>2</channels>
+        <samplingrate>48000</samplingrate>
+        <default>True</default>
+        <forced>False</forced>
+      </audio>
+      <audio>
+        <codec>aac</codec>
+        <micodec>aac</micodec>
+        <bitrate>192000</bitrate>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <channels>2</channels>
+        <samplingrate>48000</samplingrate>
+        <default>False</default>
+        <forced>False</forced>
+      </audio>
+      <subtitle>
+        <codec>ass</codec>
+        <micodec>ass</micodec>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>ass</codec>
+        <micodec>ass</micodec>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>srt</codec>
+        <micodec>srt</micodec>
+        <language>en</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>srt</codec>
+        <micodec>srt</micodec>
+        <language>en</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+    </streamdetails>
+  </fileinfo>
+  <showtitle>Boardwalk Empire</showtitle>
+</episodedetails>

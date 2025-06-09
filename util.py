@@ -1,6 +1,6 @@
 import time
 
-from settings import Config
+from config.settings import Config
 from enums.CensorshipStrength import CensorshipStrength
 
 

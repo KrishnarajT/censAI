@@ -1,5 +1,5 @@
 import pathlib
-from settings import Config
+from config.settings import Config
 from rapidfuzz import process, fuzz
 import re
 import logging
@@ -7,6 +7,8 @@ import subprocess
 import pandas as pd
 import pysrt
 import profanity as pf
+import sys
+import subprocess
 
 config = Config()
 from safetext import SafeText
@@ -41,13 +43,15 @@ def custom_scorer(choice, query, **kwargs):
 
     return base_score  # Otherwise, return normal fuzzy match score
 
-
 def find_subtitles(path):
     """
-    returns a list of subtitles from the given folder path
+    Returns a sorted list of subtitle paths from the given folder path.
+    Sorting ensures consistent order across runs.
     """
-    return [sub for sub in pathlib.Path(path).rglob("*") if sub.suffix.lower() in config.SUBTITLE_EXTENSIONS]
-
+    return sorted(
+        (sub for sub in pathlib.Path(path).rglob("*") if sub.suffix.lower() in config.SUBTITLE_EXTENSIONS),
+        key=lambda p: str(p).lower()  # ensures case-insensitive sort
+    )
 
 def match_video_and_subtitles(videos, subtitles):
     """
@@ -64,7 +68,7 @@ def match_video_and_subtitles(videos, subtitles):
     for video in videos:
         best_match, score, _ = process.extractOne(video.name, subtitle_names, scorer=custom_scorer)
         subtitle = next((s for s in subtitles if s.name == best_match), None)
-        media_files[video] = subtitle
+        media_files[config.video_to_id[video]] = subtitle
         subtitle_names.remove(best_match)
 
     if len(media_files.keys()) != len(videos):
@@ -97,10 +101,11 @@ def align_subtitles(video_and_subtitle_files):
             continue
 
         # Construct ffsubsync command
+        # we use sys.executable to ensure the correct Python environment is used that has ffsubsync installed
         command = [
-            "ffsubsync", str(video_path),
+            sys.executable, "-m", "ffsubsync", str(video_path),
             "-i", str(subtitle_path),
-            "--vad", "webrtc",  # Uses WebRTC Voice Activity Detection for better sync
+            "--vad", "webrtc",
             "-o", str(subtitle_synced_path)
         ]
 
@@ -119,12 +124,18 @@ def process_subtitles(video_path, subtitle_path):
     Processes the subtitles to extract relevant information.
     """
     st = SafeText(language="en")
-
     subs = pysrt.open(subtitle_path)
 
     for sub in subs:
         profane = True if st.check_profanity(sub.text) else False
-        config.scenes_df.loc[len(config.scenes_df)] = [sub.start.ordinal, None, None, None, sub.text,
-                                                       pf.clean_text(sub.text) if profane else None, None,
+        config.scenes_df.loc[len(config.scenes_df)] = [sub.start.ordinal, 
+                                                       config.video_to_id[video_path],
+                                                       None,
+                                                       None,
+                                                       None,
+                                                       sub.text,
+                                                       pf.clean_text(sub.text) if profane else None,
+                                                       None,
                                                        profane,
-                                                       False, False]
+                                                       False,
+                                                       False]

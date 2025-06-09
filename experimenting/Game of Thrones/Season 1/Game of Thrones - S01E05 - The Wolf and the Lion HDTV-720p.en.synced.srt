@@ -1,0 +1,4452 @@
+1
+00:00:00,800 --> 00:00:06,873
+Subtitles downloaded from Podnapisi.NET
+
+2
+00:00:11,434 --> 00:00:15,434
+<font color=#00FF00>= 权力的游戏 第1季第5集 =</font>
+<font color=#00FFFF>狼狮之争</font>
+首播时间: 2011年5月15日
+
+3
+00:00:15,460 --> 00:00:18,460
+== 翻译: <font color="#00ff00">freesand</font> ==
+
+4
+00:00:18,572 --> 00:00:20,909
+(君临城)
+
+5
+00:00:35,943 --> 00:00:38,879
+(鹰巢城)
+
+6
+00:00:49,943 --> 00:00:52,879
+(临冬城)
+
+7
+00:01:09,944 --> 00:01:12,879
+(绝境长城)
+
+8
+00:01:16,241 --> 00:01:18,409
+<i>( Theme music playing )</i>
+
+9
+00:01:18,435 --> 00:01:22,435
+<font color=#00FF00>= Game of Thrones 1x05 =</font>
+<font color=#00FFFF>The Wolf and the Lion</font> Original Air Date on May 15, 2011
+
+10
+00:01:22,459 --> 00:01:26,459
+== sync, corrected by <font color="#00ff00">elderman</font> ==
+
+11
+00:01:30,944 --> 00:01:33,879
+(维斯多斯拉克)
+
+12
+00:01:33,944 --> 00:01:36,879
+原著: 乔治马丁
+
+13
+00:02:04,173 --> 00:02:08,910
+( Horse whinnies )
+
+14
+00:02:11,944 --> 00:02:14,880
+<i>( Men shouting )</i>
+
+15
+00:02:21,689 --> 00:02:23,766
+修夫爵士在都城有亲人吗?
+Ned: Does Ser Hugh have any family in the capital?
+
+16
+00:02:23,791 --> 00:02:24,992
+没有.
+No.
+
+17
+00:02:27,078 --> 00:02:29,946
+昨晚是我替他守的灵.
+I stood vigil for him myself last night.
+
+18
+00:02:30,640 --> 00:02:32,974
+他在这里无依无靠.
+He had no one else.
+
+19
+00:02:33,838 --> 00:02:36,039
+在此之前他从未穿过这套盔甲.
+He'd never worn this armor before.
+
+20
+00:02:36,072 --> 00:02:38,308
+他运气太坏--
+Bad luck for him--
+
+21
+00:02:38,342 --> 00:02:40,510
+对上了魔山.
+going against the Mountain.
+
+22
+00:02:40,543 --> 00:02:42,910
+谁定的比武次序?
+Who determines the draw?
+
+23
+00:02:42,946 --> 00:02:45,547
+所有骑士抽签决定, 史塔克大人.
+All the knights draw straws, Lord Stark.
+
+24
+00:02:45,581 --> 00:02:47,214
+是的.
+Aye.
+
+25
+00:02:47,249 --> 00:02:50,451
+但是谁主持抽签?
+But who holds the straws?
+
+26
+00:02:50,487 --> 00:02:53,022
+有劳你们了, 嬷嬷.
+You've done good work, sisters.
+
+27
+00:02:58,629 --> 00:03:01,665
+人生真是变幻无常. 曾几何时
+Life is strange. Not so many years ago
+
+28
+00:03:01,700 --> 00:03:03,667
+我们还在三叉戟河畔彼此对垒.
+we fought as enemies at the trident.
+
+29
+00:03:03,701 --> 00:03:06,504
+幸好我们没在战场上碰面, 巴利斯坦爵士.
+I'm glad we never met on the field, Ser Barristan.
+
+30
+00:03:06,537 --> 00:03:08,439
+我妻子也该感到庆幸.
+As is my wife.
+
+31
+00:03:08,474 --> 00:03:10,475
+她年纪轻轻的不应成为寡妇.
+I don't think the widow's life would suit her.
+
+32
+00:03:10,510 --> 00:03:12,844
+你太谦虚了.
+( Chuckles ) You're too modest.
+
+33
+00:03:12,878 --> 00:03:15,247
+我亲眼看见你打倒了许多勇武的骑士.
+I've seen you cut down a dozen great knights.
+
+34
+00:03:15,280 --> 00:03:16,915
+我父亲曾经告诉我
+My father once told me
+
+35
+00:03:16,949 --> 00:03:19,149
+你是他见过的人中武艺最强的.
+you were the best he'd ever seen.
+
+36
+00:03:19,184 --> 00:03:22,019
+他在武学方面从来不会看走眼.
+I never knew the man to be wrong about matters of combat.
+
+37
+00:03:22,053 --> 00:03:24,356
+你父亲是一个好人.
+He was a fine man, your father.
+
+38
+00:03:25,658 --> 00:03:27,759
+疯王对他犯下了可怕的罪过.
+What the Mad King did to him was a terrible crime.
+
+39
+00:03:27,793 --> 00:03:29,361
+那个小伙子--
+And that lad--
+
+40
+00:03:29,394 --> 00:03:31,429
+他几个月前还是侍从.
+he was a squire until a few months ago.
+
+41
+00:03:31,464 --> 00:03:34,065
+他怎么置办得起这样一套新盔甲?
+How could he afford a new suit of armor?
+
+42
+00:03:34,100 --> 00:03:36,568
+也许艾林大人给了他一些钱?
+Perhaps Lord Arryn left him some money?
+
+43
+00:03:38,637 --> 00:03:40,738
+我听说国王今天打算参加比武.
+I hear the King wants to joust today.
+
+44
+00:03:40,773 --> 00:03:42,439
+是的, 但这绝对不行.
+Yes, that will never happen.
+
+45
+00:03:42,475 --> 00:03:45,275
+劳勃总是想做就做.
+( Chuckles ) Robert tends to do what he wants.
+
+46
+00:03:45,310 --> 00:03:47,946
+如果每回都照国王的意思办,
+If the King got what he wanted all the time,
+
+47
+00:03:47,980 --> 00:03:50,581
+恐怕现在还是天下大乱.
+he'd still be fighting a damned rebellion.
+
+48
+00:03:55,321 --> 00:03:58,056
+这铠甲太小, 陛下. 穿不上的.
+It's made too small, Your Grace. It won't go.
+
+49
+00:03:58,090 --> 00:04:00,392
+你是个愚蠢的婊子养的.
+Your mother was a dumb whore
+
+50
+00:04:00,427 --> 00:04:02,827
+你听到没有?
+with a fat ass. Did you know that?
+
+51
+00:04:05,498 --> 00:04:08,967
+瞧瞧这个笨蛋! 没有卵蛋, 没有脑子.
+Look at this idiot! One ball and no brains.
+
+52
+00:04:09,001 --> 00:04:11,737
+连帮人穿铠甲都不会.
+He can't even put a man's armor on him properly.
+
+53
+00:04:11,771 --> 00:04:14,039
+你太胖了, 所以穿不下.
+You're too fat for your armor.
+
+54
+00:04:14,072 --> 00:04:17,042
+太胖? 太胖, 是吗?
+Fat? Fat, is it?
+
+55
+00:04:17,076 --> 00:04:20,278
+你就这样对国王讲话吗?
+Is that how you speak to your King?
+
+56
+00:04:22,614 --> 00:04:25,350
+( Laughing )
+
+57
+00:04:27,386 --> 00:04:29,321
+很好笑, 是吗?
+That was funny, is it?
+
+58
+00:04:31,424 --> 00:04:33,057
+不, 陛下.
+No, Your Grace.
+
+59
+00:04:33,093 --> 00:04:36,227
+不? 你不喜欢首相说的笑话?
+No? You don't like the Hand's joke?
+
+60
+00:04:37,196 --> 00:04:39,064
+你让这可怜孩子无所适从了.
+You're torturing the poor boy.
+
+61
+00:04:39,098 --> 00:04:41,900
+首相说了. 国王太胖了所以穿不下.
+You heard the Hand. The King's too fat for his armor.
+
+62
+00:04:41,934 --> 00:04:45,037
+去找个胸甲撑子-- 快去!
+Go find the breastplate stretcher-- now!
+
+63
+00:04:46,405 --> 00:04:50,108
+"胸甲撑子"?
+- ( Laughter ) - "The breastplate stretcher"?
+
+64
+00:04:50,143 --> 00:04:52,477
+让他上哪儿去找?
+How long before he figures it out?
+
+65
+00:04:52,511 --> 00:04:54,206
+你杜撰出来的东西吧.
+Maybe you should have one invented.
+
+66
+00:04:54,230 --> 00:04:55,530
+好了, 好了.
+All right, all right.
+
+67
+00:04:55,547 --> 00:04:58,316
+你等着看吧-- 我还记得怎么使长枪.
+But you watch me out there-- I still know how to point a Lance.
+
+68
+00:04:58,350 --> 00:05:01,453
+你不该参加比武. 让年轻人上吧.
+You have no business jousting. Leave that for the young men.
+
+69
+00:05:01,487 --> 00:05:04,824
+为什么, 因为我是国王? 得了. 我只想打打人罢了!
+Why, because I'm king? Piss on that. I want to hit somebody!
+
+70
+00:05:04,857 --> 00:05:07,225
+- 那谁敢对你还手呢? - 谁都行啊.
+- And who's going to hit you back? - Anybody who can.
+
+71
+00:05:07,259 --> 00:05:10,328
+- 反正最后还骑在马鞍上的-- - 一定会是你.
+- And the last man in his saddle-- - Will be you.
+
+72
+00:05:10,362 --> 00:05:12,497
+七国上下绝不会有人
+There's not a man in the Seven Kingdoms
+
+73
+00:05:12,531 --> 00:05:14,465
+敢冒险伤到你.
+would risk hurting you.
+
+74
+00:05:14,501 --> 00:05:17,401
+你的意思是那些胆小鬼会故意让我赢?
+Are you telling me those cowards would let me win?
+
+75
+00:05:17,437 --> 00:05:20,004
+是的.
+Aye.
+
+76
+00:05:24,376 --> 00:05:26,877
+- 喝吧. - 我不渴.
+- Drink. - I'm not thirsty.
+
+77
+00:05:26,912 --> 00:05:29,480
+快喝. 这是国王的命令.
+Drink. Your King commands it.
+
+78
+00:05:33,251 --> 00:05:35,153
+诸神在上,
+Gods,
+
+79
+00:05:35,187 --> 00:05:37,687
+我竟然胖得穿不下铠甲.
+too fat for my armor.
+
+80
+00:05:38,656 --> 00:05:41,257
+你的侍从... 是兰尼斯特家的孩子?
+Your squire... A Lannister boy?
+
+81
+00:05:41,292 --> 00:05:43,727
+嗯. 一个大白痴,
+Mm. A bloody idiot,
+
+82
+00:05:43,761 --> 00:05:45,862
+瑟曦坚持要我收他.
+but Cersei insisted.
+
+83
+00:05:45,896 --> 00:05:49,331
+都要感谢琼恩艾林让我娶她.
+I have Jon Arryn to thank for her.
+
+84
+00:05:49,366 --> 00:05:52,501
+"瑟曦兰尼斯特是个好对象," 他告诉我.
+"Cersei Lannister will make a good match," he told me.
+
+85
+00:05:52,537 --> 00:05:55,405
+"你需要她父亲的支持."
+"You'll need her father on your side."
+
+86
+00:05:57,108 --> 00:06:00,679
+我本以为当国王可以做自己想做的事.
+I thought being King meant I could do whatever I wanted.
+
+87
+00:06:04,184 --> 00:06:06,251
+够了. 我们去看他们比武吧.
+Enough of this. Let's go watch 'em ride.
+
+88
+00:06:06,285 --> 00:06:09,021
+至少我还可以闻闻血腥味.
+At least I can smell someone else's blood.
+
+89
+00:06:09,054 --> 00:06:10,922
+- 劳勃? - 什么?
+- Robert? - What?
+
+90
+00:06:11,824 --> 00:06:14,725
+哦.
+Oh. ( Laughs )
+
+91
+00:06:14,761 --> 00:06:17,763
+十分引人注目, 嗯?
+An inspiring sight for the people, eh?
+
+92
+00:06:17,797 --> 00:06:20,699
+快, 拜见国王! 快鞠躬, 一群废物!
+Come, bow before your King! Bow, you shits!
+
+93
+00:06:20,732 --> 00:06:22,467
+( Polite laughter )
+
+94
+00:06:23,970 --> 00:06:25,937
+( Cheering )
+
+95
+00:06:34,280 --> 00:06:37,783
+- 艾莉亚在哪儿? - 她去上舞蹈课了.
+- Where's Arya? - At her dancing lessons.
+
+96
+00:06:40,020 --> 00:06:42,220
+百花骑士.
+The knight of the flowers.
+
+97
+00:06:48,994 --> 00:06:51,329
+谢谢你, 洛拉斯爵士.
+Thank you, Ser Loras.
+
+98
+00:06:59,773 --> 00:07:01,540
+( Neighs )
+
+99
+00:07:11,984 --> 00:07:14,852
+( Horse fussing )
+
+100
+00:07:22,127 --> 00:07:24,463
+别让格雷果爵士伤害他.
+Don't let Ser Gregor hurt him.
+
+101
+00:07:24,497 --> 00:07:27,900
+<i>- 嘿. - 我不敢看.
+- Hey. - I can't watch.</i>
+
+102
+00:07:30,336 --> 00:07:32,836
+一百金龙赌魔山赢.
+100 gold dragons on the Mountain.
+
+103
+00:07:32,867 --> 00:07:33,917
+我和你赌.
+I'll take that bet.
+
+104
+00:07:33,943 --> 00:07:35,807
+现在我该拿那一百金龙买点什么呢?
+Now what will I buy with 100 gold dragons?
+
+105
+00:07:36,340 --> 00:07:38,809
+来自多恩的美酒?
+A dozen barrels of Dornish wine?
+
+106
+00:07:38,843 --> 00:07:41,877
+来自里斯的姑娘?
+Or a girl from the pleasure houses of Lys?
+
+107
+00:07:41,912 --> 00:07:43,167
+你也可以买一个朋友.
+Or you could even buy a friend.
+
+108
+00:07:43,520 --> 00:07:45,443
+他会死的.
+He's going to die.
+
+109
+00:07:45,482 --> 00:07:48,083
+洛拉斯爵士武艺很好.
+Ser Loras rides well.
+
+110
+00:07:49,720 --> 00:07:52,655
+( Neighing )
+
+111
+00:07:56,360 --> 00:07:58,461
+( Fanfare )
+
+112
+00:08:12,210 --> 00:08:14,143
+- ( Gasps ) - ( Laughs )
+
+113
+00:08:18,148 --> 00:08:20,016
+真可惜, 小指头.
+Such a shame, Littlefinger.
+
+114
+00:08:20,050 --> 00:08:22,350
+你本可以拥有一个朋友.
+It would have been so nice for you to have a friend.
+
+115
+00:08:23,819 --> 00:08:25,621
+告诉我, 蓝礼大人,
+And tell me, Lord Renly,
+
+116
+00:08:25,655 --> 00:08:28,156
+<i>你打算何时去拥有你的朋友?
+when will you be having your friend?</i>
+
+117
+00:08:29,391 --> 00:08:31,694
+( Neighs )
+
+118
+00:08:38,636 --> 00:08:40,471
+洛拉斯知道他那母马正在发情.
+Loras knew his mare was in heat.
+
+119
+00:08:40,505 --> 00:08:42,238
+<i>确实很狡猾.
+Quite crafty, really.</i>
+
+120
+00:08:42,274 --> 00:08:44,574
+洛拉斯绝不是故意的.
+Ser Loras would never do that.
+
+121
+00:08:44,609 --> 00:08:45,938
+<i>耍花招毫无荣誉可言.
+There's no honor in tricks.</i>
+
+122
+00:08:45,963 --> 00:08:47,747
+没有荣誉, 但足以赢得大笔金钱.
+No honor and quite a bit of gold.
+
+123
+00:08:49,714 --> 00:08:52,384
+<i>拿剑来!
+- ( Helmet clanks ) - Sword!</i>
+
+124
+00:09:02,327 --> 00:09:04,561
+<i>( Horse neighs )</i>
+
+125
+00:09:06,832 --> 00:09:09,434
+- ( Gasps ) - ( Neighs )
+
+126
+00:09:11,804 --> 00:09:13,737
+- ( Gasps ) - ( Grunts )
+
+127
+00:09:17,611 --> 00:09:19,712
+不要碰他!
+Leave him be!
+
+128
+00:09:29,189 --> 00:09:30,890
+( Growls )
+
+129
+00:09:41,669 --> 00:09:44,938
+立刻住手, 这是国王的命令!
+Stop this madness in the name of your King!
+
+130
+00:09:50,609 --> 00:09:52,877
+<i>让他去吧!
+Robert: Let him go!</i>
+
+131
+00:10:01,320 --> 00:10:03,790
+我欠您一条命, 爵士.
+I owe you my life, Ser.
+
+132
+00:10:03,824 --> 00:10:06,092
+我不是什么爵士.
+I'm no Ser.
+
+133
+00:10:07,493 --> 00:10:10,695
+( Cheering )
+
+134
+00:10:29,580 --> 00:10:30,948
+拿下他的头罩.
+Remove his hood.
+
+135
+00:10:30,982 --> 00:10:33,918
+<i>晚间, 被俘的小恶魔
+Marillion: ? on that Eve, the captive Imp ?</i>
+
+136
+00:10:33,952 --> 00:10:36,920
+滚鞍下马步履蹒跚
+? downwards from his horse did limp ?
+
+137
+00:10:36,954 --> 00:10:40,558
+<i>自负傲气消失不见
+? no more would he preen and primp ?</i>
+
+138
+00:10:40,593 --> 00:10:42,929
+金缕红袍沾满灰尘
+? in garb of red and gold. ?
+
+139
+00:10:42,953 --> 00:10:44,029
+这不是国王大道.
+Tyrion: This isn't the Kingsroad.
+
+140
+00:10:44,030 --> 00:10:45,896
+你说我们是去临冬城.
+You said we were riding for Winterfell.
+
+141
+00:10:45,931 --> 00:10:48,266
+我是说了... 很多次而且很大声.
+I did... Often and loudly.
+
+142
+00:10:48,300 --> 00:10:50,602
+确实高明.
+Very wise.
+
+143
+00:10:50,637 --> 00:10:52,439
+他们会骑马追赶,
+They'll be out in droves,
+
+144
+00:10:52,473 --> 00:10:54,473
+朝错误的方向去找我.
+looking for me in the wrong place.
+
+145
+00:10:54,507 --> 00:10:57,176
+现在消息可能已传到我父亲那里.
+Word's probably gotten to my father by now.
+
+146
+00:10:57,211 --> 00:11:00,012
+他会为此开出一大笔赏金.
+He'll be offering a handsome reward.
+
+147
+00:11:00,046 --> 00:11:03,416
+人人都知道: 兰尼斯特有债必还.
+Everyone knows a Lannister always pays his debts.
+
+148
+00:11:03,450 --> 00:11:05,953
+你能给我松绑吗?
+Would you be so good as to untie me?
+
+149
+00:11:05,987 --> 00:11:09,122
+- 我为什么要这样做? - 为什么不?
+- And why would I do that? - Why not?
+
+150
+00:11:09,156 --> 00:11:10,790
+我还会逃跑吗?
+Am I going to run?
+
+151
+00:11:10,824 --> 00:11:12,726
+山地部落会为抢我的鞋子杀掉我.
+The hill tribes would kill me for my boots.
+
+152
+00:11:12,761 --> 00:11:14,527
+或者我会先被影子山猫吃掉.
+Unless a Shadowcat ate me first.
+
+153
+00:11:14,561 --> 00:11:17,731
+你完全不用担心影子山猫和山地部落.
+Shadowcats and hill tribes are the least of your concerns.
+
+154
+00:11:18,899 --> 00:11:21,900
+啊, 朝东的路.
+Ah, the eastern road.
+
+155
+00:11:21,934 --> 00:11:24,136
+我们是去艾林谷.
+We're going to the Vale.
+
+156
+00:11:24,170 --> 00:11:26,171
+你带我去你妹妹那里
+You're taking me to your sister's
+
+157
+00:11:26,205 --> 00:11:28,107
+为你想像中我的罪行负责.
+to answer for my imagined crimes.
+
+158
+00:11:28,141 --> 00:11:31,544
+告诉我, 史塔克夫人, 你上次见到你妹妹是在什么时候?
+Tell me, Lady Stark, when was the last time you saw your sister?
+
+159
+00:11:31,578 --> 00:11:33,646
+五年前.
+Five years ago.
+
+160
+00:11:33,680 --> 00:11:36,082
+她已经变了很多.
+She's changed.
+
+161
+00:11:36,117 --> 00:11:38,083
+他过去有点感情用事, 但现在--
+She was always a bit touched, but now--
+
+162
+00:11:38,118 --> 00:11:39,785
+你不如在这儿把我杀了.
+you might as well kill me here.
+
+163
+00:11:39,819 --> 00:11:42,756
+- 我可不会暗下杀手, 兰尼斯特. - 我也不会!
+- I am not a murderer, Lannister. - Neither am I!
+
+164
+00:11:42,790 --> 00:11:45,525
+谋害贵公子的事与我毫无瓜葛.
+I had nothing to do with the attempt on your son's life.
+
+165
+00:11:45,559 --> 00:11:47,626
+- 那把匕首-- - 怎样的笨蛋
+- The dagger found-- - What sort of imbecile
+
+166
+00:11:47,661 --> 00:11:49,328
+才会把自己的武器交给刺客用?
+arms an assassin with his own blade?
+
+167
+00:11:49,362 --> 00:11:51,564
+- 我把他嘴巴塞上吧? - 为什么?
+- Should I gag him? - Why?
+
+168
+00:11:51,598 --> 00:11:53,465
+因为我说得太有道理?
+Am I starting to make sense?
+
+169
+00:11:53,500 --> 00:11:56,434
+<i>罗德利克!
+- ( Thuds, grunts ) - Catelyn: Rodrik!</i>
+
+170
+00:11:56,468 --> 00:11:58,404
+( Screaming )
+
+171
+00:12:00,106 --> 00:12:02,107
+<i>夫人, 这边走.
+My Lady, this way.</i>
+
+172
+00:12:18,093 --> 00:12:19,894
+给我松绑.
+Untie me.
+
+173
+00:12:19,928 --> 00:12:22,295
+我要是死了, 你怎么查清真相?
+If I die, what's the point?
+
+174
+00:12:26,767 --> 00:12:29,069
+( Neighs )
+
+175
+00:12:29,103 --> 00:12:30,404
+啊!
+Ah!
+
+176
+00:12:35,910 --> 00:12:37,911
+( Screams )
+
+177
+00:13:11,545 --> 00:13:13,713
+( Heavy breathing )
+
+178
+00:13:13,747 --> 00:13:15,414
+罗德利克?
+Rodrik?
+
+179
+00:13:15,449 --> 00:13:17,116
+我没事, 夫人.
+I'll be fine, My Lady.
+
+180
+00:13:17,150 --> 00:13:19,852
+<i>别让自己身上沾满血.
+There's no need to bloody yourself.</i>
+
+181
+00:13:21,320 --> 00:13:23,088
+你第一次杀人?
+Your first?
+
+182
+00:13:24,424 --> 00:13:26,357
+你需要找个女人.
+You need a woman.
+
+183
+00:13:26,391 --> 00:13:29,328
+打斗之后找个女人最来劲.
+Nothing like a woman after a fight.
+
+184
+00:13:31,198 --> 00:13:33,266
+她肯得话我也愿意.
+I'm willing if she is.
+
+185
+00:13:33,300 --> 00:13:35,635
+( Laughing )
+
+186
+00:13:45,747 --> 00:13:47,580
+布兰.
+Bran.
+
+187
+00:13:47,615 --> 00:13:49,583
+<i>铁群岛.
+Bran: The Iron Islands.</i>
+
+188
+00:13:49,617 --> 00:13:51,083
+纹章: 一只海怪.
+Sigil: A Kraken.
+
+189
+00:13:51,118 --> 00:13:53,852
+箴言: 强取胜于苦耕.
+Words: We do not sow.
+
+190
+00:13:53,887 --> 00:13:56,021
+- 领主? - 葛雷乔伊.
+- Lords? - The Greyjoys.
+
+191
+00:13:56,056 --> 00:13:57,689
+特长: 高超的箭术,
+Famed for their skills at archery,
+
+192
+00:13:57,723 --> 00:13:59,525
+航海技术和床上技巧.
+navigation and lovemaking.
+
+193
+00:13:59,559 --> 00:14:01,226
+( Laughs )
+
+194
+00:14:01,261 --> 00:14:03,527
+还有失败的叛乱.
+And failed rebellions.
+
+195
+00:14:05,164 --> 00:14:07,031
+纹章: 一只雄鹿--
+Sigil: A stag--
+
+196
+00:14:07,065 --> 00:14:09,668
+戴宝冠的雄鹿, 由于劳勃称王.
+a crowned stag now that Robert's King.
+
+197
+00:14:09,702 --> 00:14:12,904
+<i>- 很好. - 箴言: 怒火燎原.
+- Good. - Words: Ours is the fury.</i>
+
+198
+00:14:12,939 --> 00:14:15,607
+- 领主: 拜拉席恩. - 嗯嗯.
+- Lords: The Baratheons. - Mm-hmm.
+
+199
+00:14:15,641 --> 00:14:17,642
+<i>西境.
+The Westerlands.</i>
+
+200
+00:14:17,678 --> 00:14:19,746
+- 纹章: 一只雄狮. - 嗯.
+- Sigil: A lion. - Mmm.
+
+201
+00:14:19,780 --> 00:14:22,152
+箴言: 兰尼斯特有债必还.
+Words: A Lannister always pays his debts.
+
+202
+00:14:22,178 --> 00:14:23,216
+<i>不对.
+No.</i>
+
+203
+00:14:23,324 --> 00:14:25,554
+这句话是很有名, 但不是他们家族箴言.
+A common saying, but not their official motto.
+
+204
+00:14:25,920 --> 00:14:28,622
+<i>领主: 兰尼斯特.
+- ( Arrow thunks ) - Lords: The Lannisters.</i>
+
+205
+00:14:28,656 --> 00:14:31,559
+- 我问他们的箴言. - 我不知道.
+- We're still on their words. - I don't know them.
+
+206
+00:14:31,593 --> 00:14:33,426
+你知道的. 想想看.
+You do know them. Think.
+
+207
+00:14:33,461 --> 00:14:35,862
+"不屈不挠."
+"Unbowed, unbent, unbroken."
+
+208
+00:14:35,896 --> 00:14:38,530
+- 那是马泰尔家族的. - "为正义而怒."
+- That's House Martell. - "Righteous in wrath."
+
+209
+00:14:38,565 --> 00:14:42,535
+- 那是豪伍德家族的. - "家族, 责任, 荣誉."
+- House Hornwood. - "Family, duty, honor."
+
+210
+00:14:42,569 --> 00:14:44,536
+<i>那是徒利家族-- 你母亲家的.
+Those are Tully words-- your mother's.</i>
+
+211
+00:14:44,570 --> 00:14:47,673
+- 我们还玩游戏吗? - 家族, 责任, 荣誉...
+- Are we playing a game? - Family, duty, honor...
+
+212
+00:14:47,707 --> 00:14:50,342
+- 这顺序对吗? - 当然对.
+- Is that the right order? - You know it is.
+
+213
+00:14:50,376 --> 00:14:52,711
+家族在第一位?
+Family comes first?
+
+214
+00:14:52,745 --> 00:14:55,347
+你母亲离开临冬城
+Your mother had to leave Winterfell
+
+215
+00:14:55,381 --> 00:14:57,015
+是为了保护家族.
+to protect the family.
+
+216
+00:14:57,049 --> 00:14:59,317
+<i>她怎么保护家族
+How can she protect the family</i>
+
+217
+00:14:59,352 --> 00:15:02,020
+<i>如果她人都不在家?
+if she's not with her family?</i>
+
+218
+00:15:02,054 --> 00:15:05,457
+你母亲在你床边
+Your mother sat by your bed
+
+219
+00:15:05,492 --> 00:15:08,160
+守了三个月等你醒来--
+for three weeks while you slept--
+
+220
+00:15:08,194 --> 00:15:10,628
+然后她就走了!
+and then she left!
+
+221
+00:15:12,466 --> 00:15:13,698
+你出生的时候,
+When you were born, I was the one
+
+222
+00:15:13,723 --> 00:15:15,116
+是我为你的母亲接生.
+who pulled you from your mother.
+
+223
+00:15:16,536 --> 00:15:19,173
+<i>是我将你放到他手上.
+I placed you in her arms.</i>
+
+224
+00:15:19,207 --> 00:15:23,109
+从那一刻起直到她去世的那一刻,
+From that moment until the moment she dies,
+
+225
+00:15:23,145 --> 00:15:26,414
+她都会一直爱着你.
+she will love you.
+
+226
+00:15:26,448 --> 00:15:29,517
+<i>全心全意.
+Absolutely.</i>
+
+227
+00:15:29,551 --> 00:15:32,820
+<i>- 不顾一切. - 那她为什么走?
+- Fiercely. - Why did she leave?</i>
+
+228
+00:15:32,856 --> 00:15:34,790
+我还不能告诉你,
+( Sighs ) I still can't tell you,
+
+229
+00:15:34,824 --> 00:15:36,992
+- 但她很快就会回家. - 你知道她在哪儿?
+- but she will be home soon. - Do you know where she is now?
+
+230
+00:15:37,026 --> 00:15:38,961
+<i>现在?
+- ( Arrow thunks ) - Today?</i>
+
+231
+00:15:38,996 --> 00:15:40,173
+不, 我不知道.
+No, I don't.
+
+232
+00:15:40,198 --> 00:15:42,544
+那你怎么能保证她很快就会回家?
+Then how can you promise me she'll be home soon?
+
+233
+00:15:45,469 --> 00:15:49,138
+我担心你太聪明了, 有时这并不一定好.
+Sometimes I worry you're too smart for your own good.
+
+234
+00:15:50,241 --> 00:15:52,910
+我再也不能射箭了.
+I'll never shoot another arrow.
+
+235
+00:15:52,944 --> 00:15:55,578
+谁说的?
+And where is that written?
+
+236
+00:15:56,747 --> 00:15:58,781
+- 射箭要用上腿部的力量. - 嗯.
+- You need legs to work a bow. - Hmm.
+
+237
+00:15:58,815 --> 00:16:01,517
+如果提利昂大人设计的马鞍有效得话,
+If the saddle Lord Tyrion designed actually works,
+
+238
+00:16:01,551 --> 00:16:03,551
+你可以学习在马背上射箭.
+you could learn to shoot a bow from horseback.
+
+239
+00:16:03,587 --> 00:16:05,621
+真的
+Really
+
+240
+00:16:06,988 --> 00:16:09,424
+多斯拉克小孩四岁就开始骑马射箭.
+Dothraki boys learn when they're four years old.
+
+241
+00:16:09,458 --> 00:16:11,059
+难道你不可以吗?
+Why shouldn't you?
+
+242
+00:16:16,065 --> 00:16:18,133
+( Grunting )
+
+243
+00:16:22,774 --> 00:16:25,608
+( Moans )
+
+244
+00:16:26,511 --> 00:16:28,679
+嘘, 小声点.
+Shh, keep it down.
+
+245
+00:16:28,713 --> 00:16:31,281
+你本不能到城堡里来.
+You're not supposed to be inside the castle walls.
+
+246
+00:16:31,317 --> 00:16:34,785
+我本以为你在这儿很有地位.
+I thought you were supposed to be an important person around here.
+
+247
+00:16:34,819 --> 00:16:37,588
+对你这样人的来说足够有地位了.
+Important enough for the likes of you.
+
+248
+00:16:37,622 --> 00:16:40,590
+你可不是我见识过的唯一一个贵族.
+You're not the only nobleman in my life, you know.
+
+249
+00:16:40,626 --> 00:16:42,559
+还有谁, 小恶魔?
+Who, the Imp?
+
+250
+00:16:42,593 --> 00:16:44,462
+我看他只是半个贵族.
+I'd call him half a nobleman.
+
+251
+00:16:44,496 --> 00:16:46,329
+嫉妒了?
+Jealous?
+
+252
+00:16:46,365 --> 00:16:48,299
+我为什么要嫉妒?
+Why should I be jealous?
+
+253
+00:16:48,333 --> 00:16:51,336
+任何口袋里有几个铜板的人都可以拥有你一晚.
+Anyone with a few coppers in his pocket can own you for the night.
+
+254
+00:16:51,370 --> 00:16:54,338
+侏儒那玩意有多大?
+What's a dwarf like down below?
+
+255
+00:16:54,372 --> 00:16:56,473
+我一直很好奇.
+I've always wondered.
+
+256
+00:16:56,509 --> 00:16:59,176
+- 你会吃惊的. - 嗯?
+- Might surprise you. - Hmm?
+
+257
+00:16:59,212 --> 00:17:02,213
+他手指上的技巧也很好.
+He's good with his fingers too.
+
+258
+00:17:02,247 --> 00:17:04,348
+还有他的舌头.
+And his tongue.
+
+259
+00:17:05,251 --> 00:17:07,050
+给小费也很慷慨.
+Generous tipper.
+
+260
+00:17:07,086 --> 00:17:09,820
+兰尼斯特家挥金如土.
+I guess gold is cheap for a Lannister.
+
+261
+00:17:09,855 --> 00:17:11,856
+你嫉妒了.
+You are jealous.
+
+262
+00:17:11,889 --> 00:17:13,558
+我来自葛雷乔伊家族.
+I'm a Greyjoy.
+
+263
+00:17:13,591 --> 00:17:15,827
+我们统治铁群岛三百年之久.
+We've been lords of the Iron Islands for 300 years.
+
+264
+00:17:15,860 --> 00:17:18,963
+维斯特洛没有哪个家族敢看不起我们,
+There's not a family in Westeros that can look down on us,
+
+265
+00:17:18,998 --> 00:17:20,898
+兰尼斯特家也不敢.
+not even the Lannisters.
+
+266
+00:17:20,934 --> 00:17:23,335
+那史塔克家呢?
+And what about the Starks?
+
+267
+00:17:24,736 --> 00:17:27,371
+我八岁起就是史塔克大人的养子.
+I've been Lord Stark's ward since I was eight years old.
+
+268
+00:17:27,406 --> 00:17:30,008
+养子-- 听起来倒不错.
+A ward-- that's a nice word for it.
+
+269
+00:17:30,041 --> 00:17:32,476
+你父亲曾反叛劳勃国王
+Your father rebelled against King Robert
+
+270
+00:17:32,511 --> 00:17:34,979
+- 如果他再反一次-- - 我父亲是
+- and if he does it again-- - My father fought
+
+271
+00:17:35,012 --> 00:17:37,147
+为了族人的自由而战.
+for the freedom of his people.
+
+272
+00:17:37,182 --> 00:17:40,617
+你父亲做了些什么? 干了一个厨娘, 生了一个婊子.
+What did your father do? Fucked a cook and whelped a whore.
+
+273
+00:17:40,652 --> 00:17:43,220
+你真是个开不得玩笑的孩子.
+You're a very serious boy.
+
+274
+00:17:43,254 --> 00:17:46,857
+- 我可不是孩子. - 哦, 你是.
+- I'm not a boy. - Oh yes, you are.
+
+275
+00:17:46,892 --> 00:17:50,927
+连你的命根子都是开不得玩笑的.
+A serious boy with a serious cock.
+
+276
+00:17:50,963 --> 00:17:53,530
+我不打算付你钱了.
+I don't want to pay for it.
+
+277
+00:17:53,565 --> 00:17:56,567
+那你还是去找个老婆吧.
+Then get yourself a wife.
+
+278
+00:17:59,437 --> 00:18:02,139
+<i>来吧.
+- Arya: Come on. - ( Meows )</i>
+
+279
+00:18:03,474 --> 00:18:05,944
+我不会伤害你的.
+- I'm not gonna hurt you. - ( Meows )
+
+280
+00:18:10,648 --> 00:18:12,116
+( Meows )
+
+281
+00:18:13,484 --> 00:18:15,853
+你的儿子怎么样了, 大人?
+How is your son, My Lord?
+
+282
+00:18:15,886 --> 00:18:18,888
+他再也不能走路了.
+He'll never walk again.
+
+283
+00:18:20,791 --> 00:18:22,726
+他的神志清醒了?
+But his mind is sound?
+
+284
+00:18:22,761 --> 00:18:24,928
+是这样.
+So they say.
+
+285
+00:18:24,963 --> 00:18:27,397
+那还算幸运.
+A blessing then.
+
+286
+00:18:28,834 --> 00:18:32,404
+我也是在很小时身体就残缺了.
+I suffered an early mutilation myself.
+
+287
+00:18:33,973 --> 00:18:36,575
+有些门对我来说永远关闭...
+Some doors close forever...
+
+288
+00:18:36,609 --> 00:18:40,247
+另外一些却意外地向我开启.
+Others open in the most unexpected places.
+
+289
+00:18:42,183 --> 00:18:43,951
+我可以坐下吗?
+May I?
+
+290
+00:18:48,190 --> 00:18:51,459
+如果我将要告诉你的事被别人听到,
+If the wrong ears heard what I'm about to tell you,
+
+291
+00:18:51,492 --> 00:18:53,627
+我可能会掉脑袋.
+off comes my head.
+
+292
+00:18:53,662 --> 00:18:56,297
+那时谁会为可怜的瓦里斯哀悼呢?
+And who would mourn poor Varys then?
+
+293
+00:18:56,331 --> 00:19:00,001
+天南地北, 没有人会为蜘蛛而歌唱啊.
+North or South, they sing no songs for spiders.
+
+294
+00:19:00,034 --> 00:19:02,569
+但有些事必须让你知道.
+But there are things you must know.
+
+295
+00:19:02,604 --> 00:19:05,673
+你是国王之手, 而国王是个蠢才--
+You are the King's Hand and the King is a fool--
+
+296
+00:19:05,706 --> 00:19:07,942
+我知道他是你的朋友, 但他确实是个蠢才--
+your friend, I know, but a fool--
+
+297
+00:19:07,975 --> 00:19:10,944
+注定要完蛋, 除非你能救他.
+and doomed unless you save him.
+
+298
+00:19:10,978 --> 00:19:13,279
+我到都城已经一个月了.
+I've been in the capital a month.
+
+299
+00:19:14,514 --> 00:19:17,249
+为什么你等到现在才告诉我这些?
+Why have you waited so long to tell me this?
+
+300
+00:19:17,283 --> 00:19:19,417
+因为我不信任你.
+I didn't trust you.
+
+301
+00:19:19,452 --> 00:19:21,786
+那现在你为什么又信任我?
+So why do you trust me now?
+
+302
+00:19:21,820 --> 00:19:24,021
+并非只有王后一个人
+The Queen is not the only one
+
+303
+00:19:24,056 --> 00:19:26,456
+在密切注视你的行动.
+who has been watching you closely.
+
+304
+00:19:26,491 --> 00:19:29,026
+在都城里注重荣誉的人屈指可数.
+There are few men of honor in the capital.
+
+305
+00:19:29,059 --> 00:19:30,726
+你是其中之一.
+You are one of them.
+
+306
+00:19:30,761 --> 00:19:32,796
+我认为我也是其中之一,
+I would like to believe I am another,
+
+307
+00:19:32,829 --> 00:19:34,798
+虽然也许令人难以置信.
+strange as that may seem.
+
+308
+00:19:34,831 --> 00:19:37,501
+国王面临怎样的危险?
+What sort of doom does the King face?
+
+309
+00:19:37,534 --> 00:19:40,503
+和琼恩艾林一样.
+The same sort as Jon Arryn.
+
+310
+00:19:41,740 --> 00:19:44,207
+<i>那东西叫里斯之泪.
+The tears of Lys, they call it.</i>
+
+311
+00:19:44,242 --> 00:19:46,844
+<i>非常罕见而昂贵,
+A rare and costly thing,</i>
+
+312
+00:19:46,878 --> 00:19:48,613
+味道清甜如水.
+as clear and tasteless as water.
+
+313
+00:19:48,646 --> 00:19:50,781
+不留一点痕迹.
+It leaves no trace.
+
+314
+00:19:59,694 --> 00:20:01,561
+是谁下的毒?
+Who gave it to him?
+
+315
+00:20:01,596 --> 00:20:04,499
+无疑是某个与他非常亲近的人. 但是哪一个呢?
+Some dear friend, no doubt. But which one?
+
+316
+00:20:04,532 --> 00:20:06,201
+可疑的对象太多了.
+There were many.
+
+317
+00:20:06,234 --> 00:20:08,936
+艾林大人是个和蔼可亲的人.
+Lord Arryn was a kind and trusting man.
+
+318
+00:20:08,971 --> 00:20:11,338
+确有这么个孩子.
+( Sighs ) There was one boy.
+
+319
+00:20:11,373 --> 00:20:14,040
+他的一切都是琼恩艾林给的.
+All he was he owed to Jon Arryn.
+
+320
+00:20:14,076 --> 00:20:16,877
+那个侍从, 修夫爵士?
+The squire, Ser Hugh?
+
+321
+00:20:19,048 --> 00:20:21,049
+可惜他死不逢时,
+Pity what happened to him,
+
+322
+00:20:21,084 --> 00:20:24,153
+本来他的前途一片光明.
+just when his life seemed to be going so nicely.
+
+323
+00:20:26,021 --> 00:20:28,690
+如果是修夫爵士下的毒--
+If Ser Hugh poisoned him--
+
+324
+00:20:28,723 --> 00:20:31,524
+那是谁指使修夫爵士的?
+who paid Ser Hugh?
+
+325
+00:20:32,894 --> 00:20:34,727
+某个出得起价钱的人.
+Someone who could afford it.
+
+326
+00:20:34,761 --> 00:20:37,130
+琼恩一向与人为善.
+Jon was a man of peace.
+
+327
+00:20:37,165 --> 00:20:39,132
+他当了十七年的首相--
+He was Hand for 17 years--
+
+328
+00:20:39,166 --> 00:20:41,300
+十七年的太平时光.
+17 good years.
+
+329
+00:20:41,336 --> 00:20:43,136
+为什么要杀他?
+Why kill him?
+
+330
+00:20:43,171 --> 00:20:47,573
+他问太多问题了.
+He started asking questions.
+
+331
+00:20:52,812 --> 00:20:54,647
+( Meows )
+
+332
+00:21:15,935 --> 00:21:18,771
+<i>他已经找到了一个私生子.
+Man's voice: He's found one bastard already.</i>
+
+333
+00:21:18,806 --> 00:21:20,940
+他还拿到了那本书.
+He has the book.
+
+334
+00:21:20,974 --> 00:21:22,975
+<i>他迟早会查出真相.
+- The rest will come. - ( Lock clicks )</i>
+
+335
+00:21:23,010 --> 00:21:25,578
+<i>等他查出真相, 他会怎么做?
+Man #2: And when he knows the truth, what will he do?</i>
+
+336
+00:21:25,613 --> 00:21:27,513
+<i>只有诸神知道.
+The gods alone know.</i>
+
+337
+00:21:27,548 --> 00:21:30,183
+那群蠢蛋想杀他儿子.
+The fools tried to kill his son.
+
+338
+00:21:30,216 --> 00:21:33,352
+更糟糕的是-- 他们搞砸了.
+What's worse-- they botched it.
+
+339
+00:21:35,822 --> 00:21:38,791
+狼和狮很快就会打成一团.
+The wolf and the lion will be at each other's throats.
+
+340
+00:21:38,827 --> 00:21:42,462
+<i>- 我们很快就要开战了, 朋友. - 现在开战有什么用?
+- We will be at war soon, my friend. - What good is war now?</i>
+
+341
+00:21:42,497 --> 00:21:44,298
+我们还没准备好.
+We're not ready.
+
+342
+00:21:44,331 --> 00:21:46,934
+既然死了一个首相, 为什么不能死第二个?
+If one Hand can die, why not a second?
+
+343
+00:21:46,967 --> 00:21:49,703
+这个首相和那个不同.
+This Hand is not the other.
+
+344
+00:21:49,738 --> 00:21:51,704
+<i>我们需要时间.
+We need time.</i>
+
+345
+00:21:51,740 --> 00:21:54,375
+卓戈卡奥是不会在他儿子诞生前就行动的.
+Khal Drogo will not make his move until his son is born.
+
+346
+00:21:54,408 --> 00:21:56,543
+你知道这些野蛮人的德行.
+You know how these savages are.
+
+347
+00:21:56,578 --> 00:22:00,248
+<i>你要我 "拖一下". 我可要你 "快一点".
+"Delay," you say. "Move fast," I reply.</i>
+
+348
+00:22:00,281 --> 00:22:03,584
+<i>这不再是一场两人游戏了.
+This is no longer a game for two players.</i>
+
+349
+00:22:03,618 --> 00:22:06,119
+<i>从来都不是.
+It never was.</i>
+
+350
+00:22:24,771 --> 00:22:28,375
+最先到场, 最后离开.
+The first to arrive and the last to leave.
+
+351
+00:22:29,944 --> 00:22:32,245
+我赞赏你的勤奋.
+I admire your industry.
+
+352
+00:22:32,280 --> 00:22:34,414
+你真是悄无声息.
+You do move quietly.
+
+353
+00:22:34,448 --> 00:22:37,349
+我们都有自己的特长.
+We all have our qualities.
+
+354
+00:22:38,786 --> 00:22:40,619
+今天你看起来有点孤单.
+You look a bit lonely today.
+
+355
+00:22:40,654 --> 00:22:42,922
+今晚你应该到我的妓院来逛逛.
+You should pay a visit to my brothel this evening.
+
+356
+00:22:42,955 --> 00:22:44,418
+认识下当家小生.
+First boy is on the house.
+
+357
+00:22:44,444 --> 00:22:46,590
+我想你是弄错了.
+I think you're mistaking business with pleasure.
+
+358
+00:22:46,792 --> 00:22:48,761
+是吗?
+Am I?
+
+359
+00:22:50,096 --> 00:22:52,397
+那些在你耳旁低语的小小鸟儿--
+All those birds that whisper in your ear--
+
+360
+00:22:52,432 --> 00:22:54,531
+漂亮的小东西.
+such pretty little things.
+
+361
+00:22:55,568 --> 00:22:58,034
+相信我,
+Trust me,
+
+362
+00:22:58,069 --> 00:23:00,870
+任何取向我们都能满足.
+we accommodate all inclinations.
+
+363
+00:23:00,905 --> 00:23:02,606
+哦, 我相信.
+Oh, I'm sure.
+
+364
+00:23:02,640 --> 00:23:05,809
+我听说雷德温大人喜欢很小的男孩.
+Lord Redwyne likes his boys very young, I hear.
+
+365
+00:23:05,842 --> 00:23:09,145
+<i>我重视美貌和见识--
+I'm a purveyor of beauty and discretion--</i>
+
+366
+00:23:09,180 --> 00:23:10,848
+两者同样重要.
+both equally important.
+
+367
+00:23:10,882 --> 00:23:14,618
+我想美貌是一种主观感受, 不是吗?
+Though I suppose beauty is a subjective quality, no?
+
+368
+00:23:14,653 --> 00:23:16,354
+是不是真的
+Is it true that
+
+369
+00:23:16,388 --> 00:23:19,691
+腾石的马隆爵士喜欢断肢者?
+Ser Marlon of Tumblestone prefers amputees?
+
+370
+00:23:19,725 --> 00:23:22,927
+人的喜好千奇百怪.
+All desires are valid to a man with a full purse.
+
+371
+00:23:22,963 --> 00:23:26,531
+我听说过最可怕的传言是有关一位领主
+And I heard the most awful rumor about a certain lord
+
+372
+00:23:26,567 --> 00:23:28,568
+喜欢新鲜的死尸.
+with a taste for fresh cadavers.
+
+373
+00:23:28,603 --> 00:23:32,973
+要满足这种喜好恐怕是相当困难.
+Must be enormously difficult to accommodate that inclination.
+
+374
+00:23:33,007 --> 00:23:34,907
+得有人专门--
+The logistics alone--
+
+375
+00:23:34,942 --> 00:23:38,310
+去找漂亮的尚未腐烂的尸体.
+to find beautiful corpses before they rot.
+
+376
+00:23:38,346 --> 00:23:40,313
+严格地说, 做这种事
+Strictly speaking, such a thing
+
+377
+00:23:40,348 --> 00:23:42,616
+违反国王的律法.
+would not be in accordance with the King's laws.
+
+378
+00:23:42,649 --> 00:23:45,217
+严格地说.
+Strictly speaking.
+
+379
+00:23:47,789 --> 00:23:50,322
+告诉我-- 是否有人在某处
+Tell me-- does someone somewhere
+
+380
+00:23:50,357 --> 00:23:53,893
+将你的卵蛋保存在一个小盒子里?
+keep your balls in a little box?
+
+381
+00:23:53,927 --> 00:23:56,361
+我常常感到好奇.
+I've often wondered.
+
+382
+00:23:57,697 --> 00:23:59,598
+你是否知道我不知道它们在哪里?
+Do you know I have no idea where they are?
+
+383
+00:23:59,633 --> 00:24:02,769
+我们曾经如此亲密
+- And we had been so close. - ( Chuckles )
+
+384
+00:24:02,802 --> 00:24:05,271
+不用再说我了. 再说说看
+But enough about me. How have you been
+
+385
+00:24:05,305 --> 00:24:07,272
+我们上次见面之后日子里你过得如何?
+since we last saw each other?
+
+386
+00:24:07,307 --> 00:24:10,076
+是你上次看到我之后还是我上次看到你之后?
+Since you last saw me or since I last saw you?
+
+387
+00:24:10,109 --> 00:24:11,648
+我上次看到你,
+Now the last time  I saw you,
+
+388
+00:24:11,674 --> 00:24:13,299
+你正在和国王之手谈话.
+you were talking to the Hand of the King.
+
+389
+00:24:13,480 --> 00:24:16,514
+- 你亲眼看到我? - 我亲眼看到.
+- Saw me with your own eyes? - Eyes I own.
+
+390
+00:24:16,549 --> 00:24:18,081
+是为国事.
+Council business.
+
+391
+00:24:18,116 --> 00:24:21,184
+我们都有很多事要和奈德史塔克谈.
+We all have so much to discuss with Ned Stark.
+
+392
+00:24:21,219 --> 00:24:24,221
+大家知道你一直都喜欢
+Everyone's well aware of your enduring fondness
+
+393
+00:24:24,254 --> 00:24:26,155
+史塔克大人的妻子.
+for Lord Stark's wife.
+
+394
+00:24:26,190 --> 00:24:30,159
+如果兰尼斯特家是谋杀史塔克家孩子的幕后主使
+If the Lannisters were behind the attempt on the Stark boy's life
+
+395
+00:24:30,194 --> 00:24:32,209
+而且如果有人说是你帮助
+and it was discovered that you helped
+
+396
+00:24:32,233 --> 00:24:34,354
+史塔克家得出这个结论...
+the Starks come to that conclusion...
+
+397
+00:24:36,033 --> 00:24:39,203
+如果王后听到了风声--
+To think a simple word to the Queen--
+
+398
+00:24:39,238 --> 00:24:41,740
+- 想想就令人发抖. - 哦.
+- one shudders at the thought. - Ooh.
+
+399
+00:24:41,774 --> 00:24:44,409
+<i>你知道吗? 我想我上次看到你
+But you know something? I do believe that I have seen you</i>
+
+400
+00:24:44,444 --> 00:24:46,311
+是在你上次看到我之后.
+even more recently than you have seen me.
+
+401
+00:24:46,346 --> 00:24:49,249
+- 是吗? - 是的.
+- Have you? - Yes.
+
+402
+00:24:49,282 --> 00:24:51,084
+今天稍早的时候, 我记得很清楚
+Earlier today, I distinctly recall
+
+403
+00:24:51,118 --> 00:24:53,520
+看到你在史塔克大人的房间里和他谈话.
+seeing you talking to Lord Stark in his chambers.
+
+404
+00:24:53,553 --> 00:24:55,755
+当时你在床底下?
+Was that you under the bed?
+
+405
+00:24:55,790 --> 00:24:57,657
+而在那之后不久
+And not long after that
+
+406
+00:24:57,692 --> 00:25:00,661
+我又看到你陪同一位
+when I saw you escorting a certain
+
+407
+00:25:00,694 --> 00:25:03,363
+<i>远道而来的贵客...
+foreign dignitary...</i>
+
+408
+00:25:03,396 --> 00:25:05,999
+为了国事?
+Council business?
+
+409
+00:25:06,033 --> 00:25:09,603
+当然你可以有住在峡海对岸的朋友.
+Of course you would have friends from across the Narrow Sea.
+
+410
+00:25:09,636 --> 00:25:12,138
+毕竟你本人就是从那边过来的.
+You're from there yourself, after all.
+
+411
+00:25:12,173 --> 00:25:15,509
+我们是朋友, 对吧, 瓦里斯大人?
+We're friends, aren't we, Lord Varys?
+
+412
+00:25:15,543 --> 00:25:17,712
+但愿我们是.
+I'd like to think we are.
+
+413
+00:25:17,745 --> 00:25:20,115
+那么你可以想象我所承受的压力,
+So you can imagine my burden,
+
+414
+00:25:20,148 --> 00:25:24,019
+恐怕国王会因我对朋友的同情而怀疑我.
+wondering if the King might question my friend's sympathies.
+
+415
+00:25:24,052 --> 00:25:28,089
+身处两难境地, 向左是忠于朋友,
+To stand at a crossroads where turning left means loyalty to a friend,
+
+416
+00:25:28,124 --> 00:25:29,991
+向右是忠于国家--
+turning right loyalty to the realm--
+
+417
+00:25:30,026 --> 00:25:32,159
+- 哦, 拜托你. - 我自己的处境
+- Oh, please. - To find myself in a position
+
+418
+00:25:32,194 --> 00:25:34,462
+<i>只要国王听说一个字--
+- where a simple word to the King-- - ( Door opens )</i>
+
+419
+00:25:34,495 --> 00:25:36,530
+你们两个在策划什么阴谋?
+What are you two conspiring about?
+
+420
+00:25:36,565 --> 00:25:40,135
+嗯, 不管是什么, 最好快一点.
+Well, whatever it is, you'd best hurry up.
+
+421
+00:25:40,169 --> 00:25:41,703
+我兄弟要来了.
+My brother is coming.
+
+422
+00:25:41,738 --> 00:25:43,405
+参加御前会议?
+To a small council meeting?
+
+423
+00:25:43,438 --> 00:25:46,441
+来自远方令人不安的消息.
+Disturbing news from far away.
+
+424
+00:25:47,443 --> 00:25:49,077
+你听说了吗?
+Haven't you heard?
+
+425
+00:25:50,812 --> 00:25:53,115
+<i>( Birds cawing, waves breaking )</i>
+
+426
+00:26:18,944 --> 00:26:21,011
+你快滚开. 这里不准乞讨.
+Off with you. No begging.
+
+427
+00:26:21,047 --> 00:26:22,848
+我不是乞丐. 我住这里.
+I'm not a beggar. I live here.
+
+428
+00:26:22,882 --> 00:26:25,283
+你是要我赏你两个耳刮子才听得懂?
+D'you want a smack on your ear to help you with your hearing?
+
+429
+00:26:25,318 --> 00:26:27,219
+我要找我父亲.
+I want to see my father.
+
+430
+00:26:27,253 --> 00:26:29,988
+我还要搞王后咧, 那一定很爽.
+I want to fuck the Queen, for all the good it does me.
+
+431
+00:26:30,022 --> 00:26:31,856
+你想找你父亲, 小子?
+You want your father, boy?
+
+432
+00:26:31,890 --> 00:26:34,058
+他躺在某家酒馆的地板上,
+He's lying on the floor of some tavern,
+
+433
+00:26:34,092 --> 00:26:36,159
+别人正朝他撒尿呢.
+getting pissed on by his friends.
+
+434
+00:26:36,194 --> 00:26:37,895
+我父亲是国王之手!
+My father is Hand of the King!
+
+435
+00:26:37,930 --> 00:26:41,232
+我不是小子. 我是临冬城的艾莉亚史塔克
+I'm not a boy. I'm Arya Stark of Winterfell
+
+436
+00:26:41,265 --> 00:26:42,860
+如果你们敢碰我一下, 我父亲
+and if you lay a hand on me, my father
+
+437
+00:26:42,886 --> 00:26:44,425
+会把你们俩的头砍下来插在枪尖上.
+will have both your heads on spikes.
+
+438
+00:26:44,802 --> 00:26:47,271
+现在你是让我过去, 还是要我赏你
+Now are you going to let me by or do I need to smack you
+
+439
+00:26:47,305 --> 00:26:49,772
+两个耳刮子才听得懂?
+on the ear to help with your hearing?
+
+440
+00:26:51,909 --> 00:26:55,146
+你知不知道我派出一半的卫士去找你?
+You know I had half my guard out searching for you?
+
+441
+00:26:58,350 --> 00:27:00,117
+你要向我保证以后不再乱跑了.
+You promised me this would stop.
+
+442
+00:27:00,153 --> 00:27:01,787
+他们说他们要杀你.
+They said they were going to kill you.
+
+443
+00:27:01,821 --> 00:27:04,290
+- 谁说的? - 我没看清楚,
+- Who did? - I didn't see them,
+
+444
+00:27:04,325 --> 00:27:06,592
+- 但有一个是胖子. - 哦, 艾莉亚.
+- but I think one was fat. - Oh, Arya. ( Sighs )
+
+445
+00:27:06,627 --> 00:27:09,363
+我没说谎! 他们说你找到了私生子
+I'm not lying! They said you found the bastard
+
+446
+00:27:09,396 --> 00:27:12,366
+还有狼和狮将打成一团--
+and the wolves are fighting the lions and the savage--
+
+447
+00:27:12,399 --> 00:27:14,067
+好象还有什么野蛮人.
+something about the savage.
+
+448
+00:27:14,101 --> 00:27:16,469
+- 你在哪儿听到的? - 在地下城,
+- Where did you hear this? - In the dungeons,
+
+449
+00:27:16,502 --> 00:27:17,907
+在龙的头骨附近.
+near the dragon skulls.
+
+450
+00:27:17,933 --> 00:27:19,268
+你去地下城干什么?
+What were you doing in the dungeons?
+
+451
+00:27:21,008 --> 00:27:23,108
+抓一只猫.
+Chasing a cat.
+
+452
+00:27:23,143 --> 00:27:25,511
+<i>( Knocks, door opens )</i>
+
+453
+00:27:25,546 --> 00:27:26,878
+抱歉, 大人.
+Pardon, My Lord.
+
+454
+00:27:26,914 --> 00:27:29,048
+<i>有个守夜人想要见你.
+There's a night's watchman here begging a word.</i>
+
+455
+00:27:29,081 --> 00:27:30,382
+<i>他说有要紧事.
+He says it's urgent.</i>
+
+456
+00:27:37,322 --> 00:27:41,259
+- 你叫什么, 朋友? - 尤伦, 打扰您了.
+- Your name, friend? - Yoren, if it please.
+
+457
+00:27:41,292 --> 00:27:43,136
+这一定是您的公子. 长得跟您真像.
+This must be your son. He has the look.
+
+458
+00:27:43,161 --> 00:27:44,261
+我是女孩!
+I'm a girl!
+
+459
+00:27:44,279 --> 00:27:45,745
+是班扬派你来的么?
+Did Benjen send you?
+
+460
+00:27:45,762 --> 00:27:47,597
+不是的, 大人.
+No one sent me, My Lord.
+
+461
+00:27:47,630 --> 00:27:49,866
+我是来寻找守长城的人手,
+I'm here to find men for the Wall,
+
+462
+00:27:49,899 --> 00:27:51,662
+看看这边地牢里有没等待发落的人渣
+see if there's any scum in the dungeons
+
+463
+00:27:51,686 --> 00:27:52,886
+或许能在长城派上用场.
+that might be fit for service.
+
+464
+00:27:52,971 --> 00:27:55,204
+哦, 我们会帮你征召新兵.
+Oh, we'll find recruits for you.
+
+465
+00:27:55,239 --> 00:27:56,705
+谢谢您, 大人.
+Thank you, My Lord.
+
+466
+00:27:56,741 --> 00:27:59,209
+但我来找您不是为了这个.
+But that's not why I disturb you now.
+
+467
+00:28:00,444 --> 00:28:03,146
+您的兄弟班扬是黑衣军的一员--
+Your brother Benjen, his blood runs black--
+
+468
+00:28:03,181 --> 00:28:05,249
+我和您一样是他的兄弟.
+makes him as much my brother as yours.
+
+469
+00:28:05,282 --> 00:28:08,219
+我正是为了他才飞速赶来
+It's for his sake I rode here so hard
+
+470
+00:28:08,252 --> 00:28:10,855
+<i>差点把我的马都给累死了.
+I damn near killed my horse.</i>
+
+471
+00:28:10,888 --> 00:28:12,589
+还有其他人也在飞速赶路.
+There are others riding too.
+
+472
+00:28:12,624 --> 00:28:14,693
+明天全城都会知道了.
+The whole city will know by tomorrow.
+
+473
+00:28:14,726 --> 00:28:16,427
+知道什么?
+Know what?
+
+474
+00:28:17,931 --> 00:28:20,566
+这事最好私下谈, 大人.
+Best said in private, My Lord.
+
+475
+00:28:25,807 --> 00:28:29,077
+走吧. 我们等会再谈.
+Go on. We'll talk more later.
+
+476
+00:28:29,110 --> 00:28:31,712
+乔里, 带她回房间.
+Jory, take her safely to her room.
+
+477
+00:28:31,746 --> 00:28:34,882
+走吧, 小姐. 您听见您父亲的吩咐了.
+Come along, My Lady. You heard your father.
+
+478
+00:28:40,387 --> 00:28:42,321
+我父亲有多少守卫?
+How many guards does my father have?
+
+479
+00:28:42,357 --> 00:28:44,558
+在君临这儿吗? 有五十个.
+Here in King's Landing? 50.
+
+480
+00:28:45,793 --> 00:28:47,961
+你不会让任何人有机会杀他, 对不对?
+You wouldn't let anyone kill him, would you?
+
+481
+00:28:47,995 --> 00:28:51,231
+您不必担心这个, 小姐.
+No fear on that count, little lady.
+
+482
+00:28:55,602 --> 00:28:58,872
+- 怎么? - 是关于您夫人的, 大人.
+- Well? - It's about your wife, My Lord.
+
+483
+00:29:00,474 --> 00:29:02,309
+她抓了小恶魔.
+She's taken the Imp.
+
+484
+00:29:13,120 --> 00:29:14,954
+( Neighs )
+
+485
+00:29:19,359 --> 00:29:21,394
+欢迎您远道而来, 史塔克夫人.
+You're far from home, Lady Stark.
+
+486
+00:29:21,427 --> 00:29:23,162
+请问您是谁?
+To whom do I speak?
+
+487
+00:29:23,196 --> 00:29:25,197
+瓦狄斯伊根, 艾林谷的骑士.
+Ser Vardis Egan, knight of the Vale.
+
+488
+00:29:25,232 --> 00:29:27,200
+艾林夫人知道您来访吗?
+Is Lady Arryn expecting your visit?
+
+489
+00:29:27,233 --> 00:29:29,501
+我们事先来不及通知.
+There was no time to send word.
+
+490
+00:29:29,536 --> 00:29:31,736
+冒昧问一句, 夫人,
+May I ask, My Lady,
+
+491
+00:29:31,771 --> 00:29:34,473
+<i>他怎么会和您在一起?
+why he is with you?</i>
+
+492
+00:29:34,508 --> 00:29:36,541
+正是为了他的事.
+That's why there was no time.
+
+493
+00:29:36,576 --> 00:29:39,477
+- 他是我的俘虏. - 他看起来不象个俘虏.
+- He is my prisoner. - He doesn't look like a prisoner.
+
+494
+00:29:39,511 --> 00:29:42,815
+<i>我妹妹会决定怎么对待他.
+My sister will decide what he looks like.</i>
+
+495
+00:29:42,848 --> 00:29:44,983
+是, 夫人.
+Yes, My Lady.
+
+496
+00:29:45,018 --> 00:29:47,220
+她在家里.
+She will at that.
+
+497
+00:29:53,092 --> 00:29:56,694
+鹰巢城. 据说它是无法攻破的.
+The Eyrie. They say it's impregnable.
+
+498
+00:29:57,997 --> 00:30:00,030
+给我十个勇士和几柄长枪--
+Give me 10 good men and some climbing spikes--
+
+499
+00:30:00,066 --> 00:30:01,933
+我保证搞定那个婊子.
+I'll impregnate the bitch.
+
+500
+00:30:03,402 --> 00:30:05,536
+我喜欢你.
+Tyrion: I like you.
+
+501
+00:30:15,078 --> 00:30:17,312
+史塔克大人, 请您前往
+Lord Stark, your presence has been requested
+
+502
+00:30:17,348 --> 00:30:19,714
+御前会议厅出席紧急会议.
+in the small council chamber. A meeting has been called.
+
+503
+00:30:19,750 --> 00:30:21,916
+我需要先单独面见国王.
+I need to see the King first-- alone.
+
+504
+00:30:21,951 --> 00:30:24,386
+国王已经在会议厅了, 大人.
+The King is at the small council meeting, My Lord.
+
+505
+00:30:24,419 --> 00:30:26,154
+他正召你前去.
+He has summoned you.
+
+506
+00:30:26,187 --> 00:30:29,357
+- 是关于我妻子的事吗? - 不是, 大人.
+- Is it about my wife? - No, My Lord.
+
+507
+00:30:29,392 --> 00:30:32,328
+我想是有关丹妮莉丝坦格利安的事.
+I believe it concerns Daenerys Targaryen.
+
+508
+00:30:32,361 --> 00:30:34,730
+那贱货怀孕了.
+The whore is pregnant.
+
+509
+00:30:34,764 --> 00:30:37,700
+- 你在谈论谋杀一个婴儿. - 我警告过你
+- You're speaking of murdering a child. - I warned you
+
+510
+00:30:37,734 --> 00:30:40,203
+会发生这种事. 还在北境时我就警告过你,
+this would happen. Back in the North, I warned you,
+
+511
+00:30:40,238 --> 00:30:41,838
+但你却充耳不闻.
+but you didn't care to hear.
+
+512
+00:30:41,873 --> 00:30:44,475
+好吧, 现在你听清楚.
+Well, hear it now.
+
+513
+00:30:44,510 --> 00:30:47,780
+我要他们死, 母子两个一起死.
+I want 'em dead, mother and child both.
+
+514
+00:30:47,813 --> 00:30:49,948
+<i>外加那个笨蛋韦赛里斯.
+And that fool Viserys as well.</i>
+
+515
+00:30:49,982 --> 00:30:52,017
+这样说够明白了吧?
+Is that plain enough for you?
+
+516
+00:30:52,050 --> 00:30:53,652
+<i>我要他们一起死.
+I want them both dead.</i>
+
+517
+00:30:53,685 --> 00:30:56,221
+你这样做会永远失去荣誉.
+You will dishonor yourself forever if you do this.
+
+518
+00:30:56,255 --> 00:30:57,255
+荣誉?!
+Honor?!
+
+519
+00:30:57,290 --> 00:30:59,957
+我需要统治七大王国!
+I've got Seven Kingdoms to rule!
+
+520
+00:30:59,992 --> 00:31:02,761
+一个国王, 七个王国.
+One King, Seven Kingdoms.
+
+521
+00:31:02,794 --> 00:31:05,230
+你以为靠荣誉能统治七国吗?
+Do you think honor keeps them in line?
+
+522
+00:31:05,263 --> 00:31:07,698
+你以为靠荣誉能保持和平吗?
+Do you think it's honor that's keeping the peace?
+
+523
+00:31:07,733 --> 00:31:10,335
+是恐惧-- 恐惧和鲜血.
+It's fear-- fear and blood.
+
+524
+00:31:10,368 --> 00:31:12,069
+那我们和疯王还有什么区别.
+Then we're no better than the Mad King.
+
+525
+00:31:12,104 --> 00:31:14,105
+小心, 奈德. 你小心点.
+Careful, Ned. Careful now.
+
+526
+00:31:14,138 --> 00:31:16,107
+你要刺杀一个女孩子
+You want to assassinate a girl
+
+527
+00:31:16,140 --> 00:31:18,175
+仅仅因为八爪蜘蛛听到一个谣言?
+because the Spider heard a rumor?
+
+528
+00:31:18,210 --> 00:31:21,111
+不是谣言, 大人. 前朝公主确实怀孕了.
+No rumor, My Lord. The princess is with child.
+
+529
+00:31:21,146 --> 00:31:22,913
+消息的来源呢?
+Based on whose information?
+
+530
+00:31:22,946 --> 00:31:24,280
+乔拉莫尔蒙爵士.
+Ser Jorah Mormont.
+
+531
+00:31:24,305 --> 00:31:26,592
+他现在为坦格利安家族效力.
+He is serving as advisor to the Targaryens.
+
+532
+00:31:26,917 --> 00:31:29,051
+莫尔蒙? 你这消息来源于
+Mormont? You bring us the whispers
+
+533
+00:31:29,086 --> 00:31:32,789
+千里之外的一个叛徒, 能可靠吗?
+of a traitor half a world away and call it fact?
+
+534
+00:31:32,823 --> 00:31:35,858
+乔拉莫尔蒙是个奴隶贩子, 但不是叛徒.
+Jorah Mormont's a slaver, not a traitor.
+
+535
+00:31:35,894 --> 00:31:38,296
+我知道对重视荣誉的人来说区别不大.
+Small difference, I know, to an honorable man.
+
+536
+00:31:38,329 --> 00:31:40,999
+他违犯了律法, 背叛了家族, 逃离了祖国.
+He broke the law, betrayed his family, fled our land.
+
+537
+00:31:41,032 --> 00:31:43,903
+我们要听信这种人的消息去行刺?
+We commit murder on the word of this man?
+
+538
+00:31:43,936 --> 00:31:45,905
+<i>如果他是对的呢?
+Robert: And if he's right?</i>
+
+539
+00:31:45,938 --> 00:31:47,973
+如果她生下一个儿子呢?
+If she has a son?
+
+540
+00:31:48,008 --> 00:31:51,143
+一个坦格利安率领一支多斯拉克大军...
+A Targaryen at the head of a Dothraki army...
+
+541
+00:31:51,177 --> 00:31:54,847
+<i>- 那怎么办? - 狭海依旧隔在中间.
+- What then? - The Narrow Sea still lies between us.</i>
+
+542
+00:31:54,882 --> 00:31:57,015
+我才不担心多斯拉克人
+I'll fear the Dothraki
+
+543
+00:31:57,050 --> 00:31:59,484
+除非他们能教会他们的马在水上走路.
+the day they teach their horses to run on water.
+
+544
+00:31:59,519 --> 00:32:01,619
+什么也别做?
+Do nothing?
+
+545
+00:32:01,655 --> 00:32:03,822
+这就是你睿智的建议?
+That's your wise advice?
+
+546
+00:32:03,857 --> 00:32:06,959
+等我们的敌人登陆了再说?
+Do nothing till our enemies are on our shores?
+
+547
+00:32:06,992 --> 00:32:09,828
+你们都是我的重臣!
+You're my council. Counsel!
+
+548
+00:32:09,863 --> 00:32:13,697
+来跟这满脑子荣誉的傻瓜讲讲道理.
+Speak sense to this honorable fool.
+
+549
+00:32:13,732 --> 00:32:17,734
+我了解您的顾虑, 大人.
+I understand your misgivings, My Lord.
+
+550
+00:32:17,770 --> 00:32:20,437
+我实话实说. 我们讨论的是件可怕的事
+Truly, I do. It is a terrible thing
+
+551
+00:32:20,472 --> 00:32:22,539
+是件卑鄙的事.
+we must consider, a vile thing.
+
+552
+00:32:22,573 --> 00:32:25,808
+然而我们这些冒昧为政的人有时必须
+Yet we who presume to rule must sometimes
+
+553
+00:32:25,842 --> 00:32:29,377
+为了国家的福祉做一些卑鄙的事.
+do vile things for the good of the realm.
+
+554
+00:32:29,413 --> 00:32:32,615
+倘若诸神真给了丹妮莉丝一个儿子,
+Should the gods grant Daenerys a son,
+
+555
+00:32:32,648 --> 00:32:34,383
+整个国家将血流成河.
+the realm will bleed.
+
+556
+00:32:34,417 --> 00:32:36,719
+我对这个女孩毫无恶感,
+I bear this girl no ill will,
+
+557
+00:32:36,752 --> 00:32:38,820
+<i>但是倘若多斯拉克人真的入侵,
+but should the Dothraki invade,</i>
+
+558
+00:32:38,855 --> 00:32:40,723
+会有多少无辜百姓死于非命?
+how many innocents will die?
+
+559
+00:32:40,757 --> 00:32:42,791
+会有多少繁华城镇付之一炬?
+How many towns will burn?
+
+560
+00:32:42,826 --> 00:32:46,028
+那么比较明智甚或比较仁慈的做法,
+Is it not wiser, kinder even,
+
+561
+00:32:46,061 --> 00:32:48,463
+会不会是让她现在死去
+that she should die now
+
+562
+00:32:48,498 --> 00:32:51,867
+以使万千生灵能平安地活下去呢?
+so that tens of thousands might live?
+
+563
+00:32:51,901 --> 00:32:54,403
+我们多年以前就该杀掉他们俩了.
+We should have had them both killed years ago.
+
+564
+00:32:54,436 --> 00:32:56,870
+当你发现跟自己上床的原来是个丑女,
+When you find yourself in bed with an ugly woman,
+
+565
+00:32:56,905 --> 00:33:00,241
+<i>最好的做法就是闭上眼睛赶紧办事.
+best close your eyes, get it over with.</i>
+
+566
+00:33:00,276 --> 00:33:03,677
+杀了她. 越快越好.
+Cut her throat. Be done with it.
+
+567
+00:33:09,584 --> 00:33:12,453
+我跟随你冲锋陷阵--
+I followed you into war--
+
+568
+00:33:12,486 --> 00:33:14,488
+进行过两场战争,
+twice,
+
+569
+00:33:14,522 --> 00:33:16,758
+从不怀疑,
+without doubts,
+
+570
+00:33:16,792 --> 00:33:18,726
+从无顾虑.
+without second thoughts.
+
+571
+00:33:18,761 --> 00:33:22,365
+但这次我不能跟随你.
+But I will not follow you now.
+
+572
+00:33:22,398 --> 00:33:24,767
+和我一起长大的劳勃
+The Robert I grew up with
+
+573
+00:33:24,801 --> 00:33:28,370
+绝不会在一个尚未出生的孩子的阴影下颤抖.
+didn't tremble at the shadow of an unborn child.
+
+574
+00:33:30,340 --> 00:33:32,242
+那么刺杀她的计划.
+She dies.
+
+575
+00:33:33,411 --> 00:33:35,511
+我绝对不会参与.
+I will have no part in it.
+
+576
+00:33:35,546 --> 00:33:37,813
+你是国王之手, 史塔克大人.
+You're the King's Hand, Lord Stark.
+
+577
+00:33:37,848 --> 00:33:41,517
+你必须听我命令, 否则我就另请高明.
+You'll do as I command or I'll find me a hand who will.
+
+578
+00:33:49,692 --> 00:33:51,526
+那我祝他胜任愉快.
+And good luck to him.
+
+579
+00:33:52,595 --> 00:33:54,128
+我本以为你会比疯王强.
+I thought you were a better man.
+
+580
+00:33:54,163 --> 00:33:56,432
+滚. 滚, 去你的吧.
+Out. Out, damn you.
+
+581
+00:33:56,465 --> 00:33:59,101
+我受够你了.
+I'm done with you.
+
+582
+00:33:59,136 --> 00:34:02,105
+快滚回临冬城去!
+Go, run back to Winterfell!
+
+583
+00:34:02,139 --> 00:34:04,943
+否则我会把你的头砍下来插在抢尖上!
+I'll have your head on a spike!
+
+584
+00:34:06,278 --> 00:34:09,214
+<i>我自己来, 你这傻瓜!
+Robert: I'll put it there myself, you fool!</i>
+
+585
+00:34:09,247 --> 00:34:12,752
+<i>你认为你太善良了? 太骄傲太荣誉了?
+You think you're too good for this? Too proud and honorable?</i>
+
+586
+00:34:12,785 --> 00:34:14,553
+<i>这是一场战争!
+This is a war!</i>
+
+587
+00:34:16,722 --> 00:34:18,557
+我要带我女儿们一起走.
+I'll go ahead with my daughters.
+
+588
+00:34:18,591 --> 00:34:20,160
+让她们准备好. 你去安排.
+Get them ready. Do it yourself.
+
+589
+00:34:20,193 --> 00:34:22,629
+- 别向任何人透露. - 好的, 大人.
+- Don't ask anyone for help. - Right away, My Lord.
+
+590
+00:34:22,664 --> 00:34:24,798
+贝里席大人想见您.
+Lord Baelish is here for you.
+
+591
+00:34:26,935 --> 00:34:29,236
+陛下他后来还接着骂了一通
+His Grace went on about you at some length
+
+592
+00:34:29,271 --> 00:34:31,506
+在你离开之后.
+after you took your leave.
+
+593
+00:34:31,539 --> 00:34:33,475
+其中还出现了 "背叛" 这样的字眼.
+The word "treason" was mentioned.
+
+594
+00:34:34,743 --> 00:34:36,211
+你有什么事?
+What can I do for you?
+
+595
+00:34:36,245 --> 00:34:38,011
+您打算何时回临冬城?
+When do you return to Winterfell?
+
+596
+00:34:38,046 --> 00:34:39,354
+怎么? 这与你何干?
+Why? What do you care?
+
+597
+00:34:39,379 --> 00:34:41,064
+如果您明天傍晚还在这儿,
+If you're still here come nightfall,
+
+598
+00:34:41,249 --> 00:34:42,984
+我想带您去见见琼恩艾林...
+I'll take you to see the last person Jon Arryn
+
+599
+00:34:43,010 --> 00:34:44,510
+病倒前找过的最后一个人.
+spoke with before falling ill.
+
+600
+00:34:44,618 --> 00:34:47,687
+如果您对此仍有兴趣得话.
+If that sort of thing still interests you.
+
+601
+00:34:48,589 --> 00:34:50,290
+我没时间.
+I don't have the time.
+
+602
+00:34:50,325 --> 00:34:52,959
+花不了一个小时的. 你决定吧.
+It won't take more than an hour. But as you please.
+
+603
+00:34:58,899 --> 00:35:00,062
+把我们的所有人都找齐
+Round up all the men we have
+
+604
+00:35:00,088 --> 00:35:01,640
+布置在女孩房间外面.
+and station them outside the girls' chambers.
+
+605
+00:35:02,169 --> 00:35:05,738
+- 你手下最好的两个剑士是谁? - 海华和韦尔.
+- Who are your best two swords? - Heward and Wyl.
+
+606
+00:35:05,772 --> 00:35:08,473
+让他们到马房找我.
+Find them and meet me at the stables.
+
+607
+00:35:13,847 --> 00:35:16,381
+你未经许可把他带到这里来?
+You bring him here without permission?
+
+608
+00:35:16,417 --> 00:35:19,452
+<i>让他弄脏我的家?
+You pollute my home with his presence?</i>
+
+609
+00:35:19,486 --> 00:35:22,289
+( Suckling )
+
+610
+00:35:22,323 --> 00:35:24,258
+你的姨妈做了一件坏事, 罗宾,
+Your aunt has done a bad thing, Robin,
+
+611
+00:35:24,292 --> 00:35:26,093
+一件非常坏的事.
+a very bad thing.
+
+612
+00:35:26,127 --> 00:35:28,597
+你还记得她, 是吧?
+You remember her, don't you?
+
+613
+00:35:29,899 --> 00:35:31,801
+<i>他漂亮吧?
+Isn't he beautiful?</i>
+
+614
+00:35:31,834 --> 00:35:34,604
+也很强壮. 琼恩很清楚.
+And strong too. Jon knew it.
+
+615
+00:35:34,638 --> 00:35:37,673
+他的临终遗言就是 "种姓强韧."
+His last words were "the seed is strong."
+
+616
+00:35:37,707 --> 00:35:39,207
+他要大家都知道
+He wanted everyone to know
+
+617
+00:35:39,242 --> 00:35:42,510
+<i>他儿子长大后会是个强壮的男子汉.
+what a good, strong boy his son would grow up to be.</i>
+
+618
+00:35:42,546 --> 00:35:46,448
+看看他, 全艾林谷的领主.
+Look at him, the Lord of all the Vale.
+
+619
+00:35:46,482 --> 00:35:48,216
+莱莎,
+Lysa,
+
+620
+00:35:48,252 --> 00:35:51,321
+是你写信告诉我关于兰尼斯特家的事,
+you wrote me about the Lannisters,
+
+621
+00:35:51,354 --> 00:35:54,189
+- 警告我-- - 我是叫你离他们远点!
+- warning me-- - To stay away from them!
+
+622
+00:35:54,223 --> 00:35:57,193
+而不是带他们来这里!
+Not to bring one here!
+
+623
+00:35:57,227 --> 00:35:59,328
+妈咪?
+Mommy?
+
+624
+00:35:59,363 --> 00:36:02,031
+<i>- 他就是那个坏人吗? - 是的.
+- Is that the bad man? - It is.</i>
+
+625
+00:36:02,066 --> 00:36:04,066
+( Creepy laugh )
+
+626
+00:36:04,100 --> 00:36:06,870
+他好小呀.
+He's little.
+
+627
+00:36:06,903 --> 00:36:09,406
+<i>他是兰尼斯特家的小恶魔提利昂.
+Lysa: He's Tyrion the imp of house Lannister.</i>
+
+628
+00:36:10,408 --> 00:36:11,774
+害死你父亲的就是他.
+He killed your father.
+
+629
+00:36:11,809 --> 00:36:13,510
+就是他谋杀了国王之手!
+He murdered the Hand of the King!
+
+630
+00:36:13,544 --> 00:36:15,879
+哦, 他也是我杀的?
+Oh, did I kill him too?
+
+631
+00:36:15,912 --> 00:36:17,747
+<i>我还真是个忙碌的家伙.
+I've been a very busy man.</i>
+
+632
+00:36:17,781 --> 00:36:20,450
+你最好管紧你的舌头!
+You will watch your tongue!
+
+633
+00:36:20,484 --> 00:36:23,220
+这些都是艾林谷的骑士.
+These men are knights of the Vale.
+
+634
+00:36:23,254 --> 00:36:26,089
+个个都对琼恩艾林敬爱有加.
+Every one of them loved Jon Arryn.
+
+635
+00:36:26,124 --> 00:36:27,790
+个个都愿意为我牺牲性命.
+Every one of them would die for me.
+
+636
+00:36:27,825 --> 00:36:29,229
+要是我有什么不测,
+If any harm comes to me,
+
+637
+00:36:29,254 --> 00:36:31,403
+我老哥詹姆很乐意料理他们.
+my brother Jaime will see that they do.
+
+638
+00:36:31,528 --> 00:36:32,602
+你不能伤害我们.
+You can't hurt us.
+
+639
+00:36:32,627 --> 00:36:34,260
+没人能在这里伤害我们. 告诉他, 妈咪!
+No one can hurt us here. Tell him, mommy!
+
+640
+00:36:34,531 --> 00:36:38,368
+- 告诉他! - 嘘, 我亲爱的孩子.
+- Tell him! - Shh shh shh, my sweet boy.
+
+641
+00:36:38,403 --> 00:36:40,903
+他只是想吓唬我们.
+He's just trying to frighten us.
+
+642
+00:36:40,937 --> 00:36:42,772
+兰尼斯特家的人全都是骗子.
+Lannisters are all liars.
+
+643
+00:36:42,807 --> 00:36:45,776
+<i>谁也别想伤害我的宝贝.
+No one will hurt my baby.</i>
+
+644
+00:36:45,810 --> 00:36:48,312
+<i>妈咪...
+Mommy...</i>
+
+645
+00:36:48,345 --> 00:36:51,214
+我想看那个坏人飞.
+I want to see the bad man fly.
+
+646
+00:36:52,484 --> 00:36:54,285
+也许会的, 我的小宝贝.
+Perhaps you will, my little love.
+
+647
+00:36:54,319 --> 00:36:56,453
+<i>这个人是我的俘虏.
+This man is my prisoner.</i>
+
+648
+00:36:56,488 --> 00:36:59,490
+<i>我不能任他受到伤害.
+I will not have him harmed.</i>
+
+649
+00:37:01,528 --> 00:37:03,062
+瓦狄斯爵士,
+Ser Vardis,
+
+650
+00:37:03,095 --> 00:37:05,932
+<i>我姐姐的小客人累了.
+my sister's guest is weary.</i>
+
+651
+00:37:05,966 --> 00:37:08,801
+<i>带他下去休息.
+Take him down below so he can rest.</i>
+
+652
+00:37:08,836 --> 00:37:12,037
+把他介绍给莫德.
+Introduce him to Mord.
+
+653
+00:37:14,207 --> 00:37:15,640
+你去睡觉吧, 侏儒.
+You go sleep, dwarf man.
+
+654
+00:37:15,675 --> 00:37:18,776
+好好睡觉, 小侏儒!
+( Laughing ) Sleep good, little dwarf man!
+
+655
+00:37:21,613 --> 00:37:24,082
+( Slams, lock clanks )
+
+656
+00:37:32,292 --> 00:37:34,961
+( Wind gusting )
+
+657
+00:37:54,113 --> 00:37:56,613
+史塔克能保住脑袋算是万幸.
+Lord Stark's lucky he still has a head.
+
+658
+00:37:56,649 --> 00:37:59,551
+劳勃会发上几天的火, 但他不会做什么.
+Robert will rant for a few days, but he won't do anything.
+
+659
+00:37:59,584 --> 00:38:01,118
+他喜欢这个人.
+He adores the man.
+
+660
+00:38:01,153 --> 00:38:02,921
+你嫉妒了.
+( Surprised ) You're jealous.
+
+661
+00:38:02,955 --> 00:38:05,189
+你确信这不会受伤吗?
+Are you sure this won't hurt?
+
+662
+00:38:05,222 --> 00:38:08,492
+<i>除非我手滑.
+- Only if I slip. - ( Scraping )</i>
+
+663
+00:38:10,595 --> 00:38:13,396
+- 你喜欢我这个样子? - 嗯.
+- And you'd prefer me like this? - Mm-hmm.
+
+664
+00:38:13,430 --> 00:38:16,231
+如果你想要没毛的, 也许应该找个小男孩.
+If you want hairless, maybe you should find a little boy.
+
+665
+00:38:16,265 --> 00:38:18,033
+我想要的是你.
+I want you.
+
+666
+00:38:19,702 --> 00:38:22,903
+我兄弟觉得任何没上过战场的人都不算男人.
+My brother thinks that anyone who hasn't been to war isn't a man.
+
+667
+00:38:22,939 --> 00:38:25,673
+他对待我好象我是个被宠坏的孩子.
+He treats me as if I'm a spoiled child.
+
+668
+00:38:26,675 --> 00:38:28,776
+哦, 你不是吗?
+Oh, and you're not?
+
+669
+00:38:28,810 --> 00:38:32,146
+洛拉斯提利尔, 百花骑士?
+Loras Tyrell, the knight of the flowers?
+
+670
+00:38:32,180 --> 00:38:34,347
+你参加过几场战争?
+How many wars have you fought in?
+
+671
+00:38:34,381 --> 00:38:37,852
+哦, 你父亲为你这套盔甲花了多少钱?
+Oh, and how much did your father spend on that armor of yours?
+
+672
+00:38:37,885 --> 00:38:40,455
+别动.
+Hold still.
+
+673
+00:38:40,488 --> 00:38:43,691
+劳勃和史坦尼斯总是说我不够强悍,
+All I ever hear from Robert and Stannis is how I'm not tough enough,
+
+674
+00:38:43,725 --> 00:38:45,792
+说我害怕看见血--
+how I squirm at the sight of blood--
+
+675
+00:38:45,827 --> 00:38:48,363
+但看到那人在肉搏战被打下眼球确实很恶心.
+you did vomit when that boy's eye was knocked out in the melee.
+
+676
+00:38:48,397 --> 00:38:50,327
+他的眼球还在眼眶外乱晃!
+His eye was dangling out of the damn socket!
+
+677
+00:38:50,352 --> 00:38:52,399
+他学艺不精就不该上场肉搏.
+He shouldn't have entered the melee if he didn't know how to fight.
+
+678
+00:38:52,468 --> 00:38:53,669
+你说得轻松.
+Easy for you to say.
+
+679
+00:38:54,336 --> 00:38:56,271
+不是所有人都拥有剑术天赋.
+Not everyone is such a gifted swordsman.
+
+680
+00:38:56,305 --> 00:38:58,805
+这不是天赋. 不是什么人给我的.
+( Groans ) It's not a gift. No one gave it to me.
+
+681
+00:38:58,841 --> 00:39:00,975
+我剑术好是因为我勤于练习--
+I'm good because I work at it--
+
+682
+00:39:01,008 --> 00:39:03,743
+自我能拿棒子的时候起每天都练习.
+every day of my life since I could hold a stick.
+
+683
+00:39:03,778 --> 00:39:06,113
+我也可以整天练习, 每天练习,
+I could work at fighting all day, every day,
+
+684
+00:39:06,147 --> 00:39:08,048
+但还是不可能比得上你.
+and still never be as good as you.
+
+685
+00:39:08,082 --> 00:39:10,651
+好吧, 我想这一不定.
+Yes well, I guess we'll never know.
+
+686
+00:39:11,486 --> 00:39:14,854
+( Sighs )
+
+687
+00:39:20,160 --> 00:39:22,597
+- 所有地方? - 所有地方.
+- Everywhere? - Everywhere.
+
+688
+00:39:22,631 --> 00:39:25,265
+最后会怎样?
+So how did it end up?
+
+689
+00:39:25,300 --> 00:39:26,899
+那个坦格利安女孩会死吗?
+The Targaryen girl will die?
+
+690
+00:39:26,935 --> 00:39:30,069
+必须这样做, 虽然不令人愉快.
+It needs to be done, unpleasant as it is.
+
+691
+00:39:30,104 --> 00:39:32,305
+劳勃很关心这个.
+Robert's rather tasteless about it.
+
+692
+00:39:32,339 --> 00:39:34,173
+每次他说要杀死她,
+Every time he talks about killing her,
+
+693
+00:39:34,209 --> 00:39:36,377
+桌子都被敲得跳起来.
+I swear the table rises six inches.
+
+694
+00:39:36,410 --> 00:39:39,146
+可惜他对他妻子没这么大热情.
+It's a shame he can't muster the same enthusiasm for his wife.
+
+695
+00:39:39,180 --> 00:39:41,881
+他确实对她家的钱有深深的欲望.
+He does have a deep, abiding  lust for her money.
+
+696
+00:39:41,917 --> 00:39:44,051
+你无法小看兰尼斯特家--
+You have to give it to the Lannisters--
+
+697
+00:39:44,084 --> 00:39:45,986
+他们也许是最傲慢最无聊的混蛋
+they may be the most pompous, ponderous cunts
+
+698
+00:39:46,019 --> 00:39:47,687
+令诸神都难以忍受,
+the gods ever suffered to walk the world,
+
+699
+00:39:47,722 --> 00:39:50,390
+但他们的钱多得不象话.
+but they do have outrageous amounts of money.
+
+700
+00:39:51,626 --> 00:39:53,794
+我的钱倒也不少.
+I have an outrageous amount of money.
+
+701
+00:39:53,827 --> 00:39:55,794
+没有兰尼斯特家那样多.
+Not as much as the Lannisters.
+
+702
+00:39:55,828 --> 00:39:58,097
+但还是比你多得多.
+( Laughing ) But a lot more than you.
+
+703
+00:39:59,399 --> 00:40:02,100
+劳勃要带我一起去打猎.
+Robert's threatening to take me hunting with him.
+
+704
+00:40:02,135 --> 00:40:04,468
+上次我们去了两星期.
+Last time we were out there for two weeks.
+
+705
+00:40:04,502 --> 00:40:07,071
+下雨时还在树林里打滚, 连续好几天,
+Tramping through the trees in the rain, day after day,
+
+706
+00:40:07,104 --> 00:40:10,573
+为了能把矛刺进什么东西的肚子里.
+all so he can stick his spear into something's flesh.
+
+707
+00:40:10,609 --> 00:40:13,577
+哦. 劳勃喜欢杀戮.
+Oh. But Robert loves his killing.
+
+708
+00:40:13,611 --> 00:40:16,013
+- 他是国王. - 嗯.
+- And he's the King. - Hmm.
+
+709
+00:40:16,048 --> 00:40:19,350
+- 为什么他能称王? - 因为他喜欢杀戮.
+- How did that ever happen? - Because he loves his killing.
+
+710
+00:40:19,385 --> 00:40:21,687
+他也曾经擅长杀戮.
+And he used to be good at it.
+
+711
+00:40:21,720 --> 00:40:24,689
+你知道谁应该称王吗?
+Do you know who should be king?
+
+712
+00:40:25,658 --> 00:40:27,560
+- 别开玩笑. - 我是认真的.
+- Be serious. - I am.
+
+713
+00:40:27,595 --> 00:40:29,896
+我父亲会做你的后盾.
+My father could be your bank.
+
+714
+00:40:29,930 --> 00:40:32,798
+我从未上过战场, 但我会为你而战.
+I've never fought in a war before, but I'd fight for you.
+
+715
+00:40:32,832 --> 00:40:34,732
+我在继承顺位中排第四.
+I'm fourth in line.
+
+716
+00:40:34,767 --> 00:40:37,568
+劳勃在疯王的继承顺位中排第几呢?
+And where was Robert in the line of royal succession?
+
+717
+00:40:37,604 --> 00:40:39,068
+乔佛里是个混蛋.
+Joffrey is a monster.
+
+718
+00:40:39,093 --> 00:40:40,805
+- 托曼才八岁. - 史坦尼斯呢?
+- Tommen is eight. - Stannis?
+
+719
+00:40:40,867 --> 00:40:42,734
+史坦尼斯象只龙虾那样强硬古板.
+Stannis has the personality of a lobster.
+
+720
+00:40:42,975 --> 00:40:44,941
+但他仍是我的哥哥.
+He's still my older brother.
+
+721
+00:40:44,977 --> 00:40:47,278
+- 你干什么?! - 看一看.
+- ( Gasps ) What are you doing?! - Look at it.
+
+722
+00:40:47,312 --> 00:40:48,426
+你割伤我了.
+You cut me.
+
+723
+00:40:48,450 --> 00:40:49,854
+不过是血. 我们体内都有血.
+It's just blood. We've all got it in us.
+
+724
+00:40:49,981 --> 00:40:52,249
+有时会流出一点.
+Sometimes a little spills.
+
+725
+00:40:52,283 --> 00:40:55,685
+如果你成为国王, 你会经常看见血.
+If you become King, you're going to see a lot of this.
+
+726
+00:40:55,720 --> 00:40:57,521
+你必须习惯.
+You need to get used to it.
+
+727
+00:40:57,555 --> 00:40:59,689
+继续. 看.
+Go on. Look.
+
+728
+00:41:02,060 --> 00:41:04,294
+人们爱戴你.
+People love you.
+
+729
+00:41:05,595 --> 00:41:07,631
+他们愿意服侍你, 因为你待他们仁慈.
+They love to serve you because you're kind to them.
+
+730
+00:41:07,665 --> 00:41:09,832
+他们希望靠近你.
+They want to be near you.
+
+731
+00:41:12,236 --> 00:41:15,506
+你愿意做必须做的事情,
+You're willing to do what needs to be done,
+
+732
+00:41:15,539 --> 00:41:18,274
+你也从不幸灾乐祸.
+but you don't gloat over it.
+
+733
+00:41:18,310 --> 00:41:20,544
+你不喜欢杀戮.
+You don't love killing.
+
+734
+00:41:23,080 --> 00:41:25,381
+是哪本书上写着: 权力...
+Where is it written that power
+
+735
+00:41:25,415 --> 00:41:28,184
+是万恶之源?
+is the sole province of the worst?
+
+736
+00:41:28,218 --> 00:41:30,285
+王座只属于...
+That thrones are only made
+
+737
+00:41:30,319 --> 00:41:32,620
+仇恨和恐惧?
+for the hated and the feared?
+
+738
+00:41:36,126 --> 00:41:38,794
+你将会是一个受人爱戴的好国王.
+You would be a wonderful King.
+
+739
+00:41:56,015 --> 00:41:59,251
+我很遗憾你和奈德史塔克的联姻没成.
+I'm sorry your marriage to Ned Stark didn't work out.
+
+740
+00:41:59,285 --> 00:42:01,185
+<i>你们本会是和睦的亲家.
+You seemed so good together.</i>
+
+741
+00:42:01,220 --> 00:42:04,256
+我很高兴能做件让你开心的事.
+I'm glad I could do something to make you happy.
+
+742
+00:42:08,026 --> 00:42:10,861
+没有首相, 一切将变得混乱不堪.
+Without a Hand, everything will fall to pieces.
+
+743
+00:42:10,897 --> 00:42:12,863
+我想你的目的是
+I suppose this is where you tell me
+
+744
+00:42:12,899 --> 00:42:15,734
+要我把这位子给你的兄弟詹姆.
+to give the job to your brother Jaime.
+
+745
+00:42:15,769 --> 00:42:17,403
+不.
+No.
+
+746
+00:42:17,437 --> 00:42:19,537
+他不够严肃.
+He's not serious enough.
+
+747
+00:42:19,571 --> 00:42:21,506
+我要为奈德史塔克说句话:
+I'll say this for Ned Stark:
+
+748
+00:42:21,540 --> 00:42:23,642
+他足够严肃.
+He's serious enough.
+
+749
+00:42:24,877 --> 00:42:27,678
+就这样失去他值得吗?
+Was it really worth it? Losing him this way?
+
+750
+00:42:27,714 --> 00:42:29,814
+我不知道.
+I don't know.
+
+751
+00:42:32,452 --> 00:42:35,021
+但是我知道这一点:
+But I do know this:
+
+752
+00:42:35,055 --> 00:42:40,124
+如果坦格利安家的女孩说服她的马王丈夫发动入侵
+If the Targaryen girl convinces her horselord husband to invade
+
+753
+00:42:40,160 --> 00:42:44,363
+如果多斯拉克大军渡过狭海...
+and the Dothraki horde crosses the Narrow Sea...
+
+754
+00:42:46,098 --> 00:42:47,932
+我们将无法阻止他们.
+We won't be able to stop them.
+
+755
+00:42:47,966 --> 00:42:50,468
+<i>多斯拉克人从不乘船, 小孩子都知道.
+The Dothraki don't sail. Every child knows that.</i>
+
+756
+00:42:50,502 --> 00:42:53,405
+他们缺乏纪律. 他们没有盔甲.
+They don't have discipline. They don't have armor.
+
+757
+00:42:53,439 --> 00:42:55,406
+他们没有攻城武器.
+They don't have siege weapons.
+
+758
+00:42:55,441 --> 00:42:57,274
+你的把戏耍得真不错:
+It's a neat little trick you do:
+
+759
+00:42:57,310 --> 00:43:00,578
+你动的是你的嘴唇, 说的却是你父亲的话.
+You move your lips and your father's voice comes out.
+
+760
+00:43:00,613 --> 00:43:03,747
+我父亲说错了吗?
+( Huffs ) Is my father wrong?
+
+761
+00:43:07,053 --> 00:43:09,955
+让我们假设韦赛里斯坦格利安真的登陆了
+Let's say Viserys Targaryen lands
+
+762
+00:43:09,988 --> 00:43:13,459
+带着四万多斯拉克哮吼武士.
+with 40,000 Dothraki screamers at his back.
+
+763
+00:43:13,493 --> 00:43:15,993
+<i>我们可以退入城堡--
+We hole up in our castles--</i>
+
+764
+00:43:16,028 --> 00:43:18,763
+<i>这是明智的对策-- 只有傻瓜
+a wise move-- only a fool</i>
+
+765
+00:43:18,798 --> 00:43:21,700
+<i>才会在开阔地带与多斯拉克人硬拼.
+would meet the Dothraki in an open field.</i>
+
+766
+00:43:21,734 --> 00:43:24,569
+他让我们呆在城堡里.
+They leave us in our castles.
+
+767
+00:43:24,604 --> 00:43:28,106
+他们会洗劫并焚毁城镇,
+They go from town to town, looting and burning,
+
+768
+00:43:28,140 --> 00:43:31,810
+<i>杀死所有不能躲进城里的人,
+killing every man who can't hide behind a stone wall,</i>
+
+769
+00:43:31,843 --> 00:43:34,879
+<i>抢走我们所有的粮食和牲畜,
+stealing all our crops and livestock,</i>
+
+770
+00:43:34,914 --> 00:43:37,381
+将我们的女人和孩子掠为奴隶.
+enslaving all our women and children.
+
+771
+00:43:37,415 --> 00:43:40,417
+多久之后, 七国的百姓将不再支持
+How long do the people of the Seven Kingdoms stand behind
+
+772
+00:43:40,452 --> 00:43:43,854
+他们临阵退缩的国王, 胆小如鼠的国王
+their absentee King, their cowardly King
+
+773
+00:43:43,888 --> 00:43:46,323
+躲藏在高墙后的国王?
+hiding behind high walls?
+
+774
+00:43:46,357 --> 00:43:49,193
+七国的百姓会在多久之后认定韦赛里斯坦格利安
+When do the people decide that Viserys Targaryen
+
+775
+00:43:49,227 --> 00:43:51,861
+才是真正合法的君主?
+is the rightful monarch after all?
+
+776
+00:43:53,198 --> 00:43:55,332
+但我们兵力还是比他们多.
+We still outnumber them.
+
+777
+00:43:56,836 --> 00:44:00,339
+五和一哪个更大?
+Which is the bigger number: Five or one?
+
+778
+00:44:01,240 --> 00:44:02,809
+五.
+Five.
+
+779
+00:44:03,711 --> 00:44:05,479
+五...
+Five...
+
+780
+00:44:06,914 --> 00:44:08,883
+一.
+One.
+
+781
+00:44:08,917 --> 00:44:11,885
+一支军队-- 一支真正的军队
+One army-- a real army
+
+782
+00:44:11,919 --> 00:44:15,189
+通过一个领袖, 一个目标团结起来.
+united behind one leader with one purpose.
+
+783
+00:44:17,024 --> 00:44:21,495
+而我们的目标已随疯王一起死去了.
+Our purpose died with the Mad King.
+
+784
+00:44:21,528 --> 00:44:23,729
+现在我们的军队数量
+Now we've got as many armies
+
+785
+00:44:23,765 --> 00:44:27,334
+只由我们口袋里的钱决定.
+as there are men with gold in their purse.
+
+786
+00:44:27,368 --> 00:44:29,836
+所有人都希望改变.
+And everybody wants something different.
+
+787
+00:44:29,870 --> 00:44:32,104
+你父亲希望拥有世界.
+Your father wants to own the world.
+
+788
+00:44:32,140 --> 00:44:35,609
+奈德史塔克希望跑回北境把他的头埋进雪里.
+Ned Stark wants to run away and bury his head in the snow.
+
+789
+00:44:35,644 --> 00:44:37,243
+你希望什么?
+What do you want?
+
+790
+00:44:47,289 --> 00:44:51,026
+我们已经有九年没真正打过仗了.
+We haven't had a real fight in nine years.
+
+791
+00:44:51,060 --> 00:44:53,528
+背刺不能算是战斗.
+Back-stabbing doesn't prepare you for a fight.
+
+792
+00:44:53,562 --> 00:44:55,763
+现在整个王国只有:
+And that's all the realm is now:
+
+793
+00:44:55,798 --> 00:44:57,934
+背刺和阴谋
+Back-stabbing and scheming
+
+794
+00:44:57,968 --> 00:45:01,671
+拍马屁, 捞金子.
+and arse-licking and money-grubbing.
+
+795
+00:45:01,705 --> 00:45:04,841
+有时我不知道究竟是什么在维系着王国.
+Sometimes I don't know what holds it together.
+
+796
+00:45:04,874 --> 00:45:07,243
+我们的婚姻.
+Our marriage.
+
+797
+00:45:07,276 --> 00:45:09,111
+( Laughing )
+
+798
+00:45:17,254 --> 00:45:19,789
+啊, 所以我们坐在这里
+Ah, so here we sit
+
+799
+00:45:19,823 --> 00:45:22,091
+坐了十七年,
+17 years later,
+
+800
+00:45:22,124 --> 00:45:24,760
+<i>维系着一切.
+holding it all together.</i>
+
+801
+00:45:25,928 --> 00:45:28,231
+你不觉得累吗?
+Don't you get tired?
+
+802
+00:45:28,265 --> 00:45:30,365
+每天都累.
+Every day.
+
+803
+00:45:31,568 --> 00:45:35,039
+依靠仇恨能维持多久?
+How long can hate hold a thing together?
+
+804
+00:45:35,073 --> 00:45:39,042
+嗯, 十七年算是很久了.
+Well, 17 years is quite a long time.
+
+805
+00:45:39,077 --> 00:45:41,211
+是的, 很久.
+Yes, it is.
+
+806
+00:45:42,347 --> 00:45:44,214
+是的, 很久.
+Yes, it is.
+
+807
+00:45:49,319 --> 00:45:51,421
+她长什么样?
+What was she like?
+
+808
+00:45:53,756 --> 00:45:56,225
+你从没问过她, 一次都没有.
+You've never asked about her, not once.
+
+809
+00:45:56,260 --> 00:45:58,627
+为什么不问?
+Why not?
+
+810
+00:45:58,662 --> 00:46:01,997
+起初, 即使是在私下提起她的名字
+At first, just saying her name even in private
+
+811
+00:46:02,033 --> 00:46:05,769
+我都感觉会使她重获生命.
+felt like I was breathing life back into her.
+
+812
+00:46:05,803 --> 00:46:08,004
+我想如果我不再提起她,
+I thought if I didn't talk about her,
+
+813
+00:46:08,037 --> 00:46:10,472
+她就会从你心里逐渐消失.
+she'd just fade away for you.
+
+814
+00:46:10,508 --> 00:46:13,209
+当我明白这绝无可能的时候,
+When I realized that wasn't going to happen,
+
+815
+00:46:13,243 --> 00:46:15,946
+我则是出于怨恨而不提起她的.
+I refused to ask out of spite.
+
+816
+00:46:15,979 --> 00:46:18,147
+我不想给你带来满足感
+I didn't want to give you the satisfaction
+
+817
+00:46:18,182 --> 00:46:21,452
+让你觉得我心里放不下.
+of thinking I cared enough to ask.
+
+818
+00:46:21,486 --> 00:46:24,856
+最终我明白我的怨恨对你来说算不了什么.
+And eventually it became clear that my spite didn't mean anything to you.
+
+819
+00:46:24,890 --> 00:46:27,792
+事实上你还很享受我的怨恨.
+As far as I could tell, you actually enjoyed it.
+
+820
+00:46:27,827 --> 00:46:30,028
+那为什么现在又问?
+So why now?
+
+821
+00:46:31,564 --> 00:46:35,533
+莱安娜史塔克的鬼魂还能怎样伤到你我呢
+What harm could Lyanna Stark's ghost do to either of us
+
+822
+00:46:35,568 --> 00:46:38,738
+难道我们彼此伤害得还不够深么?
+that we haven't done to each other a hundred times over?
+
+823
+00:46:42,676 --> 00:46:45,310
+你想知道可怕的事实么?
+You want to know the horrible truth?
+
+824
+00:46:47,914 --> 00:46:50,550
+我已经记不得她长什么样了.
+I can't even remember what she looked like.
+
+825
+00:46:53,386 --> 00:46:58,292
+<i>我只知道她是我唯一想要的人...
+I only know she was the one thing I ever wanted...</i>
+
+826
+00:46:59,928 --> 00:47:03,899
+有人将她从我手里夺走了,
+Someone took her away from me,
+
+827
+00:47:03,934 --> 00:47:08,738
+七大王国也无法弥补我的空虚.
+and Seven Kingdoms couldn't fill the hole she left behind.
+
+828
+00:47:12,475 --> 00:47:15,178
+我曾经也对你有过感觉, 你知道么?
+I felt something for you once, you know?
+
+829
+00:47:16,213 --> 00:47:18,080
+我知道.
+I know.
+
+830
+00:47:18,115 --> 00:47:21,316
+甚至在我们失去我们的第一个孩子之后.
+Even after we lost our first boy.
+
+831
+00:47:22,917 --> 00:47:25,019
+实际上那持续了很长时间.
+For quite a while, actually.
+
+832
+00:47:28,856 --> 00:47:30,892
+<i>我们之前有过可能吗?
+Was it ever possible for us?</i>
+
+833
+00:47:30,926 --> 00:47:33,761
+有过这样的时候吗, 即使很短暂?
+Was there ever a time, ever a moment?
+
+834
+00:47:40,502 --> 00:47:42,171
+没有.
+No.
+
+835
+00:47:46,176 --> 00:47:49,178
+<i>这个答案让你感觉更好还是更坏?
+Does that make you feel better or worse?</i>
+
+836
+00:47:53,584 --> 00:47:56,285
+没有任何感觉.
+It doesn't make me feel anything.
+
+837
+00:48:06,394 --> 00:48:09,696
+<i>( Door opens, closes )</i>
+
+838
+00:48:10,832 --> 00:48:14,135
+她长得很像他, 不是吗, 大人?
+She looks like him, don't she, My Lord?
+
+839
+00:48:14,169 --> 00:48:18,073
+她有他的鼻子, 他的黑发.
+She has his nose, his black hair.
+
+840
+00:48:18,106 --> 00:48:20,075
+对.
+Aye.
+
+841
+00:48:20,109 --> 00:48:22,243
+您见到他的时候请告诉他, 大人.
+Tell him when you see him, My Lord.
+
+842
+00:48:22,278 --> 00:48:26,294
+如果您高兴的话, 告诉他她有多漂亮.
+If it please you, tell him how beautiful she is.
+
+843
+00:48:27,285 --> 00:48:28,930
+我会的.
+I will.
+
+844
+00:48:28,955 --> 00:48:31,513
+告诉他我没跟过其他人.
+And tell him I've been with no one else.
+
+845
+00:48:32,122 --> 00:48:35,425
+我以旧神与新神之名起誓, 大人.
+I swear it, My Lord, by the old gods and new.
+
+846
+00:48:35,459 --> 00:48:37,760
+我不想要金银珠宝,
+I don't want no jewels or nothing,
+
+847
+00:48:37,794 --> 00:48:39,694
+我只要他的人.
+just him.
+
+848
+00:48:39,729 --> 00:48:41,631
+国王对我一直很好.
+The King was always good to me.
+
+849
+00:48:41,664 --> 00:48:43,832
+琼恩艾林来看你的时候,
+When Jon Arryn came to visit you,
+
+850
+00:48:43,867 --> 00:48:45,734
+他想要什么?
+what did he want?
+
+851
+00:48:45,769 --> 00:48:47,868
+他不是那种人, 大人.
+He wasn't that sort of man, My Lord.
+
+852
+00:48:47,903 --> 00:48:51,071
+他只想知道这孩子是不是开心,
+He just wanted to know if the child was happy,
+
+853
+00:48:51,106 --> 00:48:53,274
+是不是健康.
+healthy.
+
+854
+00:48:55,810 --> 00:48:58,011
+很健康.
+He looks healthy enough to me.
+
+855
+00:48:59,814 --> 00:49:02,115
+这姑娘什么也不要.
+The girl shall want for nothing.
+
+856
+00:49:08,057 --> 00:49:10,559
+妓院是比商船好得多的投资,
+Brothels make a much better investment than ships,
+
+857
+00:49:10,593 --> 00:49:12,127
+我发现...
+I've found.
+
+858
+00:49:12,162 --> 00:49:14,731
+妓女很少会沉.
+Whores rarely sink.
+
+859
+00:49:18,937 --> 00:49:21,906
+你对劳勃国王的私生子女知道多少?
+What do you know of King Robert's bastards?
+
+860
+00:49:21,939 --> 00:49:25,243
+嗯, 简单地说, 他生得比你多.
+Well, he has more than you, for a start.
+
+861
+00:49:25,276 --> 00:49:27,845
+<i>- 多多少? - 有关系吗?
+- Ned: How many? - Does it matter?</i>
+
+862
+00:49:27,879 --> 00:49:30,948
+<i>只要上过的女人够多, 总有人会送你大礼.
+If you fuck enough women, some of them will give you presents.</i>
+
+863
+00:49:30,982 --> 00:49:33,118
+琼恩艾林把他们都找出来了. 为什么?
+And Jon Arryn tracked them all down. Why?
+
+864
+00:49:33,151 --> 00:49:36,155
+他是国王之手. 也许劳勃要他代为照顾吧.
+He was the King's Hand. Perhaps Robert wanted them looked after.
+
+865
+00:49:36,189 --> 00:49:39,457
+他这人充满父爱.
+He was overcome with fatherly love.
+
+866
+00:49:42,328 --> 00:49:43,995
+走吧.
+Come.
+
+867
+00:49:50,068 --> 00:49:52,236
+- 乔里! - 大人.
+- Jory! - My Lord.
+
+868
+00:50:11,057 --> 00:50:13,425
+这么小小的一群狼.
+Such a small pack of wolves.
+
+869
+00:50:15,294 --> 00:50:17,062
+退后, 爵士. 这是国王之手.
+Stay back, Ser. This is the Hand of the King.
+
+870
+00:50:17,097 --> 00:50:19,131
+<i>曾是国王之手.
+Was the Hand of the King.</i>
+
+871
+00:50:19,165 --> 00:50:20,800
+现在我不知道他是什么--
+Now I'm not sure what he is--
+
+872
+00:50:20,834 --> 00:50:23,236
+好象是某个遥远地方的领主.
+lord of somewhere very far away.
+
+873
+00:50:23,269 --> 00:50:25,705
+你这是什么意思, 兰尼斯特?
+( Running ) What's the meaning of this, Lannister?
+
+874
+00:50:25,738 --> 00:50:28,106
+躲到安全的地方去.
+Get back inside where it's safe.
+
+875
+00:50:28,142 --> 00:50:29,841
+我正在找我兄弟.
+I'm looking for my brother.
+
+876
+00:50:29,877 --> 00:50:31,910
+你还记得我兄弟吧, 是不是, 史塔克大人?
+You remember my brother, don't you, Lord Stark?
+
+877
+00:50:31,944 --> 00:50:35,613
+头发黄, 舌头利, 个子矮.
+Blond hair, sharp tongue, short man.
+
+878
+00:50:36,783 --> 00:50:38,316
+我记得很清楚.
+I remember him well.
+
+879
+00:50:38,350 --> 00:50:40,352
+似乎他在路上碰到了点麻烦.
+It seems he had some trouble on the road.
+
+880
+00:50:40,386 --> 00:50:42,720
+您不知道他出了什么事吧, 是不是?
+You wouldn't know what happened to him, would you?
+
+881
+00:50:42,754 --> 00:50:45,022
+他是我下令逮捕的
+He was taken at my command
+
+882
+00:50:45,057 --> 00:50:47,258
+<i>以为其罪行负责.
+to answer for his crimes.</i>
+
+883
+00:50:48,526 --> 00:50:50,394
+大人!
+- Littlefinger: My lords! - ( Horse neighs )
+
+884
+00:50:50,428 --> 00:50:52,028
+我去找都城守卫队.
+I'll bring the city watch.
+
+885
+00:50:54,631 --> 00:50:56,432
+来吧, 史塔克.
+Come, Stark.
+
+886
+00:50:56,468 --> 00:50:57,868
+我宁愿你死的时候手里拿着剑.
+I'd rather you die sword in hand.
+
+887
+00:50:57,901 --> 00:51:00,537
+- 如果你再敢威胁我家大人-- - 威胁?
+- If you threaten My Lord again-- - Threaten?
+
+888
+00:51:00,571 --> 00:51:03,539
+事实上, "我打算把你家大人
+As in, "I'm going to open your lord
+
+889
+00:51:03,573 --> 00:51:07,144
+劈成两半, 看史塔克家的人倒底是什么做的"?
+from balls to brains and see what Starks are made of"?
+
+890
+00:51:07,178 --> 00:51:09,511
+你杀了我,
+You kill me,
+
+891
+00:51:09,546 --> 00:51:12,147
+你的兄弟必死无疑.
+your brother's a dead man.
+
+892
+00:51:12,182 --> 00:51:14,149
+你说得对.
+You're right.
+
+893
+00:51:14,184 --> 00:51:16,618
+饶他一命. 把他手下都宰了.
+Take him alive. Kill his men.
+
+894
+00:51:19,390 --> 00:51:20,524
+( Screams )
+
+895
+00:52:25,256 --> 00:52:26,823
+呀!
+Yah!
+
+896
+00:52:51,783 --> 00:52:53,885
+我兄弟, 史塔克大人--
+My brother, Lord Stark--
+
+897
+00:52:53,919 --> 00:52:56,321
+我想要他回来.
+we want him back.
+
+898
+00:53:03,095 --> 00:53:06,196
+( Neighs )
+
+899
+00:53:09,533 --> 00:53:11,535
+<i>( Theme music playing )</i>
+
+900
+00:53:11,560 --> 00:53:15,560
+== 翻译: <font color="#00ff00">freesand</font> ==
+== sync, corrected by <font color="#00ff00">elderman</font> ==
+

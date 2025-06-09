@@ -12,8 +12,11 @@ This was made because I wanted to watch shows with people who were not rated for
 ## What you need
 1. The show downloaded to a folder
 2. Subtitles of that show in the same folder for its episode. (synced properly)
+3. Ollama up and running
 
 ## Todo
 1. Implement for shows
 2. Implement for movies
 3. Better ui.
+
+# Running the project

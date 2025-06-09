@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<tvshow>
+  <plot><![CDATA[Atlantic City at the dawn of Prohibition is a place where the rules don't apply. And the man who runs things -- legally and otherwise -- is the town's treasurer, Enoch "Nucky" Thompson, who is equal parts politician and gangster.]]></plot>
+  <outline><![CDATA[Atlantic City at the dawn of Prohibition is a place where the rules don't apply. And the man who runs things -- legally and otherwise -- is the town's treasurer, Enoch "Nucky" Thompson, who is equal parts politician and gangster.]]></outline>
+  <lockdata>false</lockdata>
+  <dateadded>2025-02-11 15:58:29</dateadded>
+  <title>Boardwalk Empire</title>
+  <originaltitle>Boardwalk Empire</originaltitle>
+  <actor>
+    <name>Steve Buscemi</name>
+    <role>Enoch "Nucky" Thompson</role>
+    <type>Actor</type>
+    <tmdbid>884</tmdbid>
+    <tvdbid>271595</tvdbid>
+  </actor>
+  <actor>
+    <name>Kelly Macdonald</name>
+    <role>Margaret Schroeder / Margaret Thompson</role>
+    <type>Actor</type>
+    <tvdbid>7876528</tvdbid>
+    <tmdbid>9015</tmdbid>
+  </actor>
+  <actor>
+    <name>Michael Shannon</name>
+    <role>Nelson Van Alden</role>
+    <type>Actor</type>
+    <tvdbid>262015</tvdbid>
+    <tmdbid>335</tmdbid>
+  </actor>
+  <actor>
+    <name>Shea Whigham</name>
+    <role>Elias "Eli" Thompson</role>
+    <type>Actor</type>
+    <tmdbid>74242</tmdbid>
+    <tvdbid>275852</tvdbid>
+  </actor>
+  <actor>
+    <name>Stephen Graham</name>
+    <role>Al Capone</role>
+    <type>Actor</type>
+    <tmdbid>1115</tmdbid>
+    <tvdbid>301984</tvdbid>
+  </actor>
+  <actor>
+    <name>Vincent Piazza</name>
+    <role>Charles "Lucky" Luciano</role>
+    <type>Actor</type>
+    <tvdbid>317146</tvdbid>
+    <tmdbid>85924</tmdbid>
+  </actor>
+  <actor>
+    <name>Michael Kenneth Williams</name>
+    <role>Albert "Chalky" White</role>
+    <type>Actor</type>
+    <tmdbid>39390</tmdbid>
+    <tvdbid>346769</tvdbid>
+  </actor>
+  <actor>
+    <name>Paul Sparks</name>
+    <role>Mieczysław "Mickey" Doyle</role>
+    <type>Actor</type>
+    <tvdbid>323671</tvdbid>
+    <tmdbid>167564</tmdbid>
+  </actor>
+  <actor>
+    <name>Gretchen Mol</name>
+    <role>Gillian Darmody</role>
+    <type>Actor</type>
+    <tvdbid>356678</tvdbid>
+    <tmdbid>15370</tmdbid>
+  </actor>
+  <actor>
+    <name>Jeffrey Wright</name>
+    <role>Valentin Narcisse</role>
+    <type>Actor</type>
+    <tmdbid>2954</tmdbid>
+    <tvdbid>273450</tvdbid>
+  </actor>
+  <actor>
+    <name>Ben Rosenfield</name>
+    <role>William "Willie" Thompson</role>
+    <type>Actor</type>
+    <tmdbid>1088672</tmdbid>
+    <tvdbid>7969500</tvdbid>
+  </actor>
+  <actor>
+    <name>Martin Scorsese</name>
+    <role>Executive Producer</role>
+    <type>Producer</type>
+    <tmdbid>1032</tmdbid>
+    <tvdbid>310847</tvdbid>
+  </actor>
+  <trailer>plugin://plugin.video.youtube/play/?video_id=SPlBxJs3npQ</trailer>
+  <rating>7.996</rating>
+  <year>2010</year>
+  <sorttitle>Boardwalk Empire</sorttitle>
+  <mpaa>IN-U</mpaa>
+  <imdb_id>tt0979432</imdb_id>
+  <tmdbid>1621</tmdbid>
+  <premiered>2010-09-19</premiered>
+  <releasedate>2010-09-19</releasedate>
+  <enddate>2014-10-26</enddate>
+  <runtime>60</runtime>
+  <genre>Crime</genre>
+  <genre>Drama</genre>
+  <studio>HBO</studio>
+  <tag>new jersey</tag>
+  <tag>prohibition era</tag>
+  <tag>gangster</tag>
+  <tag>atlantic city</tag>
+  <tag>bootlegging</tag>
+  <tag>mobster</tag>
+  <tag>bordello</tag>
+  <tag>historical fiction</tag>
+  <tag>period drama</tag>
+  <tag>historical</tag>
+  <tag>political corruption</tag>
+  <tag>government corruption</tag>
+  <tag>whorehouse</tag>
+  <tag>revenge killing</tag>
+  <tag>graft</tag>
+  <tag>costume drama</tag>
+  <tag>1920s</tag>
+  <tag>gambling racket</tag>
+  <tag>simulated sex</tag>
+  <tag>political</tag>
+  <tag>american history</tag>
+  <tag>systemic corruption</tag>
+  <tag>corrupt police officials</tag>
+  <tag>corrupt businessman</tag>
+  <tag>modern history</tag>
+  <tag>political drama</tag>
+  <tag>dramatic</tag>
+  <tag>italian mafia</tag>
+  <tag>defiant</tag>
+  <tag>female nudity</tag>
+  <tag>hitmen</tag>
+  <uniqueid type="imdb">tt0979432</uniqueid>
+  <uniqueid type="tmdb">1621</uniqueid>
+  <uniqueid type="tvdb">84947</uniqueid>
+  <tvdbid>84947</tvdbid>
+  <uniqueid type="zap2it">SH01308836</uniqueid>
+  <zap2itid>SH01308836</zap2itid>
+  <uniqueid type="tvrage">23561</uniqueid>
+  <tvrageid>23561</tvrageid>
+  <episodeguide>{"imdb":"tt0979432","tmdb":"1621","tvdb":"84947","zap2it":"sh01308836","tvrage":"23561"}</episodeguide>
+  <id>84947</id>
+  <season>-1</season>
+  <episode>-1</episode>
+  <displayorder>aired</displayorder>
+  <status>Ended</status>
+</tvshow>

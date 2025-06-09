@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<season>
+  <plot><![CDATA[Trouble is brewing in the Seven Kingdoms of Westeros. For the driven inhabitants of this visionary world, control of Westeros' Iron Throne holds the lure of great power. But in a land where the seasons can last a lifetime, winter is coming...and beyond the Great Wall that protects them, an ancient evil has returned. In Season One, the story centers on three primary areas: the Stark and the Lannister families, whose designs on controlling the throne threaten a tenuous peace; the dragon princess Daenerys, heir to the former dynasty, who waits just over the Narrow Sea with her malevolent brother Viserys; and the Great Wall--a massive barrier of ice where a forgotten danger is stirring.]]></plot>
+  <outline><![CDATA[Trouble is brewing in the Seven Kingdoms of Westeros. For the driven inhabitants of this visionary world, control of Westeros' Iron Throne holds the lure of great power. But in a land where the seasons can last a lifetime, winter is coming...and beyond the Great Wall that protects them, an ancient evil has returned. In Season One, the story centers on three primary areas: the Stark and the Lannister families, whose designs on controlling the throne threaten a tenuous peace; the dragon princess Daenerys, heir to the former dynasty, who waits just over the Narrow Sea with her malevolent brother Viserys; and the Great Wall--a massive barrier of ice where a forgotten danger is stirring.]]></outline>
+  <lockdata>false</lockdata>
+  <dateadded>2025-04-17 18:39:04</dateadded>
+  <title>Season 1</title>
+  <actor>
+    <name>Peter Dinklage</name>
+    <role>Tyrion 'The Halfman' Lannister</role>
+    <type>Actor</type>
+    <tmdbid>22970</tmdbid>
+    <tvdbid>247907</tvdbid>
+  </actor>
+  <actor>
+    <name>Kit Harington</name>
+    <role>Jon Snow</role>
+    <type>Actor</type>
+    <tvdbid>247909</tvdbid>
+    <tmdbid>239019</tmdbid>
+  </actor>
+  <actor>
+    <name>Sean Bean</name>
+    <role>Lord Eddard 'Ned' Stark</role>
+    <type>Actor</type>
+    <tmdbid>48</tmdbid>
+    <tvdbid>247858</tvdbid>
+  </actor>
+  <actor>
+    <name>Mark Addy</name>
+    <role>Robert Baratheon</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Richard Madden</name>
+    <role>Robb Stark</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Nikolaj Coster-Waldau</name>
+    <role>Sir Jaime 'Kingslayer' Lannister</role>
+    <type>Actor</type>
+    <tvdbid>247854</tvdbid>
+    <tmdbid>12795</tmdbid>
+  </actor>
+  <actor>
+    <name>Lena Headey</name>
+    <role>Cersei Lannister</role>
+    <type>Actor</type>
+    <tmdbid>17286</tmdbid>
+    <tvdbid>247904</tvdbid>
+  </actor>
+  <actor>
+    <name>Michelle Fairley</name>
+    <role>Catelyn Stark</role>
+    <type>Actor</type>
+    <tvdbid>247831</tvdbid>
+    <tmdbid>20057</tmdbid>
+  </actor>
+  <actor>
+    <name>Emilia Clarke</name>
+    <role>Daenerys Targaryen</role>
+    <type>Actor</type>
+    <tvdbid>247906</tvdbid>
+    <tmdbid>1223786</tmdbid>
+  </actor>
+  <actor>
+    <name>Maisie Williams</name>
+    <role>Arya Stark</role>
+    <type>Actor</type>
+    <tvdbid>247902</tvdbid>
+    <tmdbid>1181313</tmdbid>
+  </actor>
+  <actor>
+    <name>Iain Glen</name>
+    <role>Sir Jorah Mormont</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Isaac Hempstead Wright</name>
+    <role>Brandon 'Bran' Stark</role>
+    <type>Actor</type>
+    <tvdbid>247903</tvdbid>
+    <tmdbid>239020</tmdbid>
+  </actor>
+  <actor>
+    <name>Aidan Gillen</name>
+    <role>Petyr 'Littlefinger' Baelish</role>
+    <type>Actor</type>
+    <tvdbid>247873</tvdbid>
+    <tmdbid>49735</tmdbid>
+  </actor>
+  <actor>
+    <name>Sophie Turner</name>
+    <role>Sansa Stark</role>
+    <type>Actor</type>
+    <tvdbid>247901</tvdbid>
+    <tmdbid>1001657</tmdbid>
+  </actor>
+  <actor>
+    <name>Harry Lloyd</name>
+    <role>Viserys Targaryen</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Christopher Newman</name>
+    <role>Line Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Frank Doelger</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Greg Spence</name>
+    <role>Co-Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Bernadette Caulfield</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Mark Huffam</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Ralph Vicinanza</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Guymon Casady</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Vince Gerardis</name>
+    <role>Co-Executive Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>George R. R. Martin</name>
+    <role>Co-Executive Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Carolyn Strauss</name>
+    <role>Executive Producer</role>
+    <type>Producer</type>
+  </actor>
+  <writer>George R. R. Martin</writer>
+  <credits>George R. R. Martin</credits>
+  <year>2011</year>
+  <sorttitle>Season 1</sorttitle>
+  <tvdbid>364731</tvdbid>
+  <premiered>2011-04-17</premiered>
+  <releasedate>2011-04-17</releasedate>
+  <uniqueid type="tvdb">364731</uniqueid>
+  <seasonnumber>1</seasonnumber>
+</season>

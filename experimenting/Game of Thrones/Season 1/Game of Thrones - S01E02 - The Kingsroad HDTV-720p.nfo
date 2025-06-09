@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<episodedetails>
+  <plot><![CDATA[While Bran recovers from his fall, Ned takes only his daughters to Kings Landing. Jon Snow goes with his uncle Benjen to The Wall. Tyrion joins them.]]></plot>
+  <outline />
+  <lockdata>false</lockdata>
+  <dateadded>2025-02-09 19:44:56</dateadded>
+  <title>The Kingsroad</title>
+  <actor>
+    <name>Peter Dinklage</name>
+    <role>Tyrion 'The Halfman' Lannister</role>
+    <type>Actor</type>
+    <tmdbid>22970</tmdbid>
+    <tvdbid>247907</tvdbid>
+  </actor>
+  <actor>
+    <name>Kit Harington</name>
+    <role>Jon Snow</role>
+    <type>Actor</type>
+    <tvdbid>247909</tvdbid>
+    <tmdbid>239019</tmdbid>
+  </actor>
+  <actor>
+    <name>Sean Bean</name>
+    <role>Lord Eddard 'Ned' Stark</role>
+    <type>Actor</type>
+    <tmdbid>48</tmdbid>
+    <tvdbid>247858</tvdbid>
+  </actor>
+  <actor>
+    <name>Mark Addy</name>
+    <role>Robert Baratheon</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Richard Madden</name>
+    <role>Robb Stark</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Nikolaj Coster-Waldau</name>
+    <role>Sir Jaime 'Kingslayer' Lannister</role>
+    <type>Actor</type>
+    <tvdbid>247854</tvdbid>
+    <tmdbid>12795</tmdbid>
+  </actor>
+  <actor>
+    <name>Lena Headey</name>
+    <role>Cersei Lannister</role>
+    <type>Actor</type>
+    <tmdbid>17286</tmdbid>
+    <tvdbid>247904</tvdbid>
+  </actor>
+  <actor>
+    <name>Michelle Fairley</name>
+    <role>Catelyn Stark</role>
+    <type>Actor</type>
+    <tvdbid>247831</tvdbid>
+  </actor>
+  <actor>
+    <name>Emilia Clarke</name>
+    <role>Daenerys Targaryen</role>
+    <type>Actor</type>
+    <tvdbid>247906</tvdbid>
+    <tmdbid>1223786</tmdbid>
+  </actor>
+  <actor>
+    <name>Maisie Williams</name>
+    <role>Arya Stark</role>
+    <type>Actor</type>
+    <tvdbid>247902</tvdbid>
+    <tmdbid>1181313</tmdbid>
+  </actor>
+  <actor>
+    <name>Iain Glen</name>
+    <role>Sir Jorah Mormont</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Isaac Hempstead Wright</name>
+    <role>Brandon 'Bran' Stark</role>
+    <type>Actor</type>
+    <tvdbid>247903</tvdbid>
+    <tmdbid>239020</tmdbid>
+  </actor>
+  <actor>
+    <name>Aidan Gillen</name>
+    <role>Petyr 'Littlefinger' Baelish</role>
+    <type>Actor</type>
+    <tvdbid>247873</tvdbid>
+    <tmdbid>49735</tmdbid>
+  </actor>
+  <actor>
+    <name>Sophie Turner</name>
+    <role>Sansa Stark</role>
+    <type>Actor</type>
+    <tvdbid>247901</tvdbid>
+    <tmdbid>1001657</tmdbid>
+  </actor>
+  <actor>
+    <name>Harry Lloyd</name>
+    <role>Viserys Targaryen</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Joseph Mawle</name>
+    <role>Benjen Stark</role>
+    <type>GuestStar</type>
+    <tvdbid>247915</tvdbid>
+  </actor>
+  <actor>
+    <name>Roxanne McKee</name>
+    <role>Doreah</role>
+    <type>GuestStar</type>
+    <tvdbid>247935</tvdbid>
+  </actor>
+  <actor>
+    <name>Sarita Piotrowski</name>
+    <role>Jhiqui</role>
+    <type>GuestStar</type>
+    <tvdbid>7985195</tvdbid>
+  </actor>
+  <actor>
+    <name>Rhodri Hosking</name>
+    <role>Mycah</role>
+    <type>GuestStar</type>
+    <tvdbid>7985187</tvdbid>
+  </actor>
+  <actor>
+    <name>Lalor Roddy</name>
+    <role>Catspaw Assassin</role>
+    <type>GuestStar</type>
+    <tvdbid>247940</tvdbid>
+  </actor>
+  <actor>
+    <name>Conor Delaney</name>
+    <role>Lannister Guard</role>
+    <type>GuestStar</type>
+    <tvdbid>247941</tvdbid>
+  </actor>
+  <actor>
+    <name>Jamie Sives</name>
+    <role>Jory Cassel</role>
+    <type>GuestStar</type>
+    <tvdbid>247914</tvdbid>
+  </actor>
+  <actor>
+    <name>Luke Barnes</name>
+    <role>Rast</role>
+    <type>GuestStar</type>
+    <tvdbid>7985200</tvdbid>
+  </actor>
+  <actor>
+    <name>Dar Salim</name>
+    <role>Qotho</role>
+    <type>GuestStar</type>
+    <tvdbid>247917</tvdbid>
+  </actor>
+  <actor>
+    <name>Donald Sumpter</name>
+    <role>Maester Luwin</role>
+    <type>GuestStar</type>
+    <tvdbid>247834</tvdbid>
+  </actor>
+  <actor>
+    <name>Ron Donachie</name>
+    <role>Rodrik Cassel</role>
+    <type>GuestStar</type>
+    <tvdbid>247842</tvdbid>
+  </actor>
+  <actor>
+    <name>Aimee Richardson</name>
+    <role>Myrcella Baratheon</role>
+    <type>GuestStar</type>
+    <tvdbid>247844</tvdbid>
+  </actor>
+  <actor>
+    <name>Wilko Johnson</name>
+    <role>Ilyn Payne</role>
+    <type>GuestStar</type>
+    <tvdbid>7985183</tvdbid>
+  </actor>
+  <actor>
+    <name>Callum Wharry</name>
+    <role>Tommen Baratheon</role>
+    <type>GuestStar</type>
+    <tvdbid>7985162</tvdbid>
+  </actor>
+  <actor>
+    <name>Amrita Acharia</name>
+    <role>Irri</role>
+    <type>GuestStar</type>
+    <tvdbid>247934</tvdbid>
+  </actor>
+  <director>Tim Van Patten</director>
+  <writer>David Benioff</writer>
+  <writer>D. B. Weiss</writer>
+  <credits>David Benioff</credits>
+  <credits>D. B. Weiss</credits>
+  <rating>7.9</rating>
+  <year>2011</year>
+  <sorttitle>Kingsroad</sorttitle>
+  <imdbid>tt1668746</imdbid>
+  <tvdbid>3436411</tvdbid>
+  <runtime>55</runtime>
+  <genre>Action</genre>
+  <genre>Adventure</genre>
+  <genre>Drama</genre>
+  <uniqueid type="imdb">tt1668746</uniqueid>
+  <uniqueid type="tvdb">3436411</uniqueid>
+  <episode>2</episode>
+  <season>1</season>
+  <aired>2011-04-24</aired>
+  <fileinfo>
+    <streamdetails>
+      <video>
+        <codec>h264</codec>
+        <micodec>h264</micodec>
+        <bitrate>992494</bitrate>
+        <width>1280</width>
+        <height>720</height>
+        <aspect>16:9</aspect>
+        <aspectratio>16:9</aspectratio>
+        <framerate>23.976025</framerate>
+        <scantype>progressive</scantype>
+        <default>True</default>
+        <forced>False</forced>
+        <duration>55</duration>
+        <durationinseconds>3317</durationinseconds>
+      </video>
+      <audio>
+        <codec>aac</codec>
+        <micodec>aac</micodec>
+        <bitrate>192000</bitrate>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <channels>2</channels>
+        <samplingrate>48000</samplingrate>
+        <default>True</default>
+        <forced>False</forced>
+      </audio>
+      <subtitle>
+        <codec>subrip</codec>
+        <micodec>subrip</micodec>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <default>True</default>
+        <forced>True</forced>
+      </subtitle>
+      <subtitle>
+        <codec>subrip</codec>
+        <micodec>subrip</micodec>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>subrip</codec>
+        <micodec>subrip</micodec>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>srt</codec>
+        <micodec>srt</micodec>
+        <language>en</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>srt</codec>
+        <micodec>srt</micodec>
+        <language>en</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+    </streamdetails>
+  </fileinfo>
+  <showtitle>Game of Thrones</showtitle>
+</episodedetails>

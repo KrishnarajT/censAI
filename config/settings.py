@@ -23,26 +23,20 @@ class Config:
             self._censorship_strength = None
             self._video_and_subtitle_files = {}
             self._initialized = True
-            self._temp_path = None
-            self._scenes_df = pd.DataFrame(
-                columns=["timestamp", "scene_number", "scene_snapshot_number", "scene_snapshot_path", "subtitle",
-                         "cleaned_subtitle", "snapshot_desc", "profanity_present", "nudity_present", "should_censor"],
-            ).astype({
-                "timestamp": "float64",
-                "scene_number": "int32",
-                "scene_snapshot_number": "int32",
-                "scene_snapshot_path": "string",
-                "subtitle": "string",
-                "cleaned_subtitle": "string",
-                "snapshot_desc": "string",
-                "profanity_present": "bool",
-                "nudity_present": "bool",
-                "should_censor": "bool"
-            })
+            self._temp_folder_path = None
+            self.processed_video_ids = []  # Track the last processed video ID
+            self._scenes_df = pd.DataFrame()
+            # for progress and storing video orders
+            self.video_to_id = {}
+            self.id_to_video = {}
 
     @property
     def media_folder_path(self):
         return self._media_folder_path
+    
+    @property
+    def temp_folder_path(self):
+        return self._temp_folder_path
 
     @media_folder_path.setter
     def media_folder_path(self, path):
@@ -52,10 +46,10 @@ class Config:
         if not path.exists() or not path.is_dir():
             raise ValueError("The path does not exist or is not a directory.")
         self._media_folder_path = path
-        self._temp_path = path / "temp"
+        self._temp_folder_path = path / "temp"
         # create directory temp if it does not exist
-        if not self._temp_path.exists():
-            self._temp_path.mkdir(parents=True, exist_ok=True)
+        if not self._temp_folder_path.exists():
+            self._temp_folder_path.mkdir(parents=True, exist_ok=True)
     @property
     def censorship_strength(self):
         return self._censorship_strength
@@ -88,10 +82,48 @@ class Config:
 
     @property
     def temp_path(self):
-        return self._temp_path
+        return self._temp_folder_path
 
     @temp_path.setter
     def temp_path(self, path):
         if not isinstance(path, pathlib.Path):
             raise ValueError("Path must be a pathlib.Path object.")
-        self._temp_path = path
+        self._temp_folder_path = path
+        
+        
+        
+        
+        
+        
+    def init_or_resume_scenes_df(self):
+        """
+        Resumes the scenes DataFrame from a pickle file if it exists,
+        otherwise initializes a new DataFrame.
+        """
+        if self._temp_folder_path.exists() and (self._temp_folder_path / "scenes.pkl").exists():
+            # Load existing DataFrame from pickle
+            self._scenes_df = pd.read_pickle(self._temp_folder_path / "scenes.pkl")
+            print("Resumed scenes DataFrame from existing file.")
+        else:
+            # Initialize a new DataFrame
+            self._scenes_df = pd.DataFrame(
+                columns=["timestamp", "video_id", "scene_number", "scene_snapshot_number", "scene_snapshot_path",
+                         "subtitle", "cleaned_subtitle", "snapshot_desc", "profanity_present", "nudity_present",
+                         "should_censor"],
+            ).astype({
+                "timestamp": "float64",
+                "video_id": "int32",
+                "scene_number": "int32",
+                "scene_snapshot_number": "int32",
+                "scene_snapshot_path": "string",
+                "subtitle": "string",
+                "cleaned_subtitle": "string",
+                "snapshot_desc": "string",
+                "profanity_present": "bool",
+                "nudity_present": "bool",
+                "should_censor": "bool"
+            })
+            print("Initialized new scenes DataFrame.")
+
+        # get the list of processed video IDs from the DataFrame
+        self.processed_video_ids = self._scenes_df['video_id'].unique().tolist()

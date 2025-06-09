@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<episodedetails>
+  <plot><![CDATA[Robb goes to war against the Lannisters. Jon finds himself struggling on deciding if his place is with Robb or the Night's Watch. Drogo has fallen ill from a fresh battle wound. Daenerys is desperate to save him.]]></plot>
+  <outline />
+  <lockdata>false</lockdata>
+  <dateadded>2025-02-09 19:44:49</dateadded>
+  <title>Baelor</title>
+  <actor>
+    <name>Peter Dinklage</name>
+    <role>Tyrion 'The Halfman' Lannister</role>
+    <type>Actor</type>
+    <tmdbid>22970</tmdbid>
+    <tvdbid>247907</tvdbid>
+  </actor>
+  <actor>
+    <name>Kit Harington</name>
+    <role>Jon Snow</role>
+    <type>Actor</type>
+    <tvdbid>247909</tvdbid>
+    <tmdbid>239019</tmdbid>
+  </actor>
+  <actor>
+    <name>Sean Bean</name>
+    <role>Lord Eddard 'Ned' Stark</role>
+    <type>Actor</type>
+    <tmdbid>48</tmdbid>
+    <tvdbid>247858</tvdbid>
+  </actor>
+  <actor>
+    <name>Mark Addy</name>
+    <role>Robert Baratheon</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Richard Madden</name>
+    <role>Robb Stark</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Nikolaj Coster-Waldau</name>
+    <role>Sir Jaime 'Kingslayer' Lannister</role>
+    <type>Actor</type>
+    <tvdbid>247854</tvdbid>
+    <tmdbid>12795</tmdbid>
+  </actor>
+  <actor>
+    <name>Lena Headey</name>
+    <role>Cersei Lannister</role>
+    <type>Actor</type>
+    <tmdbid>17286</tmdbid>
+    <tvdbid>247904</tvdbid>
+  </actor>
+  <actor>
+    <name>Michelle Fairley</name>
+    <role>Catelyn Stark</role>
+    <type>Actor</type>
+    <tvdbid>247831</tvdbid>
+  </actor>
+  <actor>
+    <name>Emilia Clarke</name>
+    <role>Daenerys Targaryen</role>
+    <type>Actor</type>
+    <tvdbid>247906</tvdbid>
+    <tmdbid>1223786</tmdbid>
+  </actor>
+  <actor>
+    <name>Maisie Williams</name>
+    <role>Arya Stark</role>
+    <type>Actor</type>
+    <tvdbid>247902</tvdbid>
+    <tmdbid>1181313</tmdbid>
+  </actor>
+  <actor>
+    <name>Iain Glen</name>
+    <role>Sir Jorah Mormont</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Isaac Hempstead Wright</name>
+    <role>Brandon 'Bran' Stark</role>
+    <type>Actor</type>
+    <tvdbid>247903</tvdbid>
+    <tmdbid>239020</tmdbid>
+  </actor>
+  <actor>
+    <name>Aidan Gillen</name>
+    <role>Petyr 'Littlefinger' Baelish</role>
+    <type>Actor</type>
+    <tvdbid>247873</tvdbid>
+    <tmdbid>49735</tmdbid>
+  </actor>
+  <actor>
+    <name>Sophie Turner</name>
+    <role>Sansa Stark</role>
+    <type>Actor</type>
+    <tvdbid>247901</tvdbid>
+    <tmdbid>1001657</tmdbid>
+  </actor>
+  <actor>
+    <name>Harry Lloyd</name>
+    <role>Viserys Targaryen</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Charles Dance</name>
+    <role>Tywin Lannister</role>
+    <type>GuestStar</type>
+    <tmdbid>4391</tmdbid>
+    <tvdbid>247871</tvdbid>
+  </actor>
+  <actor>
+    <name>Jerome Flynn</name>
+    <role>Bronn</role>
+    <type>GuestStar</type>
+    <tmdbid>195930</tmdbid>
+    <tvdbid>247862</tvdbid>
+  </actor>
+  <actor>
+    <name>John Bradley</name>
+    <role>Samwell 'Sam' Tarly</role>
+    <type>GuestStar</type>
+    <tvdbid>247899</tvdbid>
+    <tmdbid>1010135</tmdbid>
+  </actor>
+  <actor>
+    <name>Conleth Hill</name>
+    <role>Lord Varys</role>
+    <type>GuestStar</type>
+    <tvdbid>247900</tvdbid>
+  </actor>
+  <actor>
+    <name>Sibel Kekilli</name>
+    <role>Shae</role>
+    <type>GuestStar</type>
+    <tvdbid>247864</tvdbid>
+  </actor>
+  <actor>
+    <name>David Bradley</name>
+    <role>Walder Frey</role>
+    <type>GuestStar</type>
+    <tvdbid>247908</tvdbid>
+  </actor>
+  <actor>
+    <name>Josef Altin</name>
+    <role>Pypar</role>
+    <type>GuestStar</type>
+    <tvdbid>247933</tvdbid>
+  </actor>
+  <actor>
+    <name>James Cosmo</name>
+    <role>Jeor Mormont</role>
+    <type>GuestStar</type>
+    <tvdbid>247865</tvdbid>
+  </actor>
+  <actor>
+    <name>Dominic Carter</name>
+    <role>Janos Slynt</role>
+    <type>GuestStar</type>
+    <tvdbid>247930</tvdbid>
+  </actor>
+  <actor>
+    <name>Roxanne McKee</name>
+    <role>Doreah</role>
+    <type>GuestStar</type>
+    <tvdbid>247935</tvdbid>
+  </actor>
+  <actor>
+    <name>Mark Stanley</name>
+    <role>Grenn</role>
+    <type>GuestStar</type>
+    <tvdbid>247932</tvdbid>
+  </actor>
+  <actor>
+    <name>Ian Gelder</name>
+    <role>Kevan Lannister</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Julian Glover</name>
+    <role>Grand Maester Pycelle</role>
+    <type>GuestStar</type>
+    <tmdbid>740</tmdbid>
+    <tvdbid>247890</tvdbid>
+  </actor>
+  <actor>
+    <name>Peter Vaughan</name>
+    <role>Maester Aemon</role>
+    <type>GuestStar</type>
+    <tvdbid>247838</tvdbid>
+  </actor>
+  <actor>
+    <name>Luke Barnes</name>
+    <role>Rast</role>
+    <type>GuestStar</type>
+    <tvdbid>7985200</tvdbid>
+  </actor>
+  <director tvdbid="247953">Alan Taylor</director>
+  <writer>David Benioff</writer>
+  <writer>D. B. Weiss</writer>
+  <credits>David Benioff</credits>
+  <credits>D. B. Weiss</credits>
+  <rating>8.9</rating>
+  <year>2011</year>
+  <sorttitle>Baelor</sorttitle>
+  <imdbid>tt1851398</imdbid>
+  <tvdbid>4063481</tvdbid>
+  <runtime>56</runtime>
+  <genre>Action</genre>
+  <genre>Adventure</genre>
+  <genre>Drama</genre>
+  <uniqueid type="imdb">tt1851398</uniqueid>
+  <uniqueid type="tvdb">4063481</uniqueid>
+  <episode>9</episode>
+  <season>1</season>
+  <aired>2011-06-12</aired>
+  <fileinfo>
+    <streamdetails>
+      <video>
+        <codec>h264</codec>
+        <micodec>h264</micodec>
+        <bitrate>975518</bitrate>
+        <width>1280</width>
+        <height>720</height>
+        <aspect>16:9</aspect>
+        <aspectratio>16:9</aspectratio>
+        <framerate>23.976025</framerate>
+        <scantype>progressive</scantype>
+        <default>True</default>
+        <forced>False</forced>
+        <duration>56</duration>
+        <durationinseconds>3376</durationinseconds>
+      </video>
+      <audio>
+        <codec>aac</codec>
+        <micodec>aac</micodec>
+        <bitrate>192000</bitrate>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <channels>2</channels>
+        <samplingrate>48000</samplingrate>
+        <default>True</default>
+        <forced>False</forced>
+      </audio>
+      <subtitle>
+        <codec>subrip</codec>
+        <micodec>subrip</micodec>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>subrip</codec>
+        <micodec>subrip</micodec>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>srt</codec>
+        <micodec>srt</micodec>
+        <language>en</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>srt</codec>
+        <micodec>srt</micodec>
+        <language>en</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+    </streamdetails>
+  </fileinfo>
+  <showtitle>Game of Thrones</showtitle>
+</episodedetails>

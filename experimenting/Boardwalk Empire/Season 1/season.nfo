@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<season>
+  <plot>On the eve of Prohibition in 1920, Atlantic City county treasurer Enoch "Nucky" Thompson is looking to cash in. Prohibition may have outlawed alcohol, but in Nucky's world it has opened up highly lucrative opportunities for gangsters and rumrunners looking to provide "liquid gold" for a thirsty nation. In a city defined by notorious backroom politics and vicious power struggles, Nucky battles a relentless federal agent, ambitious underlings, and opportunistic rivals—including Arnold Rothstein, Lucky Luciano, and Al Capone.</plot>
+  <outline>On the eve of Prohibition in 1920, Atlantic City county treasurer Enoch "Nucky" Thompson is looking to cash in. Prohibition may have outlawed alcohol, but in Nucky's world it has opened up highly lucrative opportunities for gangsters and rumrunners looking to provide "liquid gold" for a thirsty nation. In a city defined by notorious backroom politics and vicious power struggles, Nucky battles a relentless federal agent, ambitious underlings, and opportunistic rivals—including Arnold Rothstein, Lucky Luciano, and Al Capone.</outline>
+  <lockdata>false</lockdata>
+  <dateadded>2025-02-11 15:58:29</dateadded>
+  <title>Season 1</title>
+  <writer>David Flebotte</writer>
+  <writer>Nelson Johnson</writer>
+  <credits>David Flebotte</credits>
+  <credits>Nelson Johnson</credits>
+  <year>2010</year>
+  <sorttitle>Season 1</sorttitle>
+  <tvdbid>40353</tvdbid>
+  <premiered>2010-09-19</premiered>
+  <releasedate>2010-09-19</releasedate>
+  <art>
+    <poster>/data/tv/Boardwalk Empire/season01-poster.jpg</poster>
+  </art>
+  <actor>
+    <name>Steve Buscemi</name>
+    <role>Enoch "Nucky" Thompson</role>
+    <type>Actor</type>
+    <sortorder>0</sortorder>
+    <thumb>/config/data/metadata/People/S/Steve Buscemi/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Michael Pitt</name>
+    <role>James "Jimmy" Darmody</role>
+    <type>Actor</type>
+    <sortorder>1</sortorder>
+  </actor>
+  <actor>
+    <name>Kelly Macdonald</name>
+    <role>Margaret Schroeder / Margaret Thompson</role>
+    <type>Actor</type>
+    <sortorder>2</sortorder>
+    <thumb>/config/data/metadata/People/K/Kelly Macdonald/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Michael Shannon</name>
+    <role>Nelson Van Alden</role>
+    <type>Actor</type>
+    <sortorder>3</sortorder>
+    <thumb>/config/data/metadata/People/M/Michael Shannon/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Shea Whigham</name>
+    <role>Elias "Eli" Thompson</role>
+    <type>Actor</type>
+    <sortorder>4</sortorder>
+    <thumb>/config/data/metadata/People/S/Shea Whigham/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Aleksa Palladino</name>
+    <role>Angela Darmody</role>
+    <type>Actor</type>
+    <sortorder>5</sortorder>
+  </actor>
+  <actor>
+    <name>Michael Stuhlbarg</name>
+    <role>Arnold Rothstein</role>
+    <type>Actor</type>
+    <sortorder>6</sortorder>
+  </actor>
+  <actor>
+    <name>Stephen Graham</name>
+    <role>Al Capone</role>
+    <type>Actor</type>
+    <sortorder>7</sortorder>
+    <thumb>/config/data/metadata/People/S/Stephen Graham/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Vincent Piazza</name>
+    <role>Charles "Lucky" Luciano</role>
+    <type>Actor</type>
+    <sortorder>8</sortorder>
+    <thumb>/config/data/metadata/People/V/Vincent Piazza/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Paz de la Huerta</name>
+    <role>Lucy Danziger</role>
+    <type>Actor</type>
+    <sortorder>9</sortorder>
+  </actor>
+  <actor>
+    <name>Michael Kenneth Williams</name>
+    <role>Albert "Chalky" White</role>
+    <type>Actor</type>
+    <sortorder>10</sortorder>
+    <thumb>/config/data/metadata/People/M/Michael Kenneth Williams/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Anthony Laciura</name>
+    <role>Edward "Eddie" Kessler</role>
+    <type>Actor</type>
+    <sortorder>11</sortorder>
+  </actor>
+  <actor>
+    <name>Paul Sparks</name>
+    <role>Mieczysław "Mickey" Doyle</role>
+    <type>Actor</type>
+    <sortorder>12</sortorder>
+    <thumb>/config/data/metadata/People/P/Paul Sparks/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Dabney Coleman</name>
+    <role>Commodore Louis Kaestner</role>
+    <type>Actor</type>
+    <sortorder>15</sortorder>
+  </actor>
+  <actor>
+    <name>Gene Kelly</name>
+    <role>Executive Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Rick Yorn</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Howard Korder</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Rudd Simmons</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Stephen Levinson</name>
+    <role>Executive Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Lawrence Konner</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Mark Wahlberg</name>
+    <role>Executive Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Margaret Nagle</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Cara McKenney</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Tim Van Patten</name>
+    <role>Executive Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Terence Winter</name>
+    <role>Executive Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Martin Scorsese</name>
+    <role>Executive Producer</role>
+    <type>Producer</type>
+  </actor>
+  <seasonnumber>1</seasonnumber>
+  <uniqueid type="tvdb">40353</uniqueid>
+</season>

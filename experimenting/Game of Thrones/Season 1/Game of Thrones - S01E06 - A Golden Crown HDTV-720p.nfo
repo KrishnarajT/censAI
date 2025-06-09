@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<episodedetails>
+  <plot><![CDATA[While recovering from his battle with Jamie, Eddard is forced to run the kingdom while Robert goes hunting. Tyrion demands a trial by combat for his freedom. Viserys is losing his patience with Drogo.]]></plot>
+  <outline />
+  <lockdata>false</lockdata>
+  <dateadded>2025-02-09 19:44:49</dateadded>
+  <title>A Golden Crown</title>
+  <actor>
+    <name>Peter Dinklage</name>
+    <role>Tyrion 'The Halfman' Lannister</role>
+    <type>Actor</type>
+    <tmdbid>22970</tmdbid>
+    <tvdbid>247907</tvdbid>
+  </actor>
+  <actor>
+    <name>Kit Harington</name>
+    <role>Jon Snow</role>
+    <type>Actor</type>
+    <tvdbid>247909</tvdbid>
+    <tmdbid>239019</tmdbid>
+  </actor>
+  <actor>
+    <name>Sean Bean</name>
+    <role>Lord Eddard 'Ned' Stark</role>
+    <type>Actor</type>
+    <tmdbid>48</tmdbid>
+    <tvdbid>247858</tvdbid>
+  </actor>
+  <actor>
+    <name>Mark Addy</name>
+    <role>Robert Baratheon</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Richard Madden</name>
+    <role>Robb Stark</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Nikolaj Coster-Waldau</name>
+    <role>Sir Jaime 'Kingslayer' Lannister</role>
+    <type>Actor</type>
+    <tvdbid>247854</tvdbid>
+    <tmdbid>12795</tmdbid>
+  </actor>
+  <actor>
+    <name>Lena Headey</name>
+    <role>Cersei Lannister</role>
+    <type>Actor</type>
+    <tmdbid>17286</tmdbid>
+    <tvdbid>247904</tvdbid>
+  </actor>
+  <actor>
+    <name>Michelle Fairley</name>
+    <role>Catelyn Stark</role>
+    <type>Actor</type>
+    <tvdbid>247831</tvdbid>
+  </actor>
+  <actor>
+    <name>Emilia Clarke</name>
+    <role>Daenerys Targaryen</role>
+    <type>Actor</type>
+    <tvdbid>247906</tvdbid>
+    <tmdbid>1223786</tmdbid>
+  </actor>
+  <actor>
+    <name>Maisie Williams</name>
+    <role>Arya Stark</role>
+    <type>Actor</type>
+    <tvdbid>247902</tvdbid>
+    <tmdbid>1181313</tmdbid>
+  </actor>
+  <actor>
+    <name>Iain Glen</name>
+    <role>Sir Jorah Mormont</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Isaac Hempstead Wright</name>
+    <role>Brandon 'Bran' Stark</role>
+    <type>Actor</type>
+    <tvdbid>247903</tvdbid>
+    <tmdbid>239020</tmdbid>
+  </actor>
+  <actor>
+    <name>Aidan Gillen</name>
+    <role>Petyr 'Littlefinger' Baelish</role>
+    <type>Actor</type>
+    <tvdbid>247873</tvdbid>
+    <tmdbid>49735</tmdbid>
+  </actor>
+  <actor>
+    <name>Sophie Turner</name>
+    <role>Sansa Stark</role>
+    <type>Actor</type>
+    <tvdbid>247901</tvdbid>
+    <tmdbid>1001657</tmdbid>
+  </actor>
+  <actor>
+    <name>Harry Lloyd</name>
+    <role>Viserys Targaryen</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Jerome Flynn</name>
+    <role>Bronn</role>
+    <type>GuestStar</type>
+    <tmdbid>195930</tmdbid>
+    <tvdbid>247862</tvdbid>
+  </actor>
+  <actor>
+    <name>Lino Facioli</name>
+    <role>Robin Arryn</role>
+    <type>GuestStar</type>
+    <tvdbid>247841</tvdbid>
+  </actor>
+  <actor>
+    <name>Eugene Simon</name>
+    <role>Lancel Lannister</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Finn Jones</name>
+    <role>Sir Loras Tyrell</role>
+    <type>GuestStar</type>
+    <tvdbid>247867</tvdbid>
+  </actor>
+  <actor>
+    <name>Roxanne McKee</name>
+    <role>Doreah</role>
+    <type>GuestStar</type>
+    <tvdbid>247935</tvdbid>
+  </actor>
+  <actor>
+    <name>Natalia Tena</name>
+    <role>Osha</role>
+    <type>GuestStar</type>
+    <tmdbid>3300</tmdbid>
+    <tvdbid>247837</tvdbid>
+  </actor>
+  <actor>
+    <name>Kristian Nairn</name>
+    <role>Hodor</role>
+    <type>GuestStar</type>
+    <tvdbid>247835</tvdbid>
+  </actor>
+  <actor>
+    <name>Julian Glover</name>
+    <role>Grand Maester Pycelle</role>
+    <type>GuestStar</type>
+    <tmdbid>740</tmdbid>
+    <tvdbid>247890</tvdbid>
+  </actor>
+  <actor>
+    <name>Ciaran Bermingham</name>
+    <role>Mord</role>
+    <type>GuestStar</type>
+    <tvdbid>247949</tvdbid>
+  </actor>
+  <actor>
+    <name>Amira Ghazalla</name>
+    <role>Dothraki Crone</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Niall Cusack</name>
+    <role>Joss</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Stephen Don</name>
+    <role>Stiv</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Paddy Rocks</name>
+    <role>Knight of House Lynderly</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Barrington Cullen</name>
+    <role>Eon Hunter</role>
+    <type>GuestStar</type>
+  </actor>
+  <actor>
+    <name>Barry O'Connor</name>
+    <role>Night's Watch Deserter</role>
+    <type>GuestStar</type>
+  </actor>
+  <director tvdbid="247928">Daniel Minahan</director>
+  <writer>David Benioff</writer>
+  <writer>Jane Espenson</writer>
+  <writer>D. B. Weiss</writer>
+  <credits>David Benioff</credits>
+  <credits>Jane Espenson</credits>
+  <credits>D. B. Weiss</credits>
+  <rating>8.4</rating>
+  <year>2011</year>
+  <sorttitle>Golden Crown</sorttitle>
+  <imdbid>tt1837862</imdbid>
+  <tvdbid>3436451</tvdbid>
+  <runtime>53</runtime>
+  <genre>Action</genre>
+  <genre>Adventure</genre>
+  <genre>Drama</genre>
+  <uniqueid type="imdb">tt1837862</uniqueid>
+  <uniqueid type="tvdb">3436451</uniqueid>
+  <episode>6</episode>
+  <season>1</season>
+  <aired>2011-05-22</aired>
+  <fileinfo>
+    <streamdetails>
+      <video>
+        <codec>h264</codec>
+        <micodec>h264</micodec>
+        <bitrate>1043848</bitrate>
+        <width>1280</width>
+        <height>720</height>
+        <aspect>16:9</aspect>
+        <aspectratio>16:9</aspectratio>
+        <framerate>23.976025</framerate>
+        <scantype>progressive</scantype>
+        <default>True</default>
+        <forced>False</forced>
+        <duration>52</duration>
+        <durationinseconds>3156</durationinseconds>
+      </video>
+      <audio>
+        <codec>aac</codec>
+        <micodec>aac</micodec>
+        <bitrate>192000</bitrate>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <channels>2</channels>
+        <samplingrate>48000</samplingrate>
+        <default>True</default>
+        <forced>False</forced>
+      </audio>
+      <subtitle>
+        <codec>subrip</codec>
+        <micodec>subrip</micodec>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>subrip</codec>
+        <micodec>subrip</micodec>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>srt</codec>
+        <micodec>srt</micodec>
+        <language>en</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>srt</codec>
+        <micodec>srt</micodec>
+        <language>en</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+    </streamdetails>
+  </fileinfo>
+  <showtitle>Game of Thrones</showtitle>
+</episodedetails>
