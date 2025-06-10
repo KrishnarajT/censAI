@@ -78,58 +78,64 @@ def match_video_and_subtitles(videos, subtitles):
     return media_files
 
 
-def align_subtitles(video_and_subtitle_files):
+def align_subtitles(video_id, subtitle_path):
     """
     Aligns the subtitles with the video using ffsubsync.
 
     Args:
-        video_and_subtitle_files : dict of video path as keys and subtitle path as values
+        video_path, subtitle_path (pathlib.Path): Paths to the video and subtitle files.
+    Returns:
+        None
     """
+    video_path = config.id_to_video[video_id]
+    # skip if already done
+    if subtitle_path is None:
+        logging.warning(f"No matching subtitle for video: {video_path.name}")
+        return
+    # Define output subtitle path (appends "_synced" before .srt)
+    subtitle_synced_path = subtitle_path.with_stem(subtitle_path.stem + ".synced")
 
-    for video_path, subtitle_path in video_and_subtitle_files.items():
-        if subtitle_path is None:
-            logging.warning(f"No matching subtitle for video: {video_path.name}")
-            continue
+    # Check if the synced subtitle already exists
+    if subtitle_synced_path.exists():
+        logging.info(f"Synced subtitle already exists: {subtitle_synced_path.name}")
+        config.video_and_subtitle_files[video_id] = subtitle_synced_path
+        return
+    
+    # Construct ffsubsync command
+    # we use sys.executable to ensure the correct Python environment is used that has ffsubsync installed
+    command = [
+        sys.executable, "-m", "ffsubsync", str(video_path),
+        "-i", str(subtitle_path),
+        "--vad", "webrtc",
+        "-o", str(subtitle_synced_path)
+    ]
 
-        # Define output subtitle path (appends "_synced" before .srt)
-        subtitle_synced_path = subtitle_path.with_stem(subtitle_path.stem + ".synced")
-
-        # Check if the synced subtitle already exists
-        if subtitle_synced_path.exists():
-            logging.info(f"Synced subtitle already exists: {subtitle_synced_path.name}")
-            video_and_subtitle_files[video_path] = subtitle_synced_path
-            continue
-
-        # Construct ffsubsync command
-        # we use sys.executable to ensure the correct Python environment is used that has ffsubsync installed
-        command = [
-            sys.executable, "-m", "ffsubsync", str(video_path),
-            "-i", str(subtitle_path),
-            "--vad", "webrtc",
-            "-o", str(subtitle_synced_path)
-        ]
-
-        try:
-            subprocess.run(command, check=True)
-            # update dictionary with the new synced subtitle path
-            video_and_subtitle_files[video_path] = subtitle_synced_path
-        except subprocess.CalledProcessError as e:
-            logging.error(
-                f"Error aligning subtitles for {video_path.name}: {e}"
-            )
+    try:
+        subprocess.run(command, check=True)
+        # update dictionary with the new synced subtitle path
+        config.video_and_subtitle_files[video_id] = subtitle_synced_path
+    except subprocess.CalledProcessError as e:
+        logging.error(
+            f"Error aligning subtitles for {video_path.name}: {e}"
+        )
 
 
-def process_subtitles(video_path, subtitle_path):
+def process_subtitles(video_id, subtitle_path):
     """
     Processes the subtitles to extract relevant information.
     """
+    # skip if already done
+    if video_id in config.subtitles_processed_video_ids:
+        logging.info("Skipping video %s subtitle processing as they have already been processed.", video_id)
+        return
+    
     st = SafeText(language="en")
     subs = pysrt.open(subtitle_path)
 
     for sub in subs:
         profane = True if st.check_profanity(sub.text) else False
-        config.scenes_df.loc[len(config.scenes_df)] = [sub.start.ordinal, 
-                                                       config.video_to_id[video_path],
+        config.all_scenes_df.loc[len(config.all_scenes_df)] = [sub.start.ordinal, 
+                                                       config.video_to_id[config.id_to_video[video_id]],
                                                        None,
                                                        None,
                                                        None,

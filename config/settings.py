@@ -1,4 +1,5 @@
 import pathlib
+from token import NUMBER
 from enums.CensorshipStrength import CensorshipStrength
 import pandas as pd
 
@@ -11,7 +12,7 @@ class Config:
     LOGGING_DATE_FORMAT = "%H:%M:%S"
     VIDEO_EXTENSIONS = [".mp4", ".mkv", ".avi", ".mov", ".wmv", ".flv"]
     SUBTITLE_EXTENSIONS = [".srt", ".ass", ".vtt", ".sub", ".idx"]
-
+    NUMBER_OF_IMAGES_PER_SCENE = 3
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super().__new__(cls)
@@ -24,8 +25,8 @@ class Config:
             self._video_and_subtitle_files = {}
             self._initialized = True
             self._temp_folder_path = None
-            self.processed_video_ids = []  # Track the last processed video ID
-            self._scenes_df = pd.DataFrame()
+            self.subtitles_processed_video_ids = []  # Track the last processed video ID
+            self._all_scenes_df = pd.DataFrame()
             # for progress and storing video orders
             self.video_to_id = {}
             self.id_to_video = {}
@@ -71,14 +72,14 @@ class Config:
         self._video_and_subtitle_files = files
 
     @property
-    def scenes_df(self):
-        return self._scenes_df
+    def all_scenes_df(self):
+        return self._all_scenes_df
 
-    @scenes_df.setter
-    def scenes_df(self, df):
+    @all_scenes_df.setter
+    def all_scenes_df(self, df):
         if not isinstance(df, pd.DataFrame):
             raise ValueError("Scenes DataFrame must be a pandas DataFrame.")
-        self._scenes_df = df
+        self._all_scenes_df = df
 
     @property
     def temp_path(self):
@@ -102,11 +103,11 @@ class Config:
         """
         if self._temp_folder_path.exists() and (self._temp_folder_path / "scenes.pkl").exists():
             # Load existing DataFrame from pickle
-            self._scenes_df = pd.read_pickle(self._temp_folder_path / "scenes.pkl")
+            self._all_scenes_df = pd.read_pickle(self._temp_folder_path / "scenes.pkl")
             print("Resumed scenes DataFrame from existing file.")
         else:
             # Initialize a new DataFrame
-            self._scenes_df = pd.DataFrame(
+            self._all_scenes_df = pd.DataFrame(
                 columns=["timestamp", "video_id", "scene_number", "scene_snapshot_number", "scene_snapshot_path",
                          "subtitle", "cleaned_subtitle", "snapshot_desc", "profanity_present", "nudity_present",
                          "should_censor"],
@@ -126,4 +127,4 @@ class Config:
             print("Initialized new scenes DataFrame.")
 
         # get the list of processed video IDs from the DataFrame
-        self.processed_video_ids = self._scenes_df['video_id'].unique().tolist()
+        self.subtitles_processed_video_ids = self._all_scenes_df['video_id'].unique().tolist()

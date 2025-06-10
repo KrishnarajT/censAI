@@ -4,6 +4,8 @@ import sys
 import subprocess
 config = Config()
 import logging
+import pandas as pd
+import math
 
 def find_videos(path):
     """
@@ -31,24 +33,56 @@ def create_video_to_id_mappings(video_list):
 
 def split_into_scenes(video_id):
     """
-    Splits the video into scenes using scene_detect library. 
+    Splits the video into scenes using scene_detect library.
     """
+    
+    # skip if already done
+    # done by reading the scenes.csv file in the temp / video_id folder if it exists. 
+    # convert that csv file to a df, if no. of rows * NUMBER_OF_IMAGES_PER_SCENE is equal to the number of images in the folder, then skip
+    current_scenes_df = pd.DataFrame()
+    should_not_split = False
+    detection_exists = (config.temp_folder_path / f"{video_id}/scenes.csv").exists()
+    if detection_exists:
+        # read csv file and create df ignore first line, read columns from second line onwards
+        current_scenes_df = pd.read_csv(config.temp_folder_path / f"{video_id}/scenes.csv", skiprows=1)
+        # check if generated_images match the number of scenes
+        should_not_split = math.isclose(len(current_scenes_df) * config.NUMBER_OF_IMAGES_PER_SCENE, len(list((config.temp_folder_path / f"{video_id}").glob("*.jpg"))), rel_tol=0.01)
+        
+    if should_not_split:
+        logging.info(f"Scenes already split for video {video_id}, skipping...")
+        return
+    # log everything
+    logging.info(f"Detection exists: {detection_exists}, should split: {should_not_split}")
+    logging.info(f"Current scenes dataframe: {current_scenes_df.head()}")
+    logging.info(f"Length of current scenes dataframe: {len(current_scenes_df)}")
+    logging.info(f"Number of images in folder: {len(list((config.temp_folder_path / f'{video_id}').glob('*.jpg')))}")
     video_path = config.id_to_video[video_id]
+    logging.info(f"Splitting video {video_path.name} into scenes...")
+    
     command = [
         sys.executable, "-m", "scenedetect", 
-        "-i", str(video_path),
-        "-o", str(config.temp_folder_path),
+        "--verbosity", "error",
+        "--input", str(video_path),
         "list-scenes",
-        "-f", f"{video_id}_scenes",
+        "-f", f"{config.temp_folder_path}/{video_id}/scenes",
         "save-images",
-        "--num-images", "10"
-        "--filename", "{video_id}_$SCENE_NUMBER_$IMAGE_NUMBER_$TIMESTAMP_MS"
+        "--num-images", f"{config.NUMBER_OF_IMAGES_PER_SCENE}",
+        "--filename", "$SCENE_NUMBER-$IMAGE_NUMBER-$TIMESTAMP_MS",
+        "--output", f"{config.temp_folder_path}/{video_id}",
     ]
 
+    load_scenes = [
+        "load-scenes", "-i",
+        f"{config.temp_folder_path}/{video_id}/scenes.csv"
+    ]
+    
+    # join if detection_exists is True
+    if detection_exists:
+        command.extend(load_scenes)
+    
     try:
         subprocess.run(command, check=True)
-        # update dictionary with the new synced subtitle path
     except subprocess.CalledProcessError as e:
         logging.error(
-            f"Error aligning subtitles for {video_path.name}: {e}"
+            f"Error splitting scenes for {video_path.name}: {e}"
         )

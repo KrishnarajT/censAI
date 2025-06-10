@@ -17,7 +17,7 @@ if __name__ == "__main__":
     logging.getLogger("ollama").setLevel(logging.WARNING)
     logging.getLogger("safetext").setLevel(logging.ERROR)
     util.print_welcome_message()
-    media_folder_path = input("\nEnter the path to the media folder: ").strip()
+    media_folder_path = input("\nEnter the path to the media folder (will be searched recursively): ").strip()
     config.media_folder_path = media_folder_path
 
     util.get_censorship_strength()
@@ -34,7 +34,6 @@ if __name__ == "__main__":
     print()
 
     logging.info(f"{LoggingColors.BLUE_INFO}Proceeding to align subtitles with audio for precision.{LoggingColors.RESET}")
-    sm.align_subtitles(config.video_and_subtitle_files)
     logging.info(f"{LoggingColors.YELLOW_WARNING}Completed aligning subtitles with audio.{LoggingColors.RESET}")
     print()
 
