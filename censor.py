@@ -18,8 +18,6 @@ def censor(video_id, subtitle_path):
         "Aligning Subtitles",
         "Processing Subtitle File",
         "Splitting Video into Scenes",
-        # "Analysing Subtitle file",
-        # "Splitting Each scene to get frames",
         # "Run nudenet on each frame",
         # "Generating description for each frame",
         # "Use description and nudenet results to determine if censoring is needed",

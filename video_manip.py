@@ -82,6 +82,45 @@ def split_into_scenes(video_id):
     
     try:
         subprocess.run(command, check=True)
+        
+        # current_scenes_df = pd.read_csv(config.temp_folder_path / f"{video_id}/scenes.csv", skiprows=1) if not detection_exists else current_scenes_df
+        
+        # # by this time we should have the video scenes csv and its images. 
+        
+        # # read the folder and get all jpg files into a list. 
+        # images = list((config.temp_folder_path / f"{video_id}").glob("*.jpg"))
+        # scene_images_db = pd.DataFrame(
+        #     columns=["scene_number", "image_number", "timestamp", "image_path"],
+        #     dtype="string"
+        # )
+        
+        # for image in images:
+        #     # extract timestamp from image filename
+        #     scene_number, image_number, timestamp = image.stem.split('-')
+        #     # append to the DataFrame
+        #     scene_images_db.loc[len(scene_images_db)] = [
+        #         scene_number, 
+        #         image_number, 
+        #         timestamp, 
+        #         str(image)
+        #     ]
+        
+        # # merge the config.all_scenes_df with scene_images_db on scene_number
+        # config.all_scenes_df = pd.merge(
+        #     config.all_scenes_df,
+        #     scene_images_db,
+        #     how="full",
+        #     left_on="timestamp",
+        #     right_on="timestamp"
+        # )
+        
+        # # concat the scenes_images_db with config.all_scenes_df
+        # config.all_scenes_df = pd.concat([config.all_scenes_df, scene_images_db], ignore_index=True)
+        # # re index the DataFrame, ascending order of timestamp_ms
+        # config.all_scenes_df.sort_values(by="timestamp", inplace=True, ignore_index=True)
+        # # reset index
+        # config.all_scenes_df.reset_index(drop=True, inplace=True)
+
     except subprocess.CalledProcessError as e:
         logging.error(
             f"Error splitting scenes for {video_path.name}: {e}"
