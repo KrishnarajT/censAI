@@ -9,6 +9,7 @@ dependencies = [
     "fpdf>=1.7.2",
     "imagehash>=4.3.2",
     "img2pdf>=0.6.1",
+    "nudenet>=3.4.2",
     "ollama>=0.5.1",
     "opencv-python>=4.11.0.86",
     "pandas>=2.3.0",
