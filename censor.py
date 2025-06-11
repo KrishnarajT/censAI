@@ -60,7 +60,7 @@ def censor(video_id, subtitle_path):
 
         # Step 4 - Nudity Detection
         step_start = time.perf_counter()
-        tqdm.write("Detecting potential Nudity in video. This may take a while... (around 7 mins per 1 hour of video)")
+        tqdm.write("Detecting potential Nudity in video. This may take a while... ")
         nd.detect_nudity_in_video(video_id)
         tqdm.write(f"→ Done in {time.perf_counter() - step_start:.2f} sec")
         pbar.update(1)

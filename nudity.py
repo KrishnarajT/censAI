@@ -1,6 +1,7 @@
 from config.settings import Config
 from nudenet import NudeDetector
 import logging
+from tqdm import tqdm
 config = Config()
 
 # Initialize once at module level
@@ -15,7 +16,7 @@ def detect_nudity(image_path):
                and 'feet' not in r['class'].lower()
                and 'covered' not in r['class'].lower()
                ]
-    print("Filtered detection results:", results)
+    # print("Filtered detection results:", results)
     return len(results) > 0
 
 def detect_nudity_in_video(video_id):
@@ -35,7 +36,12 @@ def detect_nudity_in_video(video_id):
         logging.info(f"Nudity detection already done for video {video_id} or no scenes to process.")
         return
 
-    for idx, scene_image in zip(rows.index, rows.itertuples(index=False)):
-        print(f"Processing scene {scene_image.scene_number} for video {video_id}: {scene_image.scene_snapshot_path}")
+
+    for idx, scene_image in tqdm(zip(rows.index, rows.itertuples(index=False)),
+                                total=len(rows), 
+                                desc=f"Checking nudity in {video_id}", 
+                                unit=" scene frames"):
+        # print(f"Processing scene {scene_image.scene_number} for video {video_id}: {scene_image.scene_snapshot_path}")
         nudity_present = detect_nudity(scene_image.scene_snapshot_path)
         config.all_scenes_df.at[idx, 'nudity_present'] = nudity_present
+
