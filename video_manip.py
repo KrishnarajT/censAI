@@ -50,11 +50,11 @@ def split_into_scenes(video_id):
         
     if should_not_split:
         logging.info(f"Scenes already split for video {video_id}, skipping...")
+        # update our scenes_db just in case script has resumed after tampering. we are removing duplicates based on timestamp and video_id so its fine. 
+        update_image_paths_in_scenes_db(video_id)
         return
     # log everything
     logging.info(f"Detection exists: {detection_exists}, should split: {should_not_split}")
-    logging.info(f"Current scenes dataframe: {current_scenes_df.head()}")
-    logging.info(f"Length of current scenes dataframe: {len(current_scenes_df)}")
     logging.info(f"Number of images in folder: {len(list((config.temp_folder_path / f'{video_id}').glob('*.jpg')))}")
     video_path = config.id_to_video[video_id]
     logging.info(f"Splitting video {video_path.name} into scenes...")
@@ -82,46 +82,56 @@ def split_into_scenes(video_id):
     
     try:
         subprocess.run(command, check=True)
-        
-        # current_scenes_df = pd.read_csv(config.temp_folder_path / f"{video_id}/scenes.csv", skiprows=1) if not detection_exists else current_scenes_df
-        
-        # # by this time we should have the video scenes csv and its images. 
-        
-        # # read the folder and get all jpg files into a list. 
-        # images = list((config.temp_folder_path / f"{video_id}").glob("*.jpg"))
-        # scene_images_db = pd.DataFrame(
-        #     columns=["scene_number", "image_number", "timestamp", "image_path"],
-        #     dtype="string"
-        # )
-        
-        # for image in images:
-        #     # extract timestamp from image filename
-        #     scene_number, image_number, timestamp = image.stem.split('-')
-        #     # append to the DataFrame
-        #     scene_images_db.loc[len(scene_images_db)] = [
-        #         scene_number, 
-        #         image_number, 
-        #         timestamp, 
-        #         str(image)
-        #     ]
-        
-        # # merge the config.all_scenes_df with scene_images_db on scene_number
-        # config.all_scenes_df = pd.merge(
-        #     config.all_scenes_df,
-        #     scene_images_db,
-        #     how="full",
-        #     left_on="timestamp",
-        #     right_on="timestamp"
-        # )
-        
-        # # concat the scenes_images_db with config.all_scenes_df
-        # config.all_scenes_df = pd.concat([config.all_scenes_df, scene_images_db], ignore_index=True)
-        # # re index the DataFrame, ascending order of timestamp_ms
-        # config.all_scenes_df.sort_values(by="timestamp", inplace=True, ignore_index=True)
-        # # reset index
-        # config.all_scenes_df.reset_index(drop=True, inplace=True)
-
+        update_image_paths_in_scenes_db(video_id, video_path)
     except subprocess.CalledProcessError as e:
         logging.error(
             f"Error splitting scenes for {video_path.name}: {e}"
         )
+
+def update_image_paths_in_scenes_db(video_id):
+    # by this time we should have the video scenes csv and its images. 
+    # read the folder and get all jpg files into a list. 
+    images = list((config.temp_folder_path / f"{video_id}").glob("*.jpg"))
+    if not images:
+        logging.warning(f"No images found in {config.temp_folder_path / video_id}. Skipping scene update.")
+        return
+    scene_images_db = pd.DataFrame(
+            columns=["scene_number", "video_id", "scene_snapshot_number", "timestamp", "scene_snapshot_path"],
+        ).astype({
+                "timestamp": "float64",
+                "scene_number": "int32",
+                "video_id": "int32",
+                "scene_snapshot_number": "int32",
+                "scene_snapshot_path": "string"
+            })
+        
+    for image in images:
+        # extract timestamp from image filename
+        scene_number, image_number, timestamp = map(int, image.stem.split('-'))
+
+        # append to the DataFrame
+        scene_images_db.loc[len(scene_images_db)] = [
+            scene_number,
+            video_id,
+            image_number,
+            timestamp,
+            str(image)
+        ]
+        
+    # concat the scenes_images_db with config.all_scenes_df
+    config.all_scenes_df = pd.concat([config.all_scenes_df, scene_images_db], ignore_index=True)
+    # re index the DataFrame, ascending order of timestamp_ms
+    config.all_scenes_df.sort_values(by=["video_id", "timestamp"], inplace=True, ignore_index=True)
+    # reset index
+    config.all_scenes_df.reset_index(drop=True, inplace=True)
+    # remove duplicates based on timestamp in case script was rerun
+    config.all_scenes_df.drop_duplicates(subset=["timestamp", "video_id"], inplace=True)
+        
+    # log everything
+    logging.info(f"Number of images in folder: {len(images)}")
+    logging.info(f"Scene images database: {scene_images_db.head()}")
+    logging.info(f"All scenes database: {config.all_scenes_df.head()}")
+    
+    # save all df as pickle files in the temp folder
+    config.all_scenes_df.to_pickle(config.temp_folder_path / f"{video_id}/all_scenes_df.pkl")
+    scene_images_db.to_pickle(config.temp_folder_path / f"{video_id}/scene_images_db.pkl")
