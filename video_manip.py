@@ -51,7 +51,7 @@ def split_into_scenes(video_id):
     if should_not_split:
         logging.info(f"Scenes already split for video {video_id}, skipping...")
         # update our scenes_db just in case script has resumed after tampering. we are removing duplicates based on timestamp and video_id so its fine. 
-        update_image_paths_in_scenes_db(video_id)
+        add_image_paths_and_scene_subs(video_id)
         return
     # log everything
     logging.info(f"Detection exists: {detection_exists}, should split: {should_not_split}")
@@ -82,13 +82,13 @@ def split_into_scenes(video_id):
     
     try:
         subprocess.run(command, check=True)
-        update_image_paths_in_scenes_db(video_id, video_path)
+        add_image_paths_and_scene_subs(video_id)
     except subprocess.CalledProcessError as e:
         logging.error(
             f"Error splitting scenes for {video_path.name}: {e}"
         )
 
-def update_image_paths_in_scenes_db(video_id):
+def add_image_paths_and_scene_subs(video_id):
     # by this time we should have the video scenes csv and its images. 
     # read the folder and get all jpg files into a list. 
     images = list((config.temp_folder_path / f"{video_id}").glob("*.jpg"))
@@ -126,7 +126,16 @@ def update_image_paths_in_scenes_db(video_id):
     config.all_scenes_df.reset_index(drop=True, inplace=True)
     # remove duplicates based on timestamp in case script was rerun
     config.all_scenes_df.drop_duplicates(subset=["timestamp", "video_id"], inplace=True)
-        
+    # update scene_number for subtitles, so wherever it is null, we fill it from the scene_number on the row above
+    config.all_scenes_df['scene_number'] = config.all_scenes_df['scene_number'].fillna(method='ffill')
+    # update scene_subtitles, wherever scene subtitles are not null, copy them onto the rows where scene number matches
+    # get a dictionary of scene_number to scene_subtitle
+    scene_subtitles = config.all_scenes_df[config.all_scenes_df['scene_subtitle'].notnull()][['scene_number', 'scene_subtitle']].set_index('scene_number').to_dict()['scene_subtitle']
+    # update the scene_subtitle column with the values from the dictionary
+    config.all_scenes_df['scene_subtitle'] = config.all_scenes_df['scene_number'].replace(scene_subtitles)
+    # now simply fill all null scene_subtitles with the scene_subtitle from the row above
+    config.all_scenes_df['scene_subtitle'] = config.all_scenes_df['scene_subtitle'].fillna(method='ffill')
+    
     # log everything
     logging.info(f"Number of images in folder: {len(images)}")
     logging.info(f"Scene images database: {scene_images_db.head()}")

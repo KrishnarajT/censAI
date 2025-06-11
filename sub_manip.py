@@ -141,6 +141,7 @@ def process_subtitles(video_id, subtitle_path):
                                                        None,
                                                        sub.text,
                                                        pf.clean_text(sub.text) if profane else None,
+                                                       sub.text,
                                                        None,
                                                        profane,
                                                        None,

@@ -21,7 +21,7 @@ def censor(video_id, subtitle_path):
         "Processing Subtitle File",
         "Splitting Video into Scenes",
         "Detect Nudity in the Video",
-        # "Generating description for each frame",
+        "Generating AI descriptions for each scene that has nudity",
         # "Use description and nudenet results to determine if censoring is needed",
         # "Muting audio",
         # "Removing Scenes",
@@ -64,6 +64,14 @@ def censor(video_id, subtitle_path):
         nd.detect_nudity_in_video(video_id)
         tqdm.write(f"→ Done in {time.perf_counter() - step_start:.2f} sec")
         pbar.update(1)
+        
+        # Step 5 - Generate description for each scene that has nudity
+        step_start = time.perf_counter()
+        tqdm.write("Generating detailed captions for scenes with nudity...")
+        nd.generate_descriptions_for_nude_scenes(video_id)
+        tqdm.write(f"→ Done in {time.perf_counter() - step_start:.2f} sec")
+        pbar.update(1)
+        
 
         # Save data
         config.all_scenes_df.to_csv(config.temp_folder_path / "scenes.csv", index=False)

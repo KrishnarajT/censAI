@@ -12,9 +12,9 @@ def detect_nudity(image_path):
     
     # Filter out face detections
     results = [r for r in results if 'face' not in r['class'].lower()
-               and 'armpit' not in r['class'].lower()
+            #    and 'armpit' not in r['class'].lower()
                and 'feet' not in r['class'].lower()
-               and 'covered' not in r['class'].lower()
+            #    and 'covered' not in r['class'].lower()
                ]
     # print("Filtered detection results:", results)
     return len(results) > 0
@@ -45,3 +45,73 @@ def detect_nudity_in_video(video_id):
         nudity_present = detect_nudity(scene_image.scene_snapshot_path)
         config.all_scenes_df.at[idx, 'nudity_present'] = nudity_present
 
+# Load model directly
+from transformers import AutoProcessor, AutoModelForCausalLM
+from PIL import Image
+import torch
+logging.info("Loading Florence-2-large model...")
+model_id = "microsoft/Florence-2-large"
+processor = AutoProcessor.from_pretrained(model_id, trust_remote_code=True)
+# model = AutoModelForCausalLM.from_pretrained("microsoft/Florence-2-large", trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained(model_id, trust_remote_code=True).to("cuda")  # Move model to CUDA
+
+def generate_detailed_caption(image_path, task_prompt="<MORE_DETAILED_CAPTION>"):
+    # Load and preprocess the image
+    image = Image.open(image_path).convert("RGB")
+
+    # Tokenize & Encode
+    inputs = processor(text=task_prompt, images=image, return_tensors="pt")
+    
+    # 🔥 Move **ALL** tensors to CUDA
+    inputs = {key: value.to("cuda") for key, value in inputs.items()}
+
+    # Generate Caption with Beam Search
+    with torch.no_grad():
+        generated_ids = model.generate(
+            input_ids=inputs["input_ids"],
+            pixel_values=inputs["pixel_values"],
+            max_new_tokens=1024,  # Allow longer captions
+            early_stopping=False,
+            do_sample=False,  # No randomness
+            num_beams=3,  # Beam search for better results
+        )
+
+    # Decode Output
+    generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+    # Post-process (Ensure Processing Happens on CUDA)
+    parsed_answer = processor.post_process_generation(
+        generated_text,
+        task=task_prompt,
+        image_size=image.size
+    )
+
+    return parsed_answer
+
+def generate_descriptions_for_nude_scenes(video_id):
+    """
+    Generate detailed descriptions for each scene that has nudity.
+    :param video_id: ID of the video to process.
+    :return: None
+    """
+    
+    rows = config.all_scenes_df[
+        (config.all_scenes_df['video_id'] == video_id) &
+        (config.all_scenes_df['nudity_present'] == True) &
+        (config.all_scenes_df['snapshot_desc'].isnull())
+    ]
+    
+    # remove duplicate scene_numbers from this
+    rows = rows.drop_duplicates(subset=['scene_number'])
+
+    if rows.empty:
+        logging.info(f"No nude scenes to process for video {video_id}.")
+        return
+
+    for idx, scene_image in tqdm(zip(rows.index, rows.itertuples(index=False)),
+                                 total=len(rows), 
+                                 desc=f"Generating descriptions for {video_id}", 
+                                 unit=" scene frames"):
+        # print(f"Processing scene {scene_image.scene_number} for video {video_id}: {scene_image.scene_snapshot_path}")
+        description = generate_detailed_caption(scene_image.scene_snapshot_path)
+        config.all_scenes_df.at[idx, 'snapshot_desc'] = description

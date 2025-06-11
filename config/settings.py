@@ -12,7 +12,7 @@ class Config:
     LOGGING_DATE_FORMAT = "%H:%M:%S"
     VIDEO_EXTENSIONS = [".mp4", ".mkv", ".avi", ".mov", ".wmv", ".flv"]
     SUBTITLE_EXTENSIONS = [".srt", ".ass", ".vtt", ".sub", ".idx"]
-    NUMBER_OF_IMAGES_PER_SCENE = 3
+    NUMBER_OF_IMAGES_PER_SCENE = 7
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super().__new__(cls)
@@ -109,7 +109,7 @@ class Config:
             # Initialize a new DataFrame
             self._all_scenes_df = pd.DataFrame(
                 columns=["timestamp", "video_id", "scene_number", "scene_snapshot_number", "scene_snapshot_path",
-                         "subtitle", "cleaned_subtitle", "snapshot_desc", "profanity_present", "nudity_present",
+                         "subtitle", "cleaned_subtitle", "scene_subtitle", "snapshot_desc", "profanity_present", "nudity_present",
                          "should_censor"],
             ).astype({
                 "timestamp": "float64",
@@ -119,6 +119,7 @@ class Config:
                 "scene_snapshot_path": "string",
                 "subtitle": "string",
                 "cleaned_subtitle": "string",
+                "scene_subtitle": "string",
                 "snapshot_desc": "string",
                 "profanity_present": "bool",
                 "nudity_present": "bool",
