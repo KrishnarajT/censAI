@@ -9,6 +9,7 @@ import pysrt
 import profanity as pf
 import sys
 import subprocess
+from tqdm import tqdm
 
 config = Config()
 from safetext import SafeText
@@ -101,10 +102,8 @@ def align_subtitles(video_id, subtitle_path):
         config.video_and_subtitle_files[video_id] = subtitle_synced_path
         return
     
-    # Construct ffsubsync command
-    # we use sys.executable to ensure the correct Python environment is used that has ffsubsync installed
     command = [
-        sys.executable, "-m", "ffsubsync", str(video_path),
+        "ffsubsync", str(video_path),
         "-i", str(subtitle_path),
         "--vad", "webrtc",
         "-o", str(subtitle_synced_path)
@@ -120,7 +119,7 @@ def align_subtitles(video_id, subtitle_path):
         )
 
 
-def process_subtitles(video_id, subtitle_path):
+def clean_subtitles(video_id, subtitle_path):
     """
     Processes the subtitles to extract relevant information.
     """
@@ -132,17 +131,28 @@ def process_subtitles(video_id, subtitle_path):
     st = SafeText(language="en")
     subs = pysrt.open(subtitle_path)
 
-    for sub in subs:
-        profane = True if st.check_profanity(sub.text) else False
-        config.all_scenes_df.loc[len(config.all_scenes_df)] = [sub.start.ordinal, 
-                                                       config.video_to_id[config.id_to_video[video_id]],
-                                                       None,
-                                                       None,
-                                                       None,
-                                                       sub.text,
-                                                       pf.clean_text(sub.text) if profane else None,
-                                                       sub.text,
-                                                       None,
-                                                       profane,
-                                                       None,
-                                                       None]
+    try:
+        for sub in tqdm(subs, desc="Cleaning subtitles", unit="sub"):
+            profane = st.check_profanity(sub.text)
+
+            config.all_scenes_df.loc[len(config.all_scenes_df)] = [
+                sub.start.ordinal,
+                video_id,
+                None,
+                None,
+                None,
+                sub.text,
+                pf.clean_text(sub.text) if profane else None,
+                None,
+                True if profane else False,
+                None,
+                None
+            ]
+
+    except KeyboardInterrupt:
+        print("\nKeyboard interrupt detected. Saving checkpoint before exiting...")
+        config.save_checkpoint()
+        raise  # re-raises the exception if you want the program to still exit with error
+
+    # Optional: Save one last time at end if loop completes
+    config.save_checkpoint()

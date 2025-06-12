@@ -127,14 +127,7 @@ def add_image_paths_and_scene_subs(video_id):
     # remove duplicates based on timestamp in case script was rerun
     config.all_scenes_df.drop_duplicates(subset=["timestamp", "video_id"], inplace=True)
     # update scene_number for subtitles, so wherever it is null, we fill it from the scene_number on the row above
-    config.all_scenes_df['scene_number'] = config.all_scenes_df['scene_number'].fillna(method='ffill')
-    # update scene_subtitles, wherever scene subtitles are not null, copy them onto the rows where scene number matches
-    # get a dictionary of scene_number to scene_subtitle
-    scene_subtitles = config.all_scenes_df[config.all_scenes_df['scene_subtitle'].notnull()][['scene_number', 'scene_subtitle']].set_index('scene_number').to_dict()['scene_subtitle']
-    # update the scene_subtitle column with the values from the dictionary
-    config.all_scenes_df['scene_subtitle'] = config.all_scenes_df['scene_number'].replace(scene_subtitles)
-    # now simply fill all null scene_subtitles with the scene_subtitle from the row above
-    config.all_scenes_df['scene_subtitle'] = config.all_scenes_df['scene_subtitle'].fillna(method='ffill')
+    config.all_scenes_df['scene_number'] = config.all_scenes_df['scene_number'].ffill()
     
     # log everything
     logging.info(f"Number of images in folder: {len(images)}")

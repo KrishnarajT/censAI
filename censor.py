@@ -17,17 +17,17 @@ def censor(video_id, subtitle_path):
     """
 
     steps = [
-        "Aligning Subtitles",
-        "Processing Subtitle File",
-        "Splitting Video into Scenes",
-        "Detect Nudity in the Video",
-        "Generating AI descriptions for each scene that has nudity",
+        "1. Aligning Subtitles",
+        "2. Cleaning Subtitle File",
+        "3. Splitting Video into Scenes",
+        "4. Detecting potential Nudity in video",
+        "5. Generating AI descriptions for each scene that has nudity",
         # "Use description and nudenet results to determine if censoring is needed",
         # "Muting audio",
         # "Removing Scenes",
         # "Generating final video"
     ]
-    
+    current_step = iter(range(len(steps)))
     video_path = config.id_to_video[video_id]
     logging.info("Starting the censorship process for : %s", video_path)
 
@@ -39,43 +39,44 @@ def censor(video_id, subtitle_path):
 
         # Step 1 - Aligning Subtitles
         step_start = time.perf_counter()
-        tqdm.write(steps[0])
+        tqdm.write(steps[next(current_step)])
         sm.align_subtitles(video_id, subtitle_path)
         tqdm.write(f"→ Done in {time.perf_counter() - step_start:.2f} sec")
         pbar.update(1)
+        config.save_checkpoint()
 
         # Step 2 - Processing Subtitles
         step_start = time.perf_counter()
-        tqdm.write(steps[1])
-        sm.process_subtitles(video_id, subtitle_path)
+        tqdm.write(steps[next(current_step)])
+        sm.clean_subtitles(video_id, subtitle_path)
         tqdm.write(f"→ Done in {time.perf_counter() - step_start:.2f} sec")
         pbar.update(1)
+        config.save_checkpoint()
 
         # Step 3 - Splitting Scenes
         step_start = time.perf_counter()
-        tqdm.write(steps[2])
+        tqdm.write(steps[next(current_step)])
         vm.split_into_scenes(video_id)
         tqdm.write(f"→ Done in {time.perf_counter() - step_start:.2f} sec")
         pbar.update(1)
+        config.save_checkpoint()
 
         # Step 4 - Nudity Detection
         step_start = time.perf_counter()
-        tqdm.write("Detecting potential Nudity in video. This may take a while... ")
+        tqdm.write(steps[next(current_step)])
         nd.detect_nudity_in_video(video_id)
         tqdm.write(f"→ Done in {time.perf_counter() - step_start:.2f} sec")
         pbar.update(1)
+        config.save_checkpoint()
         
         # Step 5 - Generate description for each scene that has nudity
         step_start = time.perf_counter()
-        tqdm.write("Generating detailed captions for scenes with nudity...")
+        tqdm.write(steps[next(current_step)])
         nd.generate_descriptions_for_nude_scenes(video_id)
         tqdm.write(f"→ Done in {time.perf_counter() - step_start:.2f} sec")
         pbar.update(1)
-        
+        config.save_checkpoint()
 
-        # Save data
-        config.all_scenes_df.to_csv(config.temp_folder_path / "scenes.csv", index=False)
-        config.all_scenes_df.to_pickle(config.temp_folder_path / "scenes.pkl")
 
     total_duration = time.perf_counter() - total_start
     tqdm.write(f"\n✅ All steps completed in {total_duration:.2f} seconds.")

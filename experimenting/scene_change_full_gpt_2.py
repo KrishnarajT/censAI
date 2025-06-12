@@ -1,3 +1,5 @@
+# processes all videos together even if there are like 15, not good for cpu
+
 import cv2
 from PIL import Image
 import imagehash

@@ -2,6 +2,8 @@ from config.settings import Config
 from nudenet import NudeDetector
 import logging
 from tqdm import tqdm
+import time
+
 config = Config()
 
 # Initialize once at module level
@@ -35,15 +37,26 @@ def detect_nudity_in_video(video_id):
     if rows.empty:
         logging.info(f"Nudity detection already done for video {video_id} or no scenes to process.")
         return
+      
+    try:
+        for idx, scene_image in tqdm(
+            zip(rows.index, rows.itertuples(index=False)),
+            total=len(rows),
+            desc=f"Checking nudity in {video_id}",
+            unit=" scene frames"
+        ):
+            nudity_present = detect_nudity(scene_image.scene_snapshot_path)
+            config.all_scenes_df.at[idx, 'nudity_present'] = nudity_present
+            time.sleep(0.05)  # Light 50ms breather
+    except KeyboardInterrupt:
+        logging.warning("KeyboardInterrupt caught — saving checkpoint before exiting...")
+        config.save_checkpoint()
+        raise  # Re-raise to allow upstream handling or proper exit
 
-
-    for idx, scene_image in tqdm(zip(rows.index, rows.itertuples(index=False)),
-                                total=len(rows), 
-                                desc=f"Checking nudity in {video_id}", 
-                                unit=" scene frames"):
-        # print(f"Processing scene {scene_image.scene_number} for video {video_id}: {scene_image.scene_snapshot_path}")
-        nudity_present = detect_nudity(scene_image.scene_snapshot_path)
-        config.all_scenes_df.at[idx, 'nudity_present'] = nudity_present
+    else:
+        # If the loop completes without interruption
+        logging.info(f"Finished nudity detection for video {video_id}. Saving checkpoint...")
+        config.save_checkpoint()
 
 # Load model directly
 from transformers import AutoProcessor, AutoModelForCausalLM
@@ -94,7 +107,7 @@ def generate_descriptions_for_nude_scenes(video_id):
     :param video_id: ID of the video to process.
     :return: None
     """
-    
+
     rows = config.all_scenes_df[
         (config.all_scenes_df['video_id'] == video_id) &
         (config.all_scenes_df['nudity_present'] == True) &
@@ -102,16 +115,20 @@ def generate_descriptions_for_nude_scenes(video_id):
     ]
     
     # remove duplicate scene_numbers from this
-    rows = rows.drop_duplicates(subset=['scene_number'])
+    # rows = rows.drop_duplicates(subset=['scene_number'])
 
     if rows.empty:
         logging.info(f"No nude scenes to process for video {video_id}.")
         return
 
-    for idx, scene_image in tqdm(zip(rows.index, rows.itertuples(index=False)),
-                                 total=len(rows), 
-                                 desc=f"Generating descriptions for {video_id}", 
-                                 unit=" scene frames"):
-        # print(f"Processing scene {scene_image.scene_number} for video {video_id}: {scene_image.scene_snapshot_path}")
-        description = generate_detailed_caption(scene_image.scene_snapshot_path)
-        config.all_scenes_df.at[idx, 'snapshot_desc'] = description
+    try:
+        for idx, scene_image in tqdm(zip(rows.index, rows.itertuples(index=False)),
+                                    total=len(rows), 
+                                    desc=f"Generating descriptions for {video_id}", 
+                                    unit=" scene frames"):
+            description = generate_detailed_caption(scene_image.scene_snapshot_path)
+            config.all_scenes_df.at[idx, 'snapshot_desc'] = description['<MORE_DETAILED_CAPTION>']
+    except KeyboardInterrupt:
+        print("\nInterrupted! Saving checkpoint...")
+        config.save_checkpoint()
+        print("Checkpoint saved. Exiting gracefully.")

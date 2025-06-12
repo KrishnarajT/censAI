@@ -109,7 +109,7 @@ class Config:
             # Initialize a new DataFrame
             self._all_scenes_df = pd.DataFrame(
                 columns=["timestamp", "video_id", "scene_number", "scene_snapshot_number", "scene_snapshot_path",
-                         "subtitle", "cleaned_subtitle", "scene_subtitle", "snapshot_desc", "profanity_present", "nudity_present",
+                         "subtitle", "cleaned_subtitle", "snapshot_desc", "profanity_present", "nudity_present",
                          "should_censor"],
             ).astype({
                 "timestamp": "float64",
@@ -119,7 +119,6 @@ class Config:
                 "scene_snapshot_path": "string",
                 "subtitle": "string",
                 "cleaned_subtitle": "string",
-                "scene_subtitle": "string",
                 "snapshot_desc": "string",
                 "profanity_present": "bool",
                 "nudity_present": "bool",
@@ -129,3 +128,8 @@ class Config:
 
         # get the list of processed video IDs from the DataFrame
         self.subtitles_processed_video_ids = self._all_scenes_df['video_id'].unique().tolist()
+
+
+    def save_checkpoint(self):
+        self._all_scenes_df.to_csv(self._temp_folder_path / "scenes.csv", index=False)
+        self._all_scenes_df.to_pickle(self._temp_folder_path / "scenes.pkl")
