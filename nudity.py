@@ -47,7 +47,7 @@ def detect_nudity_in_video(video_id):
         ):
             nudity_present = detect_nudity(scene_image.scene_snapshot_path)
             config.all_scenes_df.at[idx, 'nudity_present'] = nudity_present
-            time.sleep(0.05)  # Light 50ms breather
+            # time.sleep(0.05)  # Light 50ms breather
     except KeyboardInterrupt:
         logging.warning("KeyboardInterrupt caught — saving checkpoint before exiting...")
         config.save_checkpoint()

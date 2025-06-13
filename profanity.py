@@ -40,3 +40,41 @@ def clean_text(text):
         model="mistral", messages=[{"role": "user", "content": prompt}]
     )
     return response["message"]["content"]
+
+
+
+def determine_if_should_censor_scene(image_descriptions: list, subtitles: list, show_name: str, nudity_present: bool):
+    prompt = f"""You are given raw descriptions of frames from a scene in a TV show, along with some subtitles.
+
+        These were generated using other AI models to help describe the visual and dialogue content.
+
+        Your task is to evaluate whether this scene is likely to contain:
+        - nudity or sexually suggestive content,
+        - sexually intimate settings or themes,
+        - visual or dialogue content that could be considered inappropriate or unnecessary for viewers avoiding such material.
+
+        Do NOT explain your reasoning. Do NOT output anything except a single word: `true` or `false`.
+
+        Respond `true` if **any line in the input** suggests this could possibly be a scene involving the above.
+
+        ---
+
+        [START OF INPUT]
+
+        Frame Descriptions:
+        {', '.join(image_descriptions)}
+
+        Subtitles:
+        {', '.join(subtitles)}
+
+        Meta:
+        Another model (NudeNet) this scene to {'' if nudity_present else 'NOT'} contain nudity, though it can be inaccurate.
+
+        [END OF INPUT]
+
+        Final Answer:
+    : '{text}'"""
+    response = ollama.chat(
+        model="mistral", messages=[{"role": "user", "content": prompt}]
+    )
+    return response["message"]["content"]

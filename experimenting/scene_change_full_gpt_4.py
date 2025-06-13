@@ -1,9 +1,3 @@
-# check if we can get individual progress bars
-# check if time is indeed saved by multithreading
-# ignore pdf videos count in main progress bar
-# check if cpu usage increases with more threads thereby reducing time
-# provide resume support by saving frame number as scene number, pulling the latest frame number if the folder exists.
-
 import cv2
 from PIL import Image
 import imagehash
