@@ -1,10 +1,12 @@
 from config.settings import Config
+from data.dataframe_manager import ScenesDataFrameManager
 from nudenet import NudeDetector
 import logging
 from tqdm import tqdm
 import time
 
 config = Config()
+df_manager = ScenesDataFrameManager()
 
 # Initialize once at module level
 detector = NudeDetector(model_path="models/640m.onnx", inference_resolution=640)
@@ -28,10 +30,10 @@ def detect_nudity_in_video(video_id):
     :return: None
     """
 
-    rows = config.all_scenes_df[
-        (config.all_scenes_df['video_id'] == video_id) &
-        (config.all_scenes_df['scene_snapshot_path'].notnull()) & 
-        (config.all_scenes_df['nudity_present'].isnull())
+    rows = df_manager.all_scenes_df[
+        (df_manager.all_scenes_df['video_id'] == video_id) &
+        (df_manager.all_scenes_df['scene_snapshot_path'].notnull()) & 
+        (df_manager.all_scenes_df['nudity_present'].isnull())
     ]
 
     if rows.empty:
@@ -46,7 +48,7 @@ def detect_nudity_in_video(video_id):
             unit=" scene frames"
         ):
             nudity_present = detect_nudity(scene_image.scene_snapshot_path)
-            config.all_scenes_df.at[idx, 'nudity_present'] = nudity_present
+            df_manager.all_scenes_df.at[idx, 'nudity_present'] = nudity_present
             # time.sleep(0.05)  # Light 50ms breather
     except KeyboardInterrupt:
         logging.warning("KeyboardInterrupt caught — saving checkpoint before exiting...")
@@ -108,10 +110,10 @@ def generate_descriptions_for_nude_scenes(video_id):
     :return: None
     """
 
-    rows = config.all_scenes_df[
-        (config.all_scenes_df['video_id'] == video_id) &
-        (config.all_scenes_df['nudity_present'] == True) &
-        (config.all_scenes_df['snapshot_desc'].isnull())
+    rows = df_manager.all_scenes_df[
+        (df_manager.all_scenes_df['video_id'] == video_id) &
+        (df_manager.all_scenes_df['nudity_present'] == True) &
+        (df_manager.all_scenes_df['snapshot_desc'].isnull())
     ]
     
     # remove duplicate scene_numbers from this
@@ -127,7 +129,7 @@ def generate_descriptions_for_nude_scenes(video_id):
                                     desc=f"Generating descriptions for {video_id}", 
                                     unit=" scene frames"):
             description = generate_detailed_caption(scene_image.scene_snapshot_path)
-            config.all_scenes_df.at[idx, 'snapshot_desc'] = description['<MORE_DETAILED_CAPTION>']
+            df_manager.all_scenes_df.at[idx, 'snapshot_desc'] = description['<MORE_DETAILED_CAPTION>']
     except KeyboardInterrupt:
         print("\nInterrupted! Saving checkpoint...")
         config.save_checkpoint()

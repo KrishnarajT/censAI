@@ -6,12 +6,15 @@ import logging
 import subprocess
 import pandas as pd
 import pysrt
+from enums.SceneCols import SceneCols
 import profanity as pf
 import sys
 import subprocess
 from tqdm import tqdm
+from data.dataframe_manager import ScenesDataFrameManager
 
 config = Config()
+df_manager = ScenesDataFrameManager()
 from safetext import SafeText
 
 
@@ -135,19 +138,22 @@ def clean_subtitles(video_id, subtitle_path):
         for sub in tqdm(subs, desc="Cleaning subtitles", unit="sub"):
             profane = st.check_profanity(sub.text)
 
-            config.all_scenes_df.loc[len(config.all_scenes_df)] = [
-                sub.start.ordinal,
-                video_id,
-                None,
-                None,
-                None,
-                sub.text,
-                pf.clean_text(sub.text) if profane else None,
-                None,
-                True if profane else False,
-                None,
-                None
-            ]
+        df_manager.all_scenes_df.loc[len(df_manager.all_scenes_df)] = {
+            str(SceneCols.TIMESTAMP): sub.start.ordinal,
+            str(SceneCols.SUBTITLE_START_TIME): sub.start.ordinal,
+            str(SceneCols.SUBTITLE_END_TIME): sub.end.ordinal,
+            str(SceneCols.VIDEO_ID): video_id,
+            str(SceneCols.SCENE_NUMBER): None,
+            str(SceneCols.SCENE_SNAPSHOT_NUMBER): None,
+            str(SceneCols.SCENE_SNAPSHOT_PATH): None,
+            str(SceneCols.SUBTITLE): sub.text,
+            str(SceneCols.CLEANED_SUBTITLE): pf.clean_text(sub.text) if profane else None,
+            str(SceneCols.SNAPSHOT_DESC): None,
+            str(SceneCols.PROFANITY_PRESENT): True if profane else False,
+            str(SceneCols.NUDITY_PRESENT): None,
+            str(SceneCols.SHOULD_CENSOR): None
+        }
+
 
     except KeyboardInterrupt:
         print("\nKeyboard interrupt detected. Saving checkpoint before exiting...")

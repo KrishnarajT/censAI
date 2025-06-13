@@ -44,4 +44,4 @@ def get_censorship_strength():
     if choice not in ['1', '2']:
         print("Invalid choice. Please enter 1 or 2.")
         return get_censorship_strength()
-    config.censorship_strength = CensorshipStrength.MODERATE if choice == '1' else CensorshipStrength.STRICT
+    config._censorship_strength = CensorshipStrength.MODERATE if choice == '1' else CensorshipStrength.STRICT

@@ -1,4 +1,12 @@
 import ollama
+from config.settings import Config
+
+import logging
+
+from data.dataframe_manager import ScenesDataFrameManager
+
+config = Config()
+df_manager = ScenesDataFrameManager()
 
 def clean_text(text):
     prompt = f"""Return only the sanitized text. Remove all profanity while preserving the original meaning. If a single word is profane, replace it with a more appropriate alternative. For text with sexual implications, rewrite it in a kid-friendly manner. Do not provide explanations or advice. Only output the modified text. Give only 1 sentence
@@ -42,8 +50,7 @@ def clean_text(text):
     return response["message"]["content"]
 
 
-
-def determine_if_should_censor_scene(image_descriptions: list, subtitles: list, show_name: str, nudity_present: bool):
+def determine_if_should_censor_scene(image_descriptions: list, subtitles: list, nudity_present: bool):
     prompt = f"""You are given raw descriptions of frames from a scene in a TV show, along with some subtitles.
 
         These were generated using other AI models to help describe the visual and dialogue content.
@@ -78,3 +85,37 @@ def determine_if_should_censor_scene(image_descriptions: list, subtitles: list, 
         model="mistral", messages=[{"role": "user", "content": prompt}]
     )
     return response["message"]["content"]
+
+def determine_if_should_censor_video(video_id: int):
+    """
+    Determines if the video should be censored based on its scenes.
+    :param video_id: ID of the video to process.
+    :return: True if the video should be censored, False otherwise.
+    """
+    rows = df_manager.all_scenes_df[
+        df_manager.all_scenes_df['video_id'] == video_id &
+        df_manager.all_scenes_df['nudity_present'] == True &
+        df_manager.all_scenes_df['should_censor'].isnull()
+    ]
+
+    if rows.empty:
+        logging.info(f"No scenes to process for video {video_id}.")
+        return False
+    
+    try:
+        for idx, row in rows.iterrows():
+            image_descriptions = row['snapshot_desc'].split(', ')
+            subtitles = row['scene_subtitles'].split(', ')
+            media_name = config.media_name
+            nudity_present = row['nudity_present']
+            
+            should_censor = determine_if_should_censor_scene(
+                image_descriptions, subtitles, media_name, nudity_present
+            )
+            
+            df_manager.all_scenes_df.at[idx, 'should_censor'] = should_censor
+            
+    except KeyboardInterrupt:
+        print("\nInterrupted! Saving checkpoint...")
+        config.save_checkpoint()
+    logging.info(f"Completed processing for video {video_id}.")

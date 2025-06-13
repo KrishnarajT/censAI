@@ -21,7 +21,7 @@ if __name__ == "__main__":
     config.media_folder_path = media_folder_path
 
     util.get_censorship_strength()
-    logging.info(f"{LoggingColors.BLUE_INFO}Selected censorship strength: {config.censorship_strength}{LoggingColors.RESET}")
+    logging.info(f"{LoggingColors.BLUE_INFO}Selected censorship strength: {config._censorship_strength}{LoggingColors.RESET}")
     print()
 
     logging.info(f"{LoggingColors.BLUE_INFO}Looking for video and subtitle files{LoggingColors.RESET}")
@@ -38,9 +38,6 @@ if __name__ == "__main__":
     print()
 
     util.print_censorship_message()
-    
-    # resume censorship process
-    config.init_or_resume_scenes_df()
     
     for video_id, subtitle_path in config.video_and_subtitle_files.items():
         logging.info(f"{LoggingColors.BLUE_INFO}Processing video ID {video_id} with subtitle: {subtitle_path.name}{LoggingColors.RESET}")
